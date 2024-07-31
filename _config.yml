@@ -7,17 +7,18 @@ kramdown:
 base_url: "" 
 
 # Main title for your site --> TODO investigate and document where this is actually used
-title: "VLIZ Open Science"
+title: "Data VLIZ"
 logo: "/assets/media/img/VLIZ_LOGO_OpSci.svg"
 
-# socila_media refs to be included in the footer
+# social_media refs to be included in the footer 
+# Not included in the footer
 social_media:
   - name: github
-    url: https://github.com/vliz-be-opsci/
+    url: https://github.com/vlizbe/
 
 
 # Enables global share buttons to twitter (X), facebook, printer, email, linkedIn | default true
-share_enabled: false 
+share_enabled: false
 
 # used ruby gems for building this jekyll based site
 gems:
