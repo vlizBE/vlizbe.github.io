@@ -3,6 +3,8 @@
   items:
     - title: Mission
       url: /about#mission
+    - title: Open Science
+      url: https://open-science.vliz.be/
     - title: Teams
       url: /about#teams
     - title: Contact
@@ -29,8 +31,7 @@
           url: /portfolio#projects
         - title: Data Systems
           url: /portfolio#data-systems
-        - title: Open Science
-          url: https://open-science.vliz.be/
+        
 
 - title: Training
   items:
