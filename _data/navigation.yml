@@ -1,0 +1,60 @@
+- title: About
+  url: /
+  items:
+    - title: Mission
+      url: /about#mission
+    - title: Teams
+      url: /about#teams
+    - title: Contact
+      url: /about#contact
+
+- title: Resources
+  items:
+    - title: Services
+      url: /services
+      items:
+        - title: Data requests
+          url: /services#data-request
+        - title: Map services
+          url: /services#map-service
+        - title: IT services
+          url: /services#it-services
+        - title: Training
+          url: /training
+    - title: Portfolio
+      items:
+        - title: Networks
+          url: /portfolio#networks
+        - title: Projects
+          url: /portfolio#projects
+        - title: Data Systems
+          url: /portfolio#data-systems
+        - title: Open Science
+          url: https://open-science.vliz.be/
+
+- title: Training
+  items:
+    - title: About
+      url: /
+    - title: Courses
+      url: /
+    - title: Workshops
+      url: /
+    - title: E-learning
+      url: /
+    - title: Collaborations
+      url: /
+    - title: Suggest a training
+      url: /
+
+- title: Search
+  url: /search
+
+- title: Submit
+  items:
+    - title: MDA
+      url: /submit#mda
+    - title: IMIS
+      url: /submit#imis
+    - title: Marine Info
+      url: /submit#marine-info
