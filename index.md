@@ -17,6 +17,6 @@ title: "VLIZ Marine Data Centre"
 
 ## some test stuff
 
-<h3> test </h3>
+<h3> What is a data centre? </h3>
 
-s
+A data centre is a specialized facility designed to store, manage, and disseminate vast amounts of information. At VLIZ, our data centre is dedicated to marine research, providing robust infrastructure for data collection and sharing. We support scientists, policymakers, and the public by ensuring reliable access to high-quality marine data, fostering collaboration and advancing our understanding of the ocean.
