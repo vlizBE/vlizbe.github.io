@@ -7,7 +7,7 @@ title: "VLIZ Marine Data Centre"
 ---
 
 {% include light_bg.html content=
-"<h2>Lorem Ipsum</h2>
+"<h2>Mission</h2>
 
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
@@ -15,8 +15,13 @@ title: "VLIZ Marine Data Centre"
 "
 %}
 
-## some test stuff
+## About
 
-<h3> What is a data centre? </h3>
+<h3> What is VMDC? </h3>
 
-A data centre is a specialized facility designed to store, manage, and disseminate vast amounts of information. At VLIZ, our data centre is dedicated to marine research, providing robust infrastructure for data collection and sharing. We support scientists, policymakers, and the public by ensuring reliable access to high-quality marine data, fostering collaboration and advancing our understanding of the ocean.
+The VLIZ Marine Data Centre (VMDC) is a specialized facility dedicated to storing, managing, and disseminating vast amounts of marine information. With over 20 years of experience, VMDC is home to about 30 employees, organized into four teams: Geospatial Data & Products, Marine Life+, Open Science, and Local Service & Products. We support scientists, policymakers, and the public by ensuring reliable access to high-quality marine data, fostering collaboration, and advancing our understanding of the ocean.
+
+
+<h3> Vision </h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+
