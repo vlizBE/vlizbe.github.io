@@ -7,9 +7,9 @@ cover: /assets/media/img/cover/graph_concept_art.jpg
 curly: false
 ---
 
-# Mission
+# Mission impossible? Not for us!
 
-I recently explored some interesting resources related to marine regions and their various aspects. For instance, I delved into information about the [Canari Islands](https://marineregions.org/mrgid/8361), a beautiful part of the marine world. I also examined the [Belgian EEZ](https://marineregions.org/mrgid/3293), which is crucial for understanding the country's maritime boundaries.
+I quite recently explored some interesting resources related to marine regions and their various aspects. For instance, I delved into information about the [Canari Islands](https://marineregions.org/mrgid/8361), a beautiful part of the marine world. I also examined the [Belgian EEZ](https://marineregions.org/mrgid/3293), which is crucial for understanding the country's maritime boundaries.
 
 One noteworthy project I came across is detailed [here](https://marineinfo.org/id/project/5240), which highlights significant marine research initiatives. In addition, I discovered a dataset that includes various URLs, available [here](https://marineinfo.org/id/dataset/8135), which could be a valuable resource for further exploration.
 
