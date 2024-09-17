@@ -13,9 +13,12 @@ As an Ocean Decade implementing partner VLIZ contributes to the Ocean Decade. Va
 
     ADD a little square here that links to "resources" which should have Data systems 
 
-    <img width="99" src="/assets/media/img/content/datavlizlogo_01.png" alt="vliz image" width="150">
 
-<img width="99" src="/assets/media/img/content/OCEAN DECADE ICONS - COLOUR ON COLOUR.png" alt="vliz image" width="150">
+
+<img width="50" src="/assets/media/img/content/datavlizlogo_01.png" alt="vliz image" width="150">
+
+
+
 
 
 # Our History
