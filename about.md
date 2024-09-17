@@ -28,6 +28,6 @@ The Flemish government established the institute in 1999 together with the provi
 ### Contact
 
 Contact [page](https://vliz.be/en/contact)  
-Email: [data@vliz.be](data@vliz.be)
+Email: [data@vliz.be](mailto:data@vliz.be)
 
 <img src="/assets/media/img/content/vliz1.PNG" alt="vliz image" width="250" >
