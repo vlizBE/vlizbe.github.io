@@ -6,28 +6,27 @@ description: "Learn more about the VLIZ Marine Data Centre, where we're making s
 cover: /assets/media/img/cover/graph_concept_art.jpg
 curly: false
 ---
+<img width="99" src="/assets/media/img/content/datavlizlogo_01.png" alt="vliz image" width="150">
+# DATA VLIZ in the Ocean Decade
 
-# Mission impossible? Not for us!
+As an Ocean Decade implementing partner VLIZ contributes to the Ocean Decade. Various of the endorse "Actions" (projects, ctivities, programmes and contributions) are based on expertise of the VMDC.
 
-I quite recently explored some interesting resources related to marine regions and their various aspects. For instance, I delved into information about the [Canari Islands](https://marineregions.org/mrgid/8361), a beautiful part of the marine world. I also examined the [Belgian EEZ](https://marineregions.org/mrgid/3293), which is crucial for understanding the country's maritime boundaries.
+    ADD a little square here that links to "resources" which should have Data systems 
 
-One noteworthy project I came across is detailed [here](https://marineinfo.org/id/project/5240), which highlights significant marine research initiatives. In addition, I discovered a dataset that includes various URLs, available [here](https://marineinfo.org/id/dataset/8135), which could be a valuable resource for further exploration.
+    <img width="99" src="/assets/media/img/content/datavlizlogo_01.png" alt="vliz image" width="150">
 
-I also reviewed some recent publications. For example, [this publication](https://marineinfo.org/id/publication/300143) offers insights into current research, while [another publication](https://marineinfo.org/id/publication/355430) provides information on authors contributing to the field. There's even a resource on [some multimedia content](https://marineinfo.org/id/publication/225534) related to marine studies.
+<img width="99" src="/assets/media/img/content/OCEAN DECADE ICONS - COLOUR ON COLOUR.png" alt="vliz image" width="150">
 
-Additionally, I found details about an upcoming [event](https://marineinfo.org/id/event/3255), which promises to be a significant occasion in the marine research community. Lastly, I explored a variety of institutions and personnel involved in marine research, including [this institute](https://marineinfo.org/id/institute/12919) and [a notable person](https://marineinfo.org/id/person/41904) in the field.
 
-These resources collectively offer a comprehensive view of current marine research and developments.
+# Our History
 
-The VLIZ Marine Data Centre is a research and development unit within the Flanders Marine Institute (VLIZ). We are dedicated to making science more efficient, reliable, and transparent. We do this by developing and maintaining open-source tools and services that support the FAIR principles of data management. Our goal is to empower researchers, data managers, and other stakeholders in the marine science community to work with data in a more efficient and effective way.
 
-# History
+|The Flemish government established the institute in 1999 together with the province of West Flanders and the Fund for Scientific Research. VLIZ promotes the accumulation of knowledge and excellence in research with regard to the ocean, seas, coasts and tidal estuaries. The central focus is on the provision of services to the research community, educators, the general public, policymakers and the industry.| <img width="250" src="/assets/media/img/content/vliz1.PNG" alt="vliz image" width="1950" >
 
-The Flemish government established the institute in 1999 together with the province of West Flanders and the Fund for Scientific Research. VLIZ promotes the accumulation of knowledge and excellence in research with regard to the ocean, seas, coasts and tidal estuaries. The central focus is on the provision of services to the research community, educators, the general public, policymakers and the industry.
-
+<img width="99" src="/assets/media/img/content/datavlizlogo_01.png" alt="vliz image" width="150">
 ### Contact
 
 Contact [page](https://vliz.be/en/contact)  
 Email: [data@vliz.be](mailto:data@vliz.be)
 
-<img src="/assets/media/img/content/vliz1.PNG" alt="vliz image" width="250" >
+
