@@ -21,10 +21,11 @@ These resources collectively offer a comprehensive view of current marine resear
 
 The VLIZ Marine Data Centre is a research and development unit within the Flanders Marine Institute (VLIZ). We are dedicated to making science more efficient, reliable, and transparent. We do this by developing and maintaining open-source tools and services that support the FAIR principles of data management. Our goal is to empower researchers, data managers, and other stakeholders in the marine science community to work with data in a more efficient and effective way.
 
-# Teams
+# History
 
-The VLIZ Marine Data Centre is made up of several teams, each with its own focus and expertise. These teams work together to develop and maintain the tools and services that support the FAIR principles of data management. Our teams include:
+The Flemish government established the institute in 1999 together with the province of West Flanders and the Fund for Scientific Research. VLIZ promotes the accumulation of knowledge and excellence in research with regard to the ocean, seas, coasts and tidal estuaries. The central focus is on the provision of services to the research community, educators, the general public, policymakers and the industry.
 
-# Contact
+### Contact
 
-Some contact info here for the VLIZ Marine Data Centre.
+Contact [page](https://vliz.be/en/contact)  
+Email: [data@vliz.be](data@vliz.be)
