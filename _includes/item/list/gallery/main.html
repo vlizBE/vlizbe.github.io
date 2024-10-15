@@ -9,15 +9,24 @@
               <div class="views-element-container block block-views block-views-blocknews-news-promoted"
                 id="block-views-block-news-news-promoted">
                 <div>
-                  <div class="view-news-promoted view view-news view-id-news view-display-id-news_promoted included-item-list">
+                  <div
+                    class="view-news-promoted view view-news view-id-news view-display-id-news_promoted included-item-list">
+                    {% if include.first == true %}
                     {% for item in include.items %}
-                      {% if forloop.first %}
-                        {% include item/list/gallery/first_item.html item=item %}
+                    {% if forloop.first %}
+                    {% include item/list/gallery/first_item.html item=item %}
                     <div class="view-content">
                       {% else %}
-                        {% include item/list/gallery/item.html item=item %}
+                      {% include item/list/gallery/item.html item=item %}
                       {% endif %}
-                    {% endfor %}
+                      {% endfor %}
+                      {% else %}
+                      <div class="view-content">
+                        {% for item in include.items %}
+                        {% include item/list/gallery/item.html item=item %}
+                        {% endfor %}
+                        {% endif %}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -28,4 +37,3 @@
       </div>
     </div>
   </div>
-</div>

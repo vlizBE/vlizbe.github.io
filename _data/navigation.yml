@@ -7,7 +7,7 @@
     - title: IMIS
       url: /submit#imis
     - title: Marine Info
-      url: https://marineinfo.org/imis-search   
+      url: https://marineinfo.org/imis-search
 - title: Resources
   items:
     - title: Services
@@ -44,13 +44,4 @@
     - title: Suggest a training
       url: /
 - title: About
-  url: /
-  items:
-    - title: Mission
-      url: /about#mission
-    - title: Open Science
-      url: https://open-science.vliz.be/
-    - title: Teams
-      url: /about#teams
-    - title: Contact
-      url: /about#contact
+  url: /about

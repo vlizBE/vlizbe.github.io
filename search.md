@@ -2,7 +2,7 @@
 layout: default
 permalink: /search
 title: Search
-description: "I don't know what to write here yet."
+description: "Explore the VLIZ Marine Data Centre and discover the data available in the VLIZ Marine Data Centre"
 cover: /assets/media/img/cover/graph_concept_art.jpg
 curly: false
 ---
