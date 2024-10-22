@@ -20,6 +20,23 @@ The arrival of some prominent international players in the VLIZ buildings testif
 
 In terms of topics, the focus was initially on the management of international biodiversity data. In 2002, VLIZ initiated its own time series of abiotic data from the Belgian part of the North Sea (BPNS), within the scope of measurement campaigns onboard the research vessels Zeeleeuw and Simon Stevin. The international scope was expanded further with the initiative started up by VLIZ in partnership with GLOSS after the tsunami in Asia in 2004, to coordinate the web portal of sea level measuring stations worldwide. Thanks to VLIZ’s role as data manager in the context of (inter)national partnerships, its data systems grew systematically (including IMIS). The integration of the international research infrastructures LifeWatch and ICOS (in 2012) further expanded the measurement data from the BPNS with biotic data sets and measurements of greenhouse gases. They also became more diverse thanks to the development of dedicated data portals (ScheldeMonitor, 4DEMON and CREST).
 
+# National role
+
+Data and Citizen Science
+At VMDC the engagement of citizens in research activities (“citizen science”) is fostered through projects that motivate locals (as well as visitors) to participate in data collection. An example is the Coast Snap Project where citizens collect data on coastal change by taking pictures of the beach at designated stations along the Belgian coast. Always taken from the same position (cellphone holder), these pictures provide time series data for the analysis of shifting shorelines and beach-dune dynamic (e.g. erosion and accretion).
+
+LINK BACK TO Citizen Science on main page
+(CoastSnap can be interactive word at some point and direct to Kustportaal)
+
+# International role
+
+VMDC in the Ocean Decade
+As an Ocean Decade implementing partner VLIZ contributes to the Ocean Decade. Various of the endorsed “Actions” (projects, activities, programmes and contributions) are based on expertise of the VMDC. These include:
+
+WoRMS, EurOBIS, GEANS, ETN, OTN, ICOS and Marine Regions
+CHECK this + all logos here
+Decade Outcome No. 6 An Accessible ocean
+
 </div>
 <div class="col-md-5">
 <img src="assets/media/img/datacenter/Pain_3.jpg">

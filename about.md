@@ -46,3 +46,10 @@ Something about VMDC and accreditatie?
 The Flanders Marine Data Centre (VMDC) provides assistance, technologies and tools to scientists and policymakers to support marine data management. Within international networks VLIZ participates in supporting data infrastructures and promoting the flow of marine data from Belgium.
 
 {% include item/list/gallery/main.html items=page.subblocks first=false %}
+
+<img width="99" src="/assets/media/img/content/datavlizlogo_01.png" alt="vliz image" width="150">
+
+### Contact
+
+Contact [page](https://vliz.be/en/contact)  
+Email: [data@vliz.be](mailto:data@vliz.be)
