@@ -38,7 +38,7 @@ special_collections:
 ---
 
 {% include light_bg.html content=
-"<h2> Gateway to high-quality, accessible marine and estuarine data, supporting scientific research and informed policy-making hosted by the VLIZ Marine Data Centre</h2>
+"<h2 style='text-align: center !important;'>Gateway to Marine Knowledge: Data Sharing and Preservation at the Flanders Marine Institute.</h2>
 
 <p>
   
@@ -50,19 +50,19 @@ special_collections:
 
 <div class="row">
     <div class="col-md-6">
-        <h3>ADD an impressive stat about IMIS (access to over 130,000 unique data sets or something like this)</h3>
+        <h3>Access to over 130,000 unique data sets</h3>
         The VLIZ data center is a national and international point of contact for quality and reliable marine and estuarine data. The VLIZ Marine Data Center (VMDC) provides services, technologies, tools, training and support to scientists, policy, blue economy and citizens. Data is made accessible in an efficient and open manner. The VMDC is accredited as an IODE National Oceanographic Data Center.
         <h3>What does VMDC do?</h3>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <p><a href="/about">Learn more about us</a></p>
     </div>
     <div class="col-md-6">
-        <img src="assets/media/img/datacenter/Pain_3.jpg">
-        if this image is 2 short you can write some stuff down here or find a rectangular image
+        <img src="assets/media/img/datacenter/robots.jpg">
+        The VLIZ Marine Robotics Centre (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas.
     </div>
 </div>
 
 {% include item/list/carrousel/block/main.html
-    title="special collections"
+    title="Special collections"
     items=page.special_collections
 %}
