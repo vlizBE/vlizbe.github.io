@@ -3,7 +3,7 @@ layout: default
 permalink: /services
 title: Services
 description: "Check put the services provided by the VLIZ Marine Data Centre. We offer a range of services to support the FAIR principles of data management. Learn more about our services and how they can help you in your research."
-cover: /assets/media/img/cover/graph_concept_art.jpg
+cover: /assets/media/img/datacenter/tech_1.jpg
 curly: false
 ---
 

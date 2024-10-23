@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /search
-title: Search
+title: Start Exploring
 description: "Explore the VLIZ Marine Data Centre and discover the data available in the VLIZ Marine Data Centre"
-cover: /assets/media/img/cover/graph_concept_art.jpg
+cover: /assets/media/img/datacenter/boat_1.jpg
 curly: false
 ---
 
