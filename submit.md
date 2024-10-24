@@ -9,7 +9,11 @@ curly: false
 
 ### Submission Options:
 
-At VLIZ, we offer **two** robust options for storing your data: the **Marine Data Archive** (MDA) and **MarineInfo**. Each option serves different purposes, so you can choose the one that best aligns with your data management goals. Read on to explore the features of each.
+At VLIZ, we offer **two** robust options for storing your data: 
+-  **Marine Data Archive (MDA)**
+- **MarineInfo** 
+
+Each option serves different purposes, so you can choose the one that best aligns with your data management goals. Read on to explore the features of each.
 ## [MDA](https://marinedataarchive.org/)
 
 [Marine Data Archive](https://marinedataarchive.org/) or MDA is an online marine repository designed to independently archive data files with comprehensive documentation. Whether you're an individual researcher, part of a consortium, or affiliated with an institute, the MDA offers versatile solutions for managing your data.
@@ -69,11 +73,9 @@ The MDA underwent a significant upgrade in 2016 with the release of version 1.0,
 
 ## [MarineInfo](https://marineinfo.org/)
 
-MarineInfo is the system that provides catalogues on data, people, institutes, publications, and projects. The database aims to centralise all data regarding the names, education, professional background, affiliation, publications, projects and datasets of scientists. In this way, VLIZ creates a hub that can contribute to and facilitate scientific research. This database also contains professional e-mail addresses and phone numbers to improve the dataflow within the scientific community. VLIZ gathers the information via direct contact, from third-party sources or open sources. This data is stored indefinitely or until a request is made to VLIZ to remove a record.
+MarineInfo is the system that provides catalogues on data, people, institutes, publications, and projects. Also part of [IMIS](https://www.vliz.be/en/imis?page=webservices), in essence MarineInfo and IMIS can be thought of as the same. MarineInfo is a database to search and store your metadata records. The database aims to centralise all data regarding the names, education, professional background, affiliation, publications, projects and datasets of scientists. In this way, VLIZ creates a hub that can contribute to and facilitate scientific research. This database also contains professional e-mail addresses and phone numbers to improve the dataflow within the scientific community. VLIZ gathers the information via direct contact, from third-party sources or open sources. This data is stored indefinitely or until a request is made to VLIZ to remove a record.
 
-Next to the public part of IMIS, this system is also used for internal VLIZ activities such as VLIZ memberships, subscriptions to paper publications, etc. This information is limited to address and membership type and is only accessible within the internal VLIZ network.
 
-All IMIS visits and searches are registered and tracked for statistical and bug-fixing purposes, and for IMIS users (i.e. those with a login) their edits are additionally registered and tracked. Search data are stored to provide a better experience for the user and are rendered anonymous as soon as possible.
 <style>
   .button {
     display: inline-flex; /* Use flexbox for alignment */
