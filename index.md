@@ -48,7 +48,6 @@ special_collections:
 %}
 
 {% include item/list/block/colored/main.html items=page.subblocks %}
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -83,7 +82,7 @@ special_collections:
 
     <div class="counter-container">
         <h1 id="counter">0</h1>
-        <span>Datasets Available</span>
+        <span><strong>Datasets Available</strong></span>
     </div>
 
          <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights.</p>
