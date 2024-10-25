@@ -79,7 +79,7 @@ curly: false
     </ul>
     <p>Each option serves different purposes, so you can choose the one that best aligns with your data management goals. Read on to explore the features of each.</p>
 
-    <h4><a href="https://marinedataarchive.org/">MDA</a></h4>
+    <h4>MDA</h4>
     <p>
         <a href="https://marinedataarchive.org/"><strong>Marine Data Archive</strong></a> or MDA is an online marine repository designed to independently archive data files with comprehensive documentation. Whether you're an individual researcher, part of a consortium, or affiliated with an institute, the MDA offers versatile solutions for managing your data.
     </p>
