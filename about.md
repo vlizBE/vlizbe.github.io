@@ -21,6 +21,9 @@ subblocks:
 
 
 The [VLIZ Data Centre](https://www.vliz.be/en/what-we-do/data-information/data) is a national and international point of contact for quality and reliable marine and estuarine data. The VLIZ Marine Data Center (VMDC) provides services, technologies, tools, training and support to scientists, policy, blue economy and citizens. Data is made accessible in an efficient and open manner. The VMDC is accredited as an IODE National Oceanographic Data Center.
+<br>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
 
 
 {% include item/list/gallery/main.html items=page.subblocks first=false %}

@@ -82,10 +82,14 @@ special_collections:
 
     <div class="counter-container">
         <h1 id="counter">0</h1>
-        <span><strong>Datasets Available</strong></span>
+<span style="color: #354d9b;"><strong>Datasets Available</strong></span>
     </div>
 
-         <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights.</p>
+         <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights. 
+         <br>
+         <br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
 
 
     <script>
@@ -120,6 +124,8 @@ special_collections:
     <div class="col-md-6">
         <h4>Access to over 270,084 unique publications</h4>
         The VLIZ Marine Data Centre or VMDC is a national and international point of contact for quality and reliable marine and estuarine data. The VMDC provides services, technologies, tools, training and support to scientists, policy, blue economy and citizens. Data is made accessible in an efficient and open manner. The VMDC is accredited as an IODE National Oceanographic Data Center.
+        <br>
+        <br>
         <style>
   .button {
     display: inline-block;
@@ -146,7 +152,7 @@ special_collections:
         
         <h4>What does VMDC do?</h4>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        <p><a href="/about">Learn more about us</a></p>
+        <p><a href="/about"><strong>Learn more about us</strong></a></p>
     </div>
     <div class="col-md-6">
         <img src="assets/media/img/datacenter/robots.jpg">
