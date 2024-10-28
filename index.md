@@ -153,6 +153,9 @@ special_collections:
         <h4>What does VMDC do?</h4>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <p><a href="/about"><strong>Learn more about us</strong></a></p>
+
+**ADD A BUNCH OF KEYWORDS TO BE TOP OF GOOGLE SEARCHS**
+
     </div>
     <div class="col-md-6">
         <img src="assets/media/img/datacenter/robots.jpg">
