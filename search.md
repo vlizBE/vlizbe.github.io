@@ -13,6 +13,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor in
 
 here you would put other stuff
 
+
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,13 +28,11 @@ here you would put other stuff
             background-color: #f0f0f0;
             padding: 20px;
         }
-
-        /* Section Header Styling */
+   /* Section Header Styling */
         h4 {
             color: #354d9b; /* Navy blue color for headers */
         }
-
-        /* Table Styling */
+    /* Table Styling */
         table {
             width: 100%;
             margin-bottom: 40px;
@@ -43,8 +44,7 @@ here you would put other stuff
             text-align: center;
             border: 1px solid #ccc;
         }
-
-        /* Button Styling */
+ /* Button Styling */
         button {
             padding: 10px 20px;
             font-size: 16px;
@@ -58,8 +58,7 @@ here you would put other stuff
         button:hover {
             background-color: #2c3e70; /* Slightly darker color for hover effect */
         }
-
-        /* Section Background Colors */
+   /* Section Background Colors */
         .section-bg {
             background-color: #f9f9f9; /* Light grey for sections */
             padding: 20px;
@@ -68,8 +67,7 @@ here you would put other stuff
             border-radius: 8px; /* Rounded corners for a softer look */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
         }
-
-        /* Image Alignment */
+ /* Image Alignment */
         .image-right {
             display: flex;
             align-items: flex-start;
@@ -84,35 +82,39 @@ here you would put other stuff
 </head>
 <body>
 
-    <div class="section-bg">
+   <div class="section-bg">
         <h4>VMDC Database</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
         
-        <table>
+  <table>
             <tr>
-                <td><button onclick="location.href='https://www.example.com/page1'">People</button></td>
-                <td>Access to all the people held in our database</td>
+               
+  <td>Access to all the people held in our database</td>
+                 <td><button onclick="location.href='https://www.example.com/page1'">People</button></td>
             </tr>
             <tr>
-                <td><button onclick="location.href='https://www.example.com/page2'">Institutes</button></td>
-                <td>Access to all the institutes held in our database</td>
+               
+ <td>Access to all the institutes held in our database</td>
+                 <td><button onclick="location.href='https://www.example.com/page2'">Institutes</button></td>
             </tr>
             <tr>
-                <td><button onclick="location.href='https://www.example.com/page3'">Projects</button></td>
-                <td>Access to all the projects held in our database</td>
+
+  <td>Access to all the projects held in our database</td>
+                                <td><button onclick="location.href='https://www.example.com/page3'">Projects</button></td>
             </tr>
             <tr>
-                <td><button onclick="location.href='https://www.example.com/page4'">Dataset</button></td>
-                <td>Access to all the datasets held in our database</td>
+
+  <td>Access to all the datasets held in our database</td>
+                                <td><button onclick="location.href='https://www.example.com/page4'">Dataset</button></td>
             </tr>
         </table>
     </div>
 
-    <div class="section-bg">
+  <div class="section-bg">
         <h4>Hosted Datasystems</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
         
-        <table>
+   <table>
             <tr>
                 <td><button onclick="location.href='https://www.marinespecies.org/'">WoRMs</button></td>
                 <td>World Register of Marine Species</td>
@@ -131,10 +133,9 @@ here you would put other stuff
             </tr>
         </table>
     </div>
+  <h4>Cruise Database</h4>
 
-    <h4>Cruise Database</h4>
-
-    <div class="image-right">
+  <div class="image-right">
         <img src="assets/media/img/datacenter/USVGobelijn.jpg" alt="MIDAS Logo">
         <p>
             MIDAS stands for Marine Information and Data Acquisition System. This suite of programs is developed at Flanders Marine Institute (VLIZ) to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.  
@@ -143,7 +144,7 @@ here you would put other stuff
         </p>
     </div>
 
-    <table>
+ <table>
         <tr>
             <td><button onclick="location.href='https://www.vliz.be/vmdcdata/midas/casts'">CTD Casts</button></td>
             <td>CTD data</td>
@@ -164,6 +165,8 @@ here you would put other stuff
 
 </body>
 </html>
+
+
 
 
 

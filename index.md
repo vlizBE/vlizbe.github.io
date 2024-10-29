@@ -80,19 +80,19 @@ special_collections:
 </head>
 <body>
 
-    <div class="counter-container">
+  <div class="counter-container">
         <h1 id="counter">0</h1>
 <span style="color: #354d9b;"><strong>Datasets Available</strong></span>
     </div>
 
-         <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights. 
+   <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights. 
          <br>
          <br>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
          </p>
 
 
-    <script>
+  <script>
         function startCounting(targetNumber, duration) {
             const counterDisplay = document.getElementById('counter');
             let count = 0; // Start from 0
@@ -144,13 +144,37 @@ special_collections:
     background-color: #0056b3; /* Darker shade on hover */
   }
 </style>
+<style>
+    .button {
+        display: inline-block;
+        padding: 10px 20px; /* Reduced padding */
+        margin: 10px;
+        font-size: 20px; /* Reduced font size */
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: #0779bf; /* Button color */
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
 
-<p><a href="/search" class="button"><strong>Start exploring</strong></a></p>
-<p><a href="/submit" class="button"><strong>Submit your data</strong></a></p>
+    .button:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+</style>
+<div style="display: flex; gap: 10px; margin-top: 20px;">
+    <a href="/search" class="button"><strong>Start exploring</strong></a>
+    <a href="/submit" class="button"><strong>Submit your data</strong></a>
+</div>
 
 
-        
-        <h4>What does VMDC do?</h4>
+
+
+<br>
+
+
+
+  <h4>What does VMDC do?</h4>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <p><a href="/about"><strong>Learn more about us</strong></a></p>
 
@@ -163,9 +187,13 @@ special_collections:
     </div>
 </div>
 
+
+
 {% include item/list/carrousel/block/main.html
     title="Special collections"
     items=page.special_collections
 %}
+
+
 
 
