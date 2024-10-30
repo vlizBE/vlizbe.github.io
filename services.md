@@ -19,11 +19,6 @@ curly: false
           <div class="imgBox">
             <img src="https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trust & Co."  width="400">
           </div>
-          <div class="icon">
-            <a href="#" class="iconBox"> <span class="material-symbols-outlined">
-                arrow_outward
-              </span></a>
-          </div>
         </div>
       </div>
       <div class="content">
@@ -41,11 +36,6 @@ curly: false
           <div class="imgBox">
             <img src="https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tonic"  width="400">
           </div>
-          <div class="icon">
-            <a href="#" class="iconBox"> <span class="material-symbols-outlined">
-                arrow_outward
-              </span></a>
-          </div>
         </div>
       </div>
       <div class="content">
@@ -62,11 +52,6 @@ curly: false
         <div class="box">
           <div class="imgBox">
             <img src="https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shower Gel"  width="400">
-          </div>
-          <div class="icon">
-            <a href="#" class="iconBox"> <span class="material-symbols-outlined">
-                arrow_outward
-              </span></a>
           </div>
         </div>
       </div>
@@ -94,11 +79,6 @@ curly: false
           <div class="imgBox">
             <img src="https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trust & Co."  width="400">
           </div>
-          <div class="icon">
-            <a href="#" class="iconBox"> <span class="material-symbols-outlined">
-                arrow_outward
-              </span></a>
-          </div>
         </div>
       </div>
       <div class="content">
@@ -116,11 +96,6 @@ curly: false
           <div class="imgBox">
             <img src="https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tonic"  width="400">
           </div>
-          <div class="icon">
-            <a href="#" class="iconBox"> <span class="material-symbols-outlined">
-                arrow_outward
-              </span></a>
-          </div>
         </div>
       </div>
       <div class="content">
@@ -137,11 +112,6 @@ curly: false
         <div class="box">
           <div class="imgBox">
             <img src="https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shower Gel"  width="400">
-          </div>
-          <div class="icon">
-            <a href="#" class="iconBox"> <span class="material-symbols-outlined">
-                arrow_outward
-              </span></a>
           </div>
         </div>
       </div>
@@ -176,5 +146,3 @@ curly: false
   height: auto;
 }
 </style>
-
-

@@ -22,6 +22,7 @@
         - title: Training
           url: /training
     - title: Portfolio
+      url: /portfolio
       items:
         - title: Networks
           url: /portfolio#networks
