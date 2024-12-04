@@ -1,13 +1,7 @@
 - title: Search
   url: /search
 - title: Submit
-  items:
-    - title: MDA
-      url: /submit#mda
-    - title: IMIS
-      url: /submit#imis
-    - title: Marine Info
-      url: https://marineinfo.org/imis-search
+  url: /submit
 - title: Resources
   items:
     - title: Services
