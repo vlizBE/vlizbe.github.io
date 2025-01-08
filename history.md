@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /history
-title: History of the VLIZ Marine Data Centre
+title: History of VLIZ Data
 description: "Learn more about the history of the VLIZ Marine Data Centre!"
 cover: /assets/media/img/datacenter/history_1.jpg
 curly: false
@@ -56,13 +56,12 @@ curly: false
         transform: translateY(-2px);
     }
 </style>
-<h1><a href="https://www.vliz.be/en/marine-data">Our History</a></h1>
+<h1><a href="https://www.vliz.be/en/marine-data">History of VLIZ Data</a></h1>
 <div class="row">
     <div class="col-md-7">
         <p>The development of the data systems was characterised by a few important milestones. In 2000, the Integrated Marine Information System (IMIS) was initiated. IMIS links persons to institutes, publications, projects, data sets, and maps. In 2005, the Open Marine Archive (OMA) was introduced to make the literature collection digitally accessible. Many marine scientists and researchers utilise this system intensively (1,795 requests were replied to in 2023, in 95% of the cases within one day). Another major step was the participation of VLIZ in EU-subsidised programmes. The MarBEF project resulted in the start-up of an EU register for marine species (which would eventually be known as the World Register of Marine Species or WoRMS) and of the VLIMAR Gazetteer (later on known as 'Marine Regions'). Other databases were soon to follow as part of several European projects.
-        <br>
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio, et feugiat metus tincidunt ut. Sed lectus. Praesent elementum hendrerit tortor. Sed semper libero eget ante. Sed lectus. Praesent elementum hendrerit tortor. Praesent vitae elit. Vestibulum tristique est at diam venenatis, a facilisis elit accumsan. Phasellus vitae sodales ligula, id aliquam arcu. Maecenas convallis tempor diam, sed mollis justo consequat.   
+    
+         
         </p>
     </div>
     <div class="col-md-5">

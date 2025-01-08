@@ -1,4 +1,4 @@
-- title: Search
+- title: Find
   url: /search
 - title: Submit
   url: /submit
@@ -38,5 +38,5 @@
       url: /
     - title: Suggest a training
       url: /
-- title: About
+- title: History
   url: /about

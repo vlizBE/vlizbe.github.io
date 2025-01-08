@@ -3,7 +3,7 @@ layout: default
 graph_logo_bg: true
 description: "Discover Open Science at VLIZ, where we're making science more efficient, reliable, and transparent. Learn about our mission, values, and core principles. Join us in our journey!"
 cover: /assets/media/img/datacenter/Fisheries_4.jpg
-title: "DATA VLIZ"
+title: "VLIZ DATA"
 subblocks:
   - title: "Data submission"
     description: "Submit your data to the VLIZ Marine Data Centre"
@@ -108,7 +108,7 @@ special_collections:
             }
         </style>
       <div style="display: flex; gap: 10px; margin-top: 20px;">
-          <a href="/search" class="button"><strong>Start exploring</strong></a>
+          <a href="/search" class="button"><strong>Find data</strong></a>
           <a href="/submit" class="button"><strong>Submit your data</strong></a>
       </div>
 
