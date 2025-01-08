@@ -84,4 +84,4 @@ curly: false
 <br>
 <br>
 <br>
-<img src="assets/media/img/datacenter/UNdecade.png" alt="UN Decade Logo" width="10">
+<img src="/assets/media/img/datacenter/UNdecade.png" alt="UN Decade Logo" width="1000">

@@ -94,7 +94,7 @@ curly: false
                 </div>
             </div>
             <div class="content">
-                <h3><a href="https://marinedataarchive.org/">MDA</a></h3>
+                <h3><a href="https://marinedataarchive.org/">Archive</a></h3>
                 <br>
                 <p>
                     <a href="https://marinedataarchive.org/"><strong>Marine Data Archive</strong></a> or MDA is an online marine repository designed to independently archive data files with comprehensive documentation. Whether you're an individual researcher, part of a consortium, or affiliated with an institute, the MDA offers versatile solutions for managing your data.
@@ -114,15 +114,15 @@ curly: false
             <div class="card-inner">
                 <div class="box">
                     <div class="imgBox">
-                        <img src="/assets/media/img/datacenter/queen.jpg" alt="MarineInfo" width="200" />
+                        <img src="/assets/media/img/datacenter/submit.jpg" alt="MarineInfo" width="200" />
                     </div>
                 </div>
             </div>
             <div class="content">
-                <h3><a href="https://marineinfo.org/" mia-extra-properties="nochange">MarineInfo</a></h3>
+                <h3><a href="https://marineinfo.org/" mia-extra-properties="nochange">Publish</a></h3>
                 <br>
-                <p>The VLIZ Marine Data Centre is made up of several teams, each with its own focus and expertise. These teams work together to develop and maintain the tools and services that support the FAIR principles of data management.</p>
-                <p>MarineInfo is a database to search and store your metadata records, centralising all data regarding the names, education, professional background, publications, projects, and datasets of scientists. This helps VLIZ facilitate scientific research.</p>
+                <p> You can publish your data using IMIS on MarineInfo</p><p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                 <p>
                 <br>
                     <a href="https://marineinfo.org/sites/marineinfo.org/files/managed/imis-data-policy-1.0.pdf" class="button marineinfo-button" mia-extra-properties="nochange"><strong>Data Policy</strong></a>

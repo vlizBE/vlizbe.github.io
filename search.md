@@ -14,12 +14,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor in
 here you would put other stuff
 
 <style>
-    /* General Body Styling */
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        padding: 20px;
-    }
 /* Section Header Styling */
     h4 {
         color: #354d9b; /* Navy blue color for headers */
@@ -33,12 +27,13 @@ here you would put other stuff
     }
     th, td {
         padding: 10px;
-        text-align: center;
+        text-align: left;
         border: 1px solid #ccc;
     }
 /* Button Styling */
     button {
         padding: 10px 20px;
+        width:100%;
         font-size: 16px;
         cursor: pointer;
         border: none;
@@ -50,15 +45,7 @@ here you would put other stuff
     button:hover {
         background-color: #2c3e70; /* Slightly darker color for hover effect */
     }
-/* Section Background Colors */
-    .section-bg {
-        background-color: #f9f9f9; /* Light grey for sections */
-        padding: 20px;
-        color: black; /* Dark text color for better readability */
-        margin-bottom: 20px;
-        border-radius: 8px; /* Rounded corners for a softer look */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    }
+
 /* Image Alignment */
     .image-right {
         display: flex;
@@ -67,6 +54,7 @@ here you would put other stuff
     }
     .image-right img {
         width: 250px;
+        border-radius:5px;
         height: auto;
         margin-left: 20px;
     }
@@ -100,7 +88,7 @@ here you would put other stuff
     <table>
         <tr>
             <td><button onclick="location.href='https://www.marinespecies.org/'">WoRMs</button></td>
-            <td>World Register of Marine Species</td>
+            <td>Minimize the number of clicks to go directly to searching the database.</td>
         </tr>
         <tr>
             <td><button onclick="location.href='https://emodnet.ec.europa.eu/en/biology'">EMODnet Biology</button></td>
