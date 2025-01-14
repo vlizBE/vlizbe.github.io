@@ -8,7 +8,7 @@ curly: false
 networks:
   - title: Open Geospatial Consortium
     description: "At OGC, we unite a global network of leaders across government, business, research institutions, startups, and the geospatial community."
-    image: "/assets/media/img/content/ogclogo.png" #LOGO NOT APPEARING, WOULD BE NICE TO SHOW THE LOGO 
+    image: "/assets/media/img/content/ogclogo.png"
     image_alt: "OGC logo"
     clickthrough_url: "https://www.ogc.org/"
     clickthrough_text: "Visit OGC"
@@ -29,29 +29,24 @@ networks:
     description: "The EOSC Association works to advance Open Science in the service of creating new knowledge, inspiring education, spurring innovation and promoting accessibility and transparency"
     clickthrough_url: "https://eosc.eu/members/flanders-marine-institute-vliz/"
     clickthrough_text: "https://www.ogc.org/"
+
 data_systems:
   - title: Aphia
-    description: "Main: www.marinespecies.org What: Taxonomic database (taxon names, distributions, specimens, ...) +50 installations based on species or geographical context"
-    image_url: "/assets/media/img/content/ogclogo.png" #LOGO NOT APPEARING, WOULD BE NICE TO SHOW THE LOGO 
+    description: "www.marinespecies.org What: Taxonomic database (taxon names, distributions, specimens, ...) +50 installations based on species or geographical context"
+    image_url: "/assets/media/img/content/ogclogo.png"
     image_alt: "OGC logo"
     clickthrough_url: "www.marinespecies.org"
     clickthrough_text: "Visit OGC"
   - title: IMIS
-    description: "Main: vliz.be/imis
-What: Metadata on Persons/Institutes/References/Datasets/... describing the marine landscape)
-+60 installations based on projects, topics or institutes
-Output framework: PHP"
+    description: "vliz.be/imis What: Metadata on Persons/Institutes/References/Datasets/... describing the marine landscape) +60 installations based on projects, topics or institutes Output framework: PHP"
     clickthrough_url: "https://vliz.be/en/imis"
-    clickthrough_text: "IMIS (not correct)" 
+    clickthrough_text: "IMIS (not correct)"
   - title: Photogallery
-    description: "Main: images.vliz.be
-What: photo and multimedia gallery
-+100 installations based on projects, topics or institutes
-Output framework: PHP."
+    description: "images.vliz.beWhat: photo and multimedia gallery +100 installations based on projects, topics or institutes Output framework: PHP."
     clickthrough_url: "https://images.vliz.be/"
     clickthrough_text: "https://www.ogc.org/"
   - title: IMERS
-    description: "Main: vliz.be/vmdcdata/imers What: Integrated Marine Environmental Readings & Samples +10 installations based on projects Output framework: PHP"
+    description: "vliz.be/vmdcdata/imers What: Integrated Marine Environmental Readings & Samples +10 installations based on projects Output framework: PHP"
     clickthrough_url: "https://vliz.be/vmdcdata/imers/"
     clickthrough_text: "https://www.ogc.org/"
   - title: MarinePass
@@ -59,11 +54,11 @@ Output framework: PHP."
     clickthrough_url: "https://eosc.eu/members/flanders-marine-institute-vliz/"
     clickthrough_text: "https://www.ogc.org/"
   - title: Wiki
-    description: "Main: www.coastalwiki.org What: own, closed wikipedia installation +10 installations based on topic or project Integration via: web scraper"
+    description: "www.coastalwiki.org What: own, closed wikipedia installation +10 installations based on topic or project Integration via: web scraper"
     clickthrough_url: "www.coastalwiki.org"
     clickthrough_text: "https://www.ogc.org/"
- - title: Drupal (version 7 + 9)
-    description: "Main: vliz.be What Content Management System (CMS) +50 websites based on projects or institutes Input framework: PHP Output framework: PHP Integration of other VLIZ data systems via module"
+  - title: Drupal (version 7 + 9)
+    description: "vliz.be What Content Management System (CMS) +50 websites based on projects or institutes Input framework: PHP Output framework: PHP Integration of other VLIZ data systems via module"
     clickthrough_url: "www.coastalwiki.org"
     clickthrough_text: "https://www.ogc.org/"
 ---
