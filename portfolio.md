@@ -42,7 +42,7 @@ What: Metadata on Persons/Institutes/References/Datasets/... describing the mari
 +60 installations based on projects, topics or institutes
 Output framework: PHP"
     clickthrough_url: "https://vliz.be/en/imis"
-    clickthrough_text: "IMIS (not correct)"
+    clickthrough_text: "IMIS (not correct)" 
   - title: Photogallery
     description: "Main: images.vliz.be
 What: photo and multimedia gallery
