@@ -63,14 +63,14 @@ data_systems:
     clickthrough_text: "https://www.ogc.org/"
 ---
 
-{% include item/list/carrousel/waved/main.html
-    title="Networks"
-    items=page.networks
-%}
-
 {% include item/list/card/colored/main.html
     title="Data Systems"
     items=page.data_systems
+%}
+
+{% include item/list/carrousel/waved/main.html
+    title="Networks"
+    items=page.networks
 %}
 
 {% include item/list/block/colored/main.html
