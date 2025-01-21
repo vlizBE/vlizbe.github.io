@@ -62,10 +62,9 @@ curly: false
             <td><button onclick="location.href='https://marineinfo.org/imis?module=person'">People</button></td>
             <td><button onclick="location.href='https://marineinfo.org/imis?module=institute'">Institutes</button></td>
             <td><button onclick="location.href='https://marineinfo.org/imis?module=project'">Projects</button></td>
-            <td><button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Dataset</button></td>
         </tr>
         <tr>
-            <td><button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Datasets</button></td>
+            <td><button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Dataset</button></td>
             <td><button onclick="location.href='https://marineinfo.org/imis-search'">Publications</button></td>
             <td><button onclick="location.href='https://marineinfo.org/imis?module=conference'">Events</button></td>
         </tr>

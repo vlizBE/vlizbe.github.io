@@ -19,11 +19,11 @@ subblocks:
     clickthrough_url: "/data/resources/"
 special_collections:
   - title: Scheldemonitor
-    description: "Een Vlaams-Nederlands kennis- en informatieportaal rond onderzoek en monitoring in het Schelde-estuarium."
+    description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
     clickthrough_url: "/ask_IT_when_module_made"
     clickthrough_text: "IMIS (not correct)"
   - title: EUROBIS
-    description: "the European Node
+    description: "The European Node
       of the international Ocean Biodiversity Information System (OBIS) - publishes distribution data on marine species, collected within European marine waters or collected by European researchers"
     clickthrough_url: "/ask_IT_when_module_made"
     clickthrough_text: "IMIS (not correct)"
@@ -70,7 +70,7 @@ special_collections:
 
             const interval = setInterval(() => {
               if (count < targetNumber) {
-                let increment = Math.max(1, Math.floor((targetNumber - count) / 15)); // Decrease increment as count approaches target
+                let increment = Math.max(1, Math.floor((targetNumber - count) / 125)); // Decrease increment as count approaches target
                 count += increment;
                 counterDisplay.textContent = count; // Update the display
               } else {
@@ -80,13 +80,13 @@ special_collections:
 
         // Call the function to start counting automatically
         window.onload = () => {
-            startCounting(5836, 3000); // Change parameters as needed
+            startCounting(5836, 0); // Change parameters as needed
         };
   </script>
 <div class="row">
     <div class="col-md-6">
         <h4>Access to over 270,084 unique publications</h4>
-        The VLIZ Marine Data Centre or VMDC is a national and international point of contact for quality and reliable marine and estuarine data. The VMDC provides services, technologies, tools, training and support to scientists, policy, blue economy and citizens. Data is made accessible in an efficient and open manner. The VMDC is accredited as an IODE National Oceanographic Data Center.
+        The VLIZ Marine Data Centre is a national and international point of contact for quality and reliable marine and estuarine data. VLIZ provides services, technologies, tools, training and support to scientists, policy, blue economy and citizens. Data is made accessible in an efficient and open manner. The VLIZ is accredited as an IODE National Oceanographic Data Center.
         <br>
         <br>
         <style>
@@ -108,17 +108,12 @@ special_collections:
             }
         </style>
       <div style="display: flex; gap: 10px; margin-top: 20px;">
-          <a href="/search" class="button"><strong>Find data</strong></a>
-          <a href="/submit" class="button"><strong>Submit your data</strong></a>
+          <a href="/search" class="button"><strong>Find data & information</strong></a>
+          <a href="/submit" class="button"><strong>Submit data</strong></a>
       </div>
 
 <br>
-
-  <h4>What does VMDC do?</h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <p><a href="/about"><strong>Learn more about us</strong></a></p>
-
-**ADD A BUNCH OF KEYWORDS TO BE TOP OF GOOGLE SEARCHS**
 
 </div>
   <div class="col-md-6">

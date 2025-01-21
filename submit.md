@@ -77,19 +77,13 @@ curly: false
     }
 </style>
 <h4>Submission Options</h4>
-<p>At VLIZ, we offer <strong>two</strong> robust options for storing your data:</p>
-<ul>
-<li><strong>Marine Data Archive (MDA)</strong></li>
-<li><strong>MarineInfo</strong></li>
-</ul>
-<p>Each option serves different purposes, so you can choose the one that best aligns with your data management goals. Read on to explore the features of each.</p>
 
   <div class="container">
         <div class="card">
             <div class="card-inner">
                 <div class="box">
                     <div class="imgBox">
-                        <img src="/assets/media/img/datacenter/submit.jpg" alt="Marine Data Archive" width="200" />
+                        <img src="/assets/media/img/content/logo_mda2.png" alt="Marine Data Archive" width="200" />
                     </div>
                 </div>
             </div>
@@ -99,22 +93,21 @@ curly: false
                 <p>
                     <a href="https://marinedataarchive.org/"><strong>Marine Data Archive</strong></a> or MDA is an online marine repository designed to independently archive data files with comprehensive documentation. Whether you're an individual researcher, part of a consortium, or affiliated with an institute, the MDA offers versatile solutions for managing your data.
                 </p>
-                <p>Here’s what the MDA can do for you:</p>
                 <ul>
                     <li><strong>Data Management:</strong> Organize data files and track versions specific to your projects, reports, analyses, or monitoring campaigns.</li>
                     <li><strong>Personal or Institutional Archiving:</strong> Serve as a reliable backup system for both personal and institutional data.</li>
                     <li><strong>Open Repository:</strong> Facilitate the publication of your data in an accessible manner.</li>
                 </ul>
                 <p>If you have questions, <a href="mailto:mda@vliz.be">send us an email</a>.</p>
-                <a href="https://marinedataarchive.org/mdamanual.pdf" class="button marineinfo-button"><strong>Manual</strong></a>
                 <a href="https://marinedataarchive.org/archive.php" class="button marineinfo-button"><strong>Submit</strong></a>
+                <a href="https://marinedataarchive.org/mdamanual.pdf" class="button marineinfo-button"><strong>Manual</strong></a>
             </div>
         </div>
         <div class="card">
             <div class="card-inner">
                 <div class="box">
                     <div class="imgBox">
-                        <img src="/assets/media/img/datacenter/submit.jpg" alt="MarineInfo" width="200" />
+                        <img src="/assets/media/img/content/marineinfo_logo.png" alt="MarineInfo" width="200" />
                     </div>
                 </div>
             </div>
@@ -122,11 +115,11 @@ curly: false
                 <h3><a href="https://marineinfo.org/" mia-extra-properties="nochange">Publish</a></h3>
                 <br>
                 <p> You can publish your data using IMIS on MarineInfo</p><p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                Dive into an ocean of knowledge with our new linked open data catalogue - discover, connect and explore the vast network of marine data like never before!
+                </p>
                 <p>
                 <br>
-                    <a href="https://marineinfo.org/sites/marineinfo.org/files/managed/imis-data-policy-1.0.pdf" class="button marineinfo-button" mia-extra-properties="nochange"><strong>Data Policy</strong></a>
-                    <a href="https://marineinfo.org/submit-form" class="button marineinfo-button" mia-extra-properties="nochange"><strong>Submit</strong></a>
+                    <a href="https://marineinfo.org/metasubmit/" class="button marineinfo-button" mia-extra-properties="nochange"><strong>Submit</strong></a>
                 </p>
             </div>
         </div>

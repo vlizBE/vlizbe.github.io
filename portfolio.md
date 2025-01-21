@@ -8,7 +8,7 @@ curly: false
 networks:
   - title: Open Geospatial Consortium
     description: "At OGC, we unite a global network of leaders across government, business, research institutions, startups, and the geospatial community."
-    image: "/assets/media/img/content/ogclogo.png"
+    image: 
     image_alt: "OGC logo"
     clickthrough_url: "https://www.ogc.org/"
     clickthrough_text: "Visit OGC"
@@ -32,17 +32,17 @@ networks:
 
 data_systems:
   - title: Aphia
-    description: "www.marinespecies.org What: Taxonomic database (taxon names, distributions, specimens, ...) +50 installations based on species or geographical context"
+    description: "Taxonomic database (taxon names, distributions, specimens, ...) +50 installations based on species or geographical context"
     image_url: "/assets/media/img/content/ogclogo.png"
     image_alt: "OGC logo"
     clickthrough_url: "www.marinespecies.org"
     clickthrough_text: "Visit OGC"
   - title: IMIS
-    description: "vliz.be/imis What: Metadata on Persons/Institutes/References/Datasets/... describing the marine landscape) +60 installations based on projects, topics or institutes Output framework: PHP"
+    description: "Metadata on people, institutes, references, and datasets, describing the marine landscape. +60 installations based on projects, topics or institutes"
     clickthrough_url: "https://vliz.be/en/imis"
-    clickthrough_text: "IMIS (not correct)"
+    clickthrough_text: "IMIS"
   - title: Photogallery
-    description: "images.vliz.beWhat: photo and multimedia gallery +100 installations based on projects, topics or institutes Output framework: PHP."
+    description: "Photo and multimedia gallery +100 installations based on projects, topics or institutes"
     clickthrough_url: "https://images.vliz.be/"
     clickthrough_text: "https://www.ogc.org/"
   - title: IMERS
@@ -50,41 +50,85 @@ data_systems:
     clickthrough_url: "https://vliz.be/vmdcdata/imers/"
     clickthrough_text: "https://www.ogc.org/"
   - title: MarinePass
-    description: "+30 installations What: central authentication system Output framework: PHP Input framework: PHP, MS Access"
+    description: "+30 installations What: central authentication system"
     clickthrough_url: "https://eosc.eu/members/flanders-marine-institute-vliz/"
     clickthrough_text: "https://www.ogc.org/"
   - title: Wiki
-    description: "www.coastalwiki.org What: own, closed wikipedia installation +10 installations based on topic or project Integration via: web scraper"
+    description: "Own, closed wikipedia installation +10 installations based on topic or project"
     clickthrough_url: "www.coastalwiki.org"
     clickthrough_text: "https://www.ogc.org/"
   - title: Drupal (version 7 + 9)
-    description: "vliz.be What Content Management System (CMS) +50 websites based on projects or institutes Input framework: PHP Output framework: PHP Integration of other VLIZ data systems via module"
+    description: "Content Management System (CMS) +50 websites based on projects or institutes"
     clickthrough_url: "www.coastalwiki.org"
     clickthrough_text: "https://www.ogc.org/"
+  - title: Dataportal 
+    description: "Download and view occurrence and other data types"
+    clickthrough_url: "https://www.emodnet-biology.eu/toolbox/en/download/occurrence/explore"
+    clickthrough_text: "Data portal"
+  - title: ETN
+    description: "European Tracking Network"
+    clickthrough_url: "https://www.lifewatch.be/etn/"
+    clickthrough_text: "Data platform, featuring 882961381 detections"
+  - title: Dataservices
+    description: "GUI to consume (OGC, REST, ..) webservices"
+    clickthrough_url: "http://www.lifewatch.be/data-services"
+    clickthrough_text: 
+  - title: Geoviewer
+    description: "Viewer for OGC capable geo servers (Geoserver, Mapserver, ArcGIS server, ...)"
+    clickthrough_url: "http://www.scheldemonitor.org/geoviewer"
+    clickthrough_text: "Data platform, featuring 882961381 detections"
+  - title: Marine Regions Gazetteer
+    description: "Hierarchical list of place names"
+    clickthrough_url: "http://www.marineregions.org/gazetteer.php?p=search"
+    clickthrough_text: "hierarchical list of place names"
+  - title: Sea Level Station Monitoring Facility
+    description: "Monitor the status of real time sea level stations"
+    clickthrough_url: "http://www.ioc-sealevelmonitoring.org/"
+    clickthrough_text: "Monitor the status of real time sea level stations"
+  - title: RShiny Data Explorer
+    description: "Expose all lifewatch data types"
+    clickthrough_url: "http://rshiny.lifewatch.be/"
+    clickthrough_text: 
+  - title: WoRMS standardized distribution maps + Aphia traits portal
+    description: "Download and view occurrence data from several databases (Aphia, OBIS, GBIF, iDigBIO)"
+    clickthrough_url: "http://rshiny.vsc.vliz.be:52038/standardized_distributions_test/"
+    clickthrough_text: "Download and view occurrence data from several databases (Aphia, OBIS, GBIF, iDigBIO)"
+  - title: Boeien / Buoys / SerPar
+    description: "Capture real-time data from logger on buoys (Thornton, Spuikom, Meetnet Vlaamse Banken (MVB), ...) 1 management interface. Actual capturing of the data happens with combination of Campbell Scientific Data logger software"
+    clickthrough_url: "http://www.lifewatch.be/buoys"
+    clickthrough_text: "hierarchical list of place names"
+  - title: MongoDB
+    description: "Provides a database (processing) that scientists can use for processing their data. Provides a database (db) to collect finished datasets that can be shared to people. Provides aggregated data to Lifewatch Data Explorer"
+    clickthrough_url: " mongodb.vliz.be"
+    clickthrough_text: ""
+  - title: OBIS Annotated List
+    description: "Scientific names originating from OBIS not matched to WoRMS"
+    clickthrough_url: "https://annotated-list.eurobis.org/"
+    clickthrough_text: "Scientific names originating from OBIS not matched to WoRMS"
+  - title: OpenAIS
+    description: "Collect ship positions through time via the Automatic Identification System (AIS)"
+    clickthrough_url: "https://open-ais.org/"
+    clickthrough_text: 
+  - title: Cores Repository Index (CRI)
+    description: "Manages data about cores drilled out of the sea. Users can view core data and add metadata (CRUD operations). All get routes are accessible to everyone, but modifications require using authentication via JWT."
+    clickthrough_url: ""
+    clickthrough_text: ""
+  - title: Vocab Server
+    description: "Vocabulary server kept up to date, for pick lists"
+    clickthrough_url: "http://docker-dev.vliz.be:3033/"
+    clickthrough_text: "Vocabulary server kept up to date, for pick lists"
 ---
 
-{% include item/list/card/colored/main.html
+{% include item/list/carrousel/waved/main.html
     title="Data Systems"
     items=page.data_systems
 %}
 
-{% include item/list/carrousel/waved/main.html
-    title="Networks"
-    items=page.networks
-%}
-
-{% include item/list/block/colored/main.html
-    title="Networks"
-    items=page.networks
-%}
+<h2>Networks</h2>
 
 {% include item/list/row/text_image/main.html
     title="Networks"
     items=page.networks
 %}
 
-{% include item/list/carrousel/block/main.html
-    title="Data systems"
-    items=page.data_systems
-%}
 
