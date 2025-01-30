@@ -88,11 +88,11 @@ curly: false
                     <a href="https://marinedataarchive.org/"><strong>Marine Data Archive</strong></a> or MDA is an online marine repository designed to independently archive data files with comprehensive documentation. Whether you're an individual researcher, part of a consortium, or affiliated with an institute, the MDA offers versatile solutions for managing your data.
                 </p>
                 <ul>
-                    <li><strong>Data Management:</strong> Organize data files and track versions specific to your projects, reports, analyses, or monitoring campaigns.</li>
-                    <li><strong>Personal or Institutional Archiving:</strong> Serve as a reliable backup system for both personal and institutional data.</li>
-                    <li><strong>Open Repository:</strong> Facilitate the publication of your data in an accessible manner.</li>
+                    <li><strong>Data Management:</strong> Organize data files and track versions specific to your projects, reports, analyses, or monitoring campaigns</li>
+                    <li><strong>Personal or Institutional Archiving:</strong> Serve as a reliable backup system for both personal and institutional data</li>
+                    <li><strong>Open Repository:</strong> Facilitate the publication of your data in an accessible manner</li>
                 </ul>
-                <p>If you have questions, <a href="mailto:mda@vliz.be">send us an email</a>.</p>
+                <p>If you have questions, <a href="mailto:mda@vliz.be">send us an email</a></p>
                 <a href="https://marinedataarchive.org/archive.php" class="button marineinfo-button"><strong>Archive</strong></a>
                 <a href="https://marinedataarchive.org/mdamanual.pdf" class="button marineinfo-button"><strong>Manual</strong></a>
             </div>
@@ -108,13 +108,10 @@ curly: false
             <div class="content">
                 <h3><a href="https://marineinfo.org/" mia-extra-properties="nochange">Publish</a></h3>
                 <br>
-                <p> You can publish your data using IMIS on MarineInfo</p><p>
-                Dive into an ocean of knowledge with our new linked open data catalogue - discover, connect and explore the vast network of marine data like never before!
-                </p>
+                <p>You can publish your (meta) data using IMIS on MarineInfo.org</p><p>
+                Dive into an ocean of knowledge with our new linked open data catalogue - discover, connect and explore the vast network of marine data like never before </p>
                 <p>
                 <br>
                     <a href="https://marineinfo.org/metasubmit/" class="button marineinfo-button" mia-extra-properties="nochange"><strong>Submit</strong></a>
                 </p>
-            </div>
-        </div>
-    </div>
+

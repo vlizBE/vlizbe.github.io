@@ -6,15 +6,15 @@ cover: /assets/media/img/datacenter/Fisheries_4.jpg
 title: "VLIZ DATA"
 subblocks:
   - title: "Data submission"
-    description: "Submit your data to the VLIZ Marine Data Centre"
+    description: "Submit your data to  VLIZ"
     #image: /assets/media/img/ist/submit.jpg
     clickthrough_url: "/data/submit/"
   - title: "Data inventory"
-    description: "Discover the data available in the VLIZ Marine Data Centre"
+    description: "Discover available data "
     #image: /assets/media/img/ist/inventory.jpg
     clickthrough_url: "/data/inventory/"
   - title: "Data resources"
-    description: "Explore the resources available in the VLIZ Marine Data Centre"
+    description: "Explore available resources"
     #image: /assets/media/img/ist/resources.jpg
     clickthrough_url: "/data/resources/"
 special_collections:
@@ -55,10 +55,10 @@ special_collections:
     <span style="color: #354d9b;"><strong>Datasets Available</strong></span>
   </div>
 
-   <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights. 
+   <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. 
+   <br>At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights. 
          <br>
          <br>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
          </p>
 
   <script>
@@ -86,8 +86,7 @@ special_collections:
 <div class="row">
     <div class="col-md-6">
         <h4>Access to over 270,084 unique publications</h4>
-        The VLIZ Marine Data Centre is a national and international point of contact for quality and reliable marine and estuarine data. VLIZ provides services, technologies, tools, training and support to scientists, policy, blue economy and citizens. Data is made accessible in an efficient and open manner. The VLIZ is accredited as an IODE National Oceanographic Data Center.
-        <br>
+The VLIZ serves as a trusted national and international hub for high-quality, reliable marine and estuarine data. We offer a wide range of services, technologies, tools, training, and support to scientists, policymakers, the blue economy, and citizens alike. Committed to making data accessible and open, we ensure it’s available in an efficient and user-friendly manner. As an accredited IODE National Oceanographic Data Center, the VLIZ is dedicated to advancing marine research and fostering collaboration across all sectors.
         <br>
         <style>
             .button {
@@ -111,8 +110,7 @@ special_collections:
           <a href="/search" class="button"><strong>Find data & information</strong></a>
           <a href="/submit" class="button"><strong>Submit data</strong></a>
       </div>
-
-<br>
+      <br>
         <p><a href="/about"><strong>Learn more about us</strong></a></p>
 
 </div>
