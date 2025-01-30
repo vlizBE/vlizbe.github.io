@@ -1,20 +1,13 @@
 ---
 layout: default
 permalink: /submit
-title: Submit
+title: Submit data
 description: "Come and submit your data to the VLIZ Marine Data Centre. We offer a range of services to support the FAIR principles of data management. Learn more about our services and how they can help you in your research."
 cover: /assets/media/img/datacenter/submit.jpg
 curly: false
 ---
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        padding: 20px;
-        color: #333;
-    }
-
     h4 {
         color: #354d9b; 
         margin-bottom: 10px;
@@ -76,6 +69,7 @@ curly: false
         }
     }
 </style>
+
 <h4>Submission Options</h4>
 
   <div class="container">
@@ -99,7 +93,7 @@ curly: false
                     <li><strong>Open Repository:</strong> Facilitate the publication of your data in an accessible manner.</li>
                 </ul>
                 <p>If you have questions, <a href="mailto:mda@vliz.be">send us an email</a>.</p>
-                <a href="https://marinedataarchive.org/archive.php" class="button marineinfo-button"><strong>Submit</strong></a>
+                <a href="https://marinedataarchive.org/archive.php" class="button marineinfo-button"><strong>Archive</strong></a>
                 <a href="https://marinedataarchive.org/mdamanual.pdf" class="button marineinfo-button"><strong>Manual</strong></a>
             </div>
         </div>

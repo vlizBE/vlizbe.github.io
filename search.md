@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /search
-title: Start Exploring
+title: Find data and information
 description: "Explore the VLIZ Marine Data Centre and discover the data available in the VLIZ Marine Data Centre"
 cover: /assets/media/img/datacenter/boat_1.jpg
 curly: false
@@ -52,59 +52,54 @@ curly: false
         height: auto;
         margin-left: 20px;
     }
+    .button-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+    }
 </style>
 
 <div class="section-bg">
     <h4>VMDC Database</h4>
     <p>Dive into an ocean of knowledge with our new linked open data catalogue - discover, connect and explore the vast network of marine data using MarineInfo.org.</p>
-    <table>
-        <tr>
-            <td><button onclick="location.href='https://marineinfo.org/imis?module=person'">People</button></td>
-            <td><button onclick="location.href='https://marineinfo.org/imis?module=institute'">Institutes</button></td>
-            <td><button onclick="location.href='https://marineinfo.org/imis?module=project'">Projects</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Dataset</button></td>
-            <td><button onclick="location.href='https://marineinfo.org/imis-search'">Publications</button></td>
-            <td><button onclick="location.href='https://marineinfo.org/imis?module=conference'">Events</button></td>
-        </tr>
-    </table>
+    <div class="button-grid">
+        <button onclick="location.href='https://marineinfo.org/imis?module=person'">People</button>
+        <button onclick="location.href='https://marineinfo.org/imis?module=institute'">Institutes</button>
+        <button onclick="location.href='https://marineinfo.org/imis?module=project'">Projects</button>
+        <button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Dataset</button>
+        <button onclick="location.href='https://marineinfo.org/imis-search'">Publications</button>
+        <button onclick="location.href='https://marineinfo.org/imis?module=conference'">Events</button>
+    </div>
+
 </div>
 <div class="section-bg">
     <h4>Hosted Datasystems</h4>
     <p>VLIZ Data Centre hosts various data systems that support marine and coastal research. These systems store, manage, and provide access to large datasets related to marine biodiversity, ecology, oceanography, and environmental monitoring.</p>
-    <table>
-        <tr>
-            <td><button onclick="location.href='https://www.marinespecies.org/'">WoRMs</button></td>
-            <td><button onclick="location.href='https://emodnet.ec.europa.eu/en/biology'">EMODnet Biology</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="location.href='https://marineregions.org/'">Marine Regions</button></td>
-            <td><button onclick="location.href='https://www.eurobis.org/'">EurOBIS</button></td>
-        </tr>
-    </table>
+    <div class="button-grid">
+        <button onclick="location.href='https://www.marinespecies.org/'">WoRMs</button>
+        <button onclick="location.href='https://emodnet.ec.europa.eu/en/biology'">EMODnet Biology</button>
+        <button onclick="location.href='https://marineregions.org/'">Marine Regions</button>
+        <button onclick="location.href='https://www.eurobis.org/'">EurOBIS</button>
+    </div>
 
 <h4>Cruise Database</h4>
 
 <div class="image-right">
-        <img src="assets/media/img/datacenter/USVGobelijn.jpg" alt="MIDAS Logo">
-        <p>
-            MIDAS stands for Marine Information and Data Acquisition System. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
-            <br><br>
-            All data is organized in cruises and trips. Either use the schedule, the chronological list of cruises, or the cruises ordered by campaigns to select a specific cruise and trip. For each performed trip a link to the underway data, the stations, research activities, and a map of the track is available.
-        </p>
-    </div>
+    <img src="assets/media/img/datacenter/USVGobelijn.jpg" alt="MIDAS Logo">
+    <p>
+        MIDAS stands for Marine Information and Data Acquisition System. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
+        <br><br>
+        All data is organized in cruises and trips. Either use the schedule, the chronological list of cruises, or the cruises ordered by campaigns to select a specific cruise and trip. For each performed trip a link to the underway data, the stations, research activities, and a map of the track is available.
+    </p>
+</div>
 
-<table>
-        <tr>
-            <td><button onclick="location.href='https://www.vliz.be/vmdcdata/midas/casts'">CTD Casts</button></td>
-            <td><button onclick="location.href='https://www.vliz.be/vmdcdata/midas/stations/map'">Stations</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="location.href='https://www.vliz.be/vmdcdata/midas/cruises'">Cruises</button></td>
-            <td><button onclick="location.href='https://www.vliz.be/vmdcdata/midas/campaigns'">Campaigns</button></td>
-        </tr>
-    </table>
+<div class="button-grid">
+    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/casts'">CTD Casts</button>
+    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/stations/map'">Stations</button>
+    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/cruises'">Cruises</button>
+    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/campaigns'">Campaigns</button>
+</div>
+<br>
 </div>
 
 

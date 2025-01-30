@@ -13,30 +13,12 @@
           url: /services#map-service
         - title: IT services
           url: /services#it-services
-        - title: Training
-          url: /training
+        - title: Library
+          url: /services#library
+        - title: Observation center
+          url: /services#observation-center
     - title: Portfolio
       url: /portfolio
-      items:
-        - title: Networks
-          url: /portfolio#networks
-        - title: Projects
-          url: /portfolio#projects
-        - title: Data Systems
-          url: /portfolio#data-systems
-- title: Training
-  items:
-    - title: About
-      url: /
-    - title: Courses
-      url: /
-    - title: Workshops
-      url: /
-    - title: E-learning
-      url: /
-    - title: Collaborations
-      url: /
-    - title: Suggest a training
-      url: /
-- title: History
+
+- title: About
   url: /about
