@@ -66,7 +66,7 @@ curly: false
         <button onclick="location.href='https://marineinfo.org/imis?module=person'">People</button>
         <button onclick="location.href='https://marineinfo.org/imis?module=institute'">Institutes</button>
         <button onclick="location.href='https://marineinfo.org/imis?module=project'">Projects</button>
-        <button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Dataset</button>
+        <button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Datasets</button>
         <button onclick="location.href='https://marineinfo.org/imis-search'">Publications</button>
         <button onclick="location.href='https://marineinfo.org/imis?module=conference'">Events</button>
     </div>

@@ -101,7 +101,7 @@ curly: false
             <div class="card-inner">
                 <div class="box">
                     <div class="imgBox">
-                        <img src="/assets/media/img/content/marineinfo_logo.png" alt="MarineInfo" width="200" />
+                        <img src="/assets/media/img/content/Marine Info_logo pos RGB.jpg" alt="MarineInfo" width="200" />
                     </div>
                 </div>
             </div>

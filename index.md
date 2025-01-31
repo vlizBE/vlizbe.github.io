@@ -22,17 +22,20 @@ special_collections:
     description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
     clickthrough_url: "/ask_IT_when_module_made"
     clickthrough_text: "IMIS (not correct)"
-  - title: EUROBIS
-    description: "The European Node
-      of the international Ocean Biodiversity Information System (OBIS) - publishes distribution data on marine species, collected within European marine waters or collected by European researchers"
+  - title: Belgian datasets
+    description: "Belgian datasets are datasets available in Belgium. These datasets have a substantive geographical scope that covers Belgium but also beyond."
     clickthrough_url: "/ask_IT_when_module_made"
     clickthrough_text: "IMIS (not correct)"
-  - title: Lorem
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: GEANS
+    description: "Genetic tools for Ecosystem health Assessment in the North Sea region"
     clickthrough_url: "/ask_IT_when_module_made"
     clickthrough_text: "IMIS (not correct)"
-  - title: IPSUM
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: Recreational beach fishing
+    description: "A group all data sets from the porters, as well as other data sets related to recreational beach fishing"
+    clickthrough_url: "/ask_IT_when_module_made"
+    clickthrough_text: "IMIS (not correct)"
+  - title: VLIZ robotics datasets 
+    description: "Data sets containing all campaigns of the VLIZ marine robotics team"
     clickthrough_url: "/ask_IT_when_module_made"
     clickthrough_text: "IMIS (not correct)"
 ---
@@ -85,7 +88,7 @@ special_collections:
   </script>
 <div class="row">
     <div class="col-md-6">
-        <h4>Access to over 270,084 unique publications</h4>
+        <h4>Access to over 250,000 unique publications</h4>
 The VLIZ serves as a trusted national and international hub for high-quality, reliable marine and estuarine data. We offer a wide range of services, technologies, tools, training, and support to scientists, policymakers, the blue economy, and citizens alike. Committed to making data accessible and open, we ensure it’s available in an efficient and user-friendly manner. As an accredited IODE National Oceanographic Data Center, the VLIZ is dedicated to advancing marine research and fostering collaboration across all sectors.
         <br>
         <style>
@@ -116,7 +119,9 @@ The VLIZ serves as a trusted national and international hub for high-quality, re
 </div>
   <div class="col-md-6">
     <img src="assets/media/img/datacenter/robots.jpg">
-      The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas.
+      The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas. Check out the data they collected in the database.
+      <br>
+      <br>
   </div>
 </div>
 
