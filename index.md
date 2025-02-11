@@ -65,11 +65,10 @@ special_collections:
          </p>
 
   <script>
-        function startCounting(targetNumber, duration) {
-            const counterDisplay = document.getElementById('counter');
+        function startCounting(targetNumber, duration, elementId) {
+            const counterDisplay = document.getElementById(elementId);
             let count = 0; // Start from 0
             const incrementTime = Math.floor(duration / targetNumber); // Time for each increment
-            console.log(incrementTime);
 
             const interval = setInterval(() => {
               if (count < targetNumber) {
@@ -79,13 +78,47 @@ special_collections:
               } else {
                 clearInterval(interval); // Stop the counting when reaching the target
               }
-            }, incrementTime);     }
+            }, incrementTime);     
+        }
+
+        async function fetchDataAndStartCounting() {
+            const modules = ['person', 'institute', 'dataset', 'project', 'ref'];
+            const elements = {
+                person: 'person-counter',
+                institute: 'institute-counter',
+                dataset: 'dataset-counter',
+                project: 'project-counter',
+                ref: 'ref-counter'
+            };
+            const defaultValues = {
+                person: 26783,
+                institute: 9547,
+                dataset: 5836,
+                project: 3940,
+                ref: 250000
+            };
+
+            try {
+                for (const module of modules) {
+                    const response = await fetch(`https://vliz.be/nl/imis?show=jsonportal&module=${module}&cnt=1&ext=1`);
+                    const data = await response.json();
+                    const value = data.cnt || defaultValues[module];
+                    startCounting(value, 2000, elements[module]);
+                }
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                modules.forEach(module => {
+                    startCounting(defaultValues[module], 2000, elements[module]);
+                });
+            }
+        }
 
         // Call the function to start counting automatically
         window.onload = () => {
-            startCounting(5836, 0); // Change parameters as needed
+            fetchDataAndStartCounting(); // Fetch data and start counting
         };
   </script>
+
 <div class="row">
     <div class="col-md-6">
         <h4>Access to over 250,000 unique publications</h4>
