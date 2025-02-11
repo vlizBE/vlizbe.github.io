@@ -107,56 +107,56 @@ The VLIZ serves as a trusted national and international hub for high-quality, re
     items=page.special_collections
 %}
  <script>
-        function startCounting(targetNumber, duration, elementId) {
-            const counterDisplay = document.getElementById(elementId);
-            let count = 0; // Start from 0
-            const incrementTime = Math.floor(duration / targetNumber); // Time for each increment
+    function startCounting(targetNumber, duration, elementId) {
+        const counterDisplay = document.getElementById(elementId);
+        let count = 0; // Start from 0
+        const incrementTime = Math.floor(duration / targetNumber); // Time for each increment
 
-            const interval = setInterval(() => {
-              if (count < targetNumber) {
+        const interval = setInterval(() => {
+            if (count < targetNumber) {
                 let increment = Math.max(1, Math.floor((targetNumber - count) / 125)); // Decrease increment as count approaches target
                 count += increment;
                 counterDisplay.textContent = count; // Update the display
-              } else {
+            } else {
                 clearInterval(interval); // Stop the counting when reaching the target
-              }
-            }, incrementTime);     
-        }
-
-        async function fetchDataAndStartCounting() {
-            const modules = ['person', 'institute', 'dataset', 'project', 'ref'];
-            const elements = {
-                person: 'person-counter',
-                institute: 'institute-counter',
-                dataset: 'dataset-counter',
-                project: 'project-counter',
-                ref: 'ref-counter'
-            };
-            const defaultValues = {
-                person: 26783,
-                institute: 9547,
-                dataset: 5836,
-                project: 3940,
-                ref: 250000
-            };
-
-            try {
-                for (const module of modules) {
-                    const response = await fetch(`https://vliz.be/nl/imis?show=jsonportal&module=${module}&cnt=1&ext=1`);
-                    const data = await response.json();
-                    const value = data.cnt || defaultValues[module];
-                    startCounting(value, 2000, elements[module]);
-                }
-            } catch (error) {
-                console.error('Error fetching data:', error);
-                modules.forEach(module => {
-                    startCounting(defaultValues[module], 2000, elements[module]);
-                });
             }
-        }
+        }, incrementTime);     
+    }
 
-        // Call the function to start counting automatically
-        window.onload = () => {
-            fetchDataAndStartCounting(); // Fetch data and start counting
+    async function fetchDataAndStartCounting() {
+        const modules = ['person', 'institute', 'dataset', 'project', 'ref'];
+        const elements = {
+            person: 'person-counter',
+            institute: 'institute-counter',
+            dataset: 'dataset-counter',
+            project: 'project-counter',
+            ref: 'ref-counter'
         };
-  </script>
+        const defaultValues = {
+            person: 26783,
+            institute: 9547,
+            dataset: 5836,
+            project: 3940,
+            ref: 250000
+        };
+
+        try {
+            for (const module of modules) {
+                const response = await fetch(`https://vliz.be/nl/imis?show=jsonportal&module=${module}&cnt=1&ext=1`);
+                const data = await response.json();
+                const value = data.cnt || defaultValues[module];
+                startCounting(value, 2000, elements[module]);
+            }
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            modules.forEach(module => {
+                startCounting(defaultValues[module], 2000, elements[module]);
+            });
+        }
+    }
+
+    // Call the function to start counting when the whole document is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        fetchDataAndStartCounting(); // Fetch data and start counting
+    });
+</script>
