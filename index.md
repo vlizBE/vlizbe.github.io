@@ -63,8 +63,50 @@ special_collections:
          <br>
          <br>
          </p>
+<div class="row">
+    <div class="col-md-6">
+        <h4>Access to over 250,000 unique publications</h4>
+The VLIZ serves as a trusted national and international hub for high-quality, reliable marine and estuarine data. We offer a wide range of services, technologies, tools, training, and support to scientists, policymakers, the blue economy, and citizens alike. Committed to making data accessible and open, we ensure it’s available in an efficient and user-friendly manner. As an accredited IODE National Oceanographic Data Center, the VLIZ is dedicated to advancing marine research and fostering collaboration across all sectors.
+        <br>
+        <style>
+            .button {
+                display: inline-block;
+                padding: 10px 20px; /* Reduced padding */
+                margin: 10px;
+                font-size: 20px; /* Reduced font size */
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                background-color: #0779bf; /* Button color */
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+            .button:hover {
+                background-color: #0056b3; /* Darker button color on hover */
+                color: white;
+            }
+        </style>
+      <div style="display: flex; gap: 10px; margin-top: 20px;">
+          <a href="/search" class="button"><strong>Find data & information</strong></a>
+          <a href="/submit" class="button"><strong>Submit data</strong></a>
+      </div>
+      <br>
+        <p><a href="/about"><strong>Learn more about us</strong></a></p>
 
-  <script>
+</div>
+  <div class="col-md-6">
+    <img src="assets/media/img/datacenter/robots.jpg">
+      The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas. Check out the data they collected in the database.
+      <br>
+      <br>
+  </div>
+</div>
+
+{% include item/list/carrousel/block/main.html
+    title="Special collections"
+    items=page.special_collections
+%}
+ <script>
         function startCounting(targetNumber, duration, elementId) {
             const counterDisplay = document.getElementById(elementId);
             let count = 0; // Start from 0
@@ -118,47 +160,3 @@ special_collections:
             fetchDataAndStartCounting(); // Fetch data and start counting
         };
   </script>
-
-<div class="row">
-    <div class="col-md-6">
-        <h4>Access to over 250,000 unique publications</h4>
-The VLIZ serves as a trusted national and international hub for high-quality, reliable marine and estuarine data. We offer a wide range of services, technologies, tools, training, and support to scientists, policymakers, the blue economy, and citizens alike. Committed to making data accessible and open, we ensure it’s available in an efficient and user-friendly manner. As an accredited IODE National Oceanographic Data Center, the VLIZ is dedicated to advancing marine research and fostering collaboration across all sectors.
-        <br>
-        <style>
-            .button {
-                display: inline-block;
-                padding: 10px 20px; /* Reduced padding */
-                margin: 10px;
-                font-size: 20px; /* Reduced font size */
-                text-align: center;
-                text-decoration: none;
-                color: white;
-                background-color: #0779bf; /* Button color */
-                border-radius: 5px;
-                transition: background-color 0.3s;
-            }
-            .button:hover {
-                background-color: #0056b3; /* Darker button color on hover */
-                color: white;
-            }
-        </style>
-      <div style="display: flex; gap: 10px; margin-top: 20px;">
-          <a href="/search" class="button"><strong>Find data & information</strong></a>
-          <a href="/submit" class="button"><strong>Submit data</strong></a>
-      </div>
-      <br>
-        <p><a href="/about"><strong>Learn more about us</strong></a></p>
-
-</div>
-  <div class="col-md-6">
-    <img src="assets/media/img/datacenter/robots.jpg">
-      The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas. Check out the data they collected in the database.
-      <br>
-      <br>
-  </div>
-</div>
-
-{% include item/list/carrousel/block/main.html
-    title="Special collections"
-    items=page.special_collections
-%}
