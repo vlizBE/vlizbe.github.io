@@ -38,6 +38,19 @@ special_collections:
     description: "Data sets containing all campaigns of the VLIZ marine robotics team"
     clickthrough_url: "/ask_IT_when_module_made"
     clickthrough_text: "IMIS (not correct)"
+robotics_collections:
+  - title: EXAMPLE ROBOTICS
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    clickthrough_url: "/ask_IT_when_module_made"
+    clickthrough_text: "IMIS (not correct)"
+  - title: EXAMPLE ROBOTICS
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    clickthrough_url: "/ask_IT_when_module_made"
+    clickthrough_text: "IMIS (not correct)"
+  - title: EXAMPLE ROBOTICS
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    clickthrough_url: "/ask_IT_when_module_made"
+    clickthrough_text: "IMIS (not correct)"
 ---
 
 {% include light_bg.html content=
@@ -90,22 +103,29 @@ The VLIZ serves as a trusted national and international hub for high-quality, re
           <a href="/search" class="button"><strong>Find data & information</strong></a>
           <a href="/submit" class="button"><strong>Submit data</strong></a>
       </div>
-      <br>
-        <p><a href="/about"><strong>Learn more about us</strong></a></p>
+      
 
 </div>
   <div class="col-md-6">
     <img src="assets/media/img/datacenter/robots.jpg">
-      The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas. Check out the data they collected in the database.
-      <br>
-      <br>
+  <span style="font-size: smaller;">
+  The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas. Check out the data they collected below.
+</span>
+<br>
   </div>
+  <br>
 </div>
-
+<br>
+<h3>Showcase of Marine Robotics Missions</h3>
+{% include item/list/block/colored/main.html
+    title="Robotics collections"
+    items=page.robotics_collections
+%}
 {% include item/list/carrousel/block/main.html
     title="Special collections"
     items=page.special_collections
 %}
+
  <script>
     function startCounting(targetNumber, duration, elementId) {
         const counterDisplay = document.getElementById(elementId);

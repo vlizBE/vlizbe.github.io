@@ -60,6 +60,17 @@ curly: false
 </style>
 
 <div class="section-bg">
+    <h4>Most relevant</h4>
+    <p>VLIZ hosts various data systems that support marine and coastal research. These systems store, manage, and provide access to large datasets related to marine biodiversity, ecology, oceanography, and environmental monitoring.</p>
+    <div class="button-grid">
+        <button onclick="location.href='https://www.marinespecies.org/aphia.php?p=search'">Search marine names on <br>WoRMs</button>
+        <button onclick="location.href='https://emodnet.ec.europa.eu/geoviewer/'">Search in-situ marine data on <br>EMODnet Biology</button>
+        <button onclick="location.href='https://marineregions.org/gazetteer.php?p=search'">Search marine places on <br>Marine Regions</button>
+        <button onclick="location.href='https://www.eurobis.org/data_access_services'">Search biogeographic data on <br>EurOBIS</button>
+    </div>
+<br>
+
+<div class="section-bg">
     <h4>Catalogue</h4>
     <p>Dive into an ocean of knowledge with our new linked open (meta) data catalogue - discover, connect and explore the vast network of marine data using MarineInfo.org.</p>
     <div class="button-grid">
@@ -72,16 +83,8 @@ curly: false
     </div>
 <br>
 </div>
-<div class="section-bg">
-    <h4>Data systems</h4>
-    <p>VLIZ hosts various data systems that support marine and coastal research. These systems store, manage, and provide access to large datasets related to marine biodiversity, ecology, oceanography, and environmental monitoring.</p>
-    <div class="button-grid">
-        <button onclick="location.href='https://www.marinespecies.org/aphia.php?p=search'">Search marine names on <br>WoRMs</button>
-        <button onclick="location.href='https://emodnet.ec.europa.eu/geoviewer/'">Search in-situ marine data on <br>EMODnet Biology</button>
-        <button onclick="location.href='https://marineregions.org/gazetteer.php?p=search'">Search marine places on <br>Marine Regions</button>
-        <button onclick="location.href='https://www.eurobis.org/data_access_services'">Search biogeographic data on <br>EurOBIS</button>
-    </div>
-<br>
+
+
 <h4>Cruise Database</h4>
 
 <div class="image-right">

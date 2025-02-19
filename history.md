@@ -69,7 +69,7 @@ curly: false
     </div>
     <div class="col-md-5">
         <img src="assets/media/img/datacenter/history.png" alt="History Image">
-        The cover of the first VLIZ magazine, published in 1990.
+         <span style="font-size: 15px;">The cover of the first VLIZ magazine, published in 1999.</span>
 </div>
 </div>
 

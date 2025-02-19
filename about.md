@@ -34,8 +34,18 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
   </div>
 
    <div class="contact-item">
-    <h5><a href="https://www.marineregions.org/">MarineRegions Support</a></h5>
+    <h5><a href="https://www.marineregions.org/">MarineRegions</a></h5>
     <p><a href="mailto:info@marineregions.org">info@marineregions.org</a></p>
+  </div>
+
+   <div class="contact-item">
+    <h5><a href="https://www.marinespecies.org/">WoRMs</a></h5>
+    <p><a href="mailto:info@marinespecies.org">info@marinespecies.org</a></p>
+  </div>
+
+  <div class="contact-item">
+    <h5>Library</h5>
+    <p><a href="mailto:library@vliz.be">library@vliz.be</a></p>
   </div>
 
    <div class="contact-item">
@@ -44,25 +54,15 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
   </div>
 
   <div class="contact-item">
-    <h5><a href="https://www.vliz.be/en/imis">IMIS Support</a></h5>
+    <h5><a href="https://www.vliz.be/en/imis">IMIS + MarineInfo</a></h5>
     <p><a href="mailto:imis-support@vliz.be">imis-support@vliz.be</a></p>
   </div>
 
   <div class="contact-item">
-    <h5>Library</h5>
-    <p><a href="mailto:library@vliz.be">library@vliz.be</a></p>
-  </div>
-
-  <div class="contact-item">
-    <h5><a href="https://marinedataarchive.org/">MDA</a></h5>
+    <h5><a href="https://marinedataarchive.org/">Marine Data Archive (MDA)</a></h5>
     <p><a href="mailto:mda@vliz.be">mda@vliz.be</a></p>
   </div>
 </div>
-
-  <div class="contact-item">
-    <h7>Questions for the Open Marine Archive (OMA)</h7>
-    <p><a href="mailto:oma@vliz.be">oma@vliz.be</a></p>
-  </div>
 
 
 
