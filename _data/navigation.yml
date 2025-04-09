@@ -6,17 +6,6 @@
   items:
     - title: Services
       url: /services
-      items:
-        - title: Data requests
-          url: /services#data-request
-        - title: Map services
-          url: /services#map-service
-        - title: IT services
-          url: /services#it-services
-        - title: Library
-          url: /services#library
-        - title: Observation center
-          url: /services#observation-center
     - title: Portfolio
       url: /portfolio
 

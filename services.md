@@ -10,23 +10,27 @@ curly: false
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <section>
   <h2>Our services</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>VLIZ offers a wide range of scientific and technical services to support marine research, conservation, and sustainable use of marine resources. As a key player in the field of marine science, VLIZ provides access to an extensive array of data and research tools, including management and dissemination of marine data. VLIZ is dedicated to fostering collaboration between researchers, policymakers, and industry professionals by offering state-of-the-art facilities, equipment, and expertise.
+</p>
+<p>
+Explore below what VLIZ can offer you, from access to research infrastructure to specialized services like the management of the RV Simon Stevin, a research vessel equipped for advanced oceanographic studies. Whether you're involved in marine biodiversity, environmental monitoring, or climate change research, VLIZ’s resources and collaborative opportunities can support and enhance your work.</p>
 
   <div class="container">
     <div class="card" id="data-request">
       <div class="card-inner" style="--clr:#fff;">
         <div class="box">
           <div class="imgBox">
-            <img src="https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trust & Co."  width="400">
+            <img src="assets\media\img\datacenter\Fisheries_4.jpg" alt="Trust & Co."  width="400">
           </div>
         </div>
       </div>
       <div class="content">
         <h3>Data-request</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p>Looking for clean, reliable, and quality-checked marine data? Whether you're from the private sector, academia, or an NGO, our team is here to assist. Send us your data request today, and we’ll provide the high-quality information you need for your research or projects.</p>
         <ul>
-          <li style="--clr-tag:#d3b19a;" class="branding">branding</li>
-          <li style="--clr-tag:#70b3b1;" class="packaging">packaging</li>
+        <li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="mailto:data@vliz.be" target="_blank">Send a data request to data@vliz.be</a>
+</li>
         </ul>
       </div>
     </div>
@@ -34,16 +38,23 @@ curly: false
       <div class="card-inner" style="--clr:#fff;">
         <div class="box">
           <div class="imgBox">
-            <img src="https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tonic"  width="400">
+            <img src="\assets\media\img\datacenter\218 web @Nick Decombel Fotografie.jpg" alt="Tonic"  width="400">
           </div>
         </div>
       </div>
       <div class="content">
         <h3>Map service</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>GeoServer publishes data from any major spatial data source using open standards. </p> 
+         <li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://geo.vliz.be/geoserver/web/?0" target="_blank">GeoServer</a>
+</li>
+<br>
+        <p>Marine Regions is a standard list of marine georeferenced place names and areas.</p>
         <ul>
-          <li style="--clr-tag:#d3b19a;" class="branding">branding</li>
-          <li style="--clr-tag:#d05fa2;" class="marketing">marketing</li>
+
+ <li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://www.marineregions.org/" target="_blank">Marine Regions</a>
+</li>
         </ul>
       </div>
     </div>
@@ -51,42 +62,41 @@ curly: false
       <div class="card-inner" style="--clr:#fff;">
         <div class="box">
           <div class="imgBox">
-            <img src="https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shower Gel"  width="400">
+            <img src="\assets\media\img\datacenter\286 web @Nick Decombel Fotografie.jpg" alt="Shower Gel"  width="400">
           </div>
         </div>
       </div>
       <div class="content">
         <h3>IT services</h3>
-        <p>Fill out the form and the algorithm will offer the right team of experts</p>
+<p>IT helps employees of VLIZ and partners at the InnovOcean site with IT-related hardware and software issues. See more <a href="https://www.vliz.be/en/what-we-do/data-information/it" target="_blank">here</a>.</p>
+
         <ul>
-          <li style="--clr-tag:#d3b19a;" class="branding">branding</li>
-          <li style="--clr-tag:#70b3b1;" class="packaging">packaging</li>
-          <li style="--clr-tag:#d05fa2;" class="marketing">marketing</li>
+ <li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="mailto:suppoprt@vliz.be" target="_blank">IT support</a>
+</li>
         </ul>
       </div>
     </div>
   </div>
 
-<br>
-<br>
-   <h2>Portfolio</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 
   <div class="container">
     <div class="card">
       <div class="card-inner" style="--clr:#fff;">
         <div class="box">
           <div class="imgBox">
-            <img src="https://images.unsplash.com/photo-1601049676869-702ea24cfd58?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trust & Co."  width="400">
+            <img src="\assets\media\img\datacenter\341 web @Nick Decombel Fotografie.jpg" alt="Trust & Co."  width="400">
           </div>
         </div>
       </div>
       <div class="content">
-        <h3>Networks</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h3>Storage (MDA)</h3>
+        <p>VLIZ highly values Open Science, and is therefore happy to make the data that are collected and processed freely available. This is done both through the library in the form of publications, through the data center in the form of datasets.</p>
         <ul>
-          <li style="--clr-tag:#d3b19a;" class="branding">branding</li>
-          <li style="--clr-tag:#70b3b1;" class="packaging">packaging</li>
+ <li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://marinedataarchive.org/" target="_blank">STORE</a>
+</li>
         </ul>
       </div>
     </div>
@@ -94,16 +104,18 @@ curly: false
       <div class="card-inner" style="--clr:#fff;">
         <div class="box">
           <div class="imgBox">
-            <img src="https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tonic"  width="400">
+            <img src="\assets\media\img\datacenter\boat_1.jpg" alt="Tonic"  width="400">
           </div>
         </div>
       </div>
       <div class="content">
-        <h3>Lorem ipsum dolor</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h3>Publish your data </h3>
+        <p>You can publish your (meta) data using IMIS on MarineInfo.org.  Data is made accessible in an efficient and open manner. The VLIZ is accredited as an IODE National Oceanographic Data Center.</p>
         <ul>
-          <li style="--clr-tag:#d3b19a;" class="branding">branding</li>
-          <li style="--clr-tag:#d05fa2;" class="marketing">marketing</li>
+       
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href=" https://marineinfo.org/metasubmit/" target="_blank">PUBLISH</a>
+</li>
         </ul>
       </div>
     </div>
@@ -111,22 +123,127 @@ curly: false
       <div class="card-inner" style="--clr:#fff;">
         <div class="box">
           <div class="imgBox">
-            <img src="https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shower Gel"  width="400">
+            <img src="\assets\media\img\datacenter\Pain_3.jpg" alt="Shower Gel"  width="400">
           </div>
         </div>
       </div>
       <div class="content">
-        <h3>Data Services</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h3>Library</h3>
+        <p>The library is a public information center housing a wealth of information about the Flemish coast, the North Sea and the world's oceans. The collection can be browsed online, or on-site on the InnovOcean Campus. The library is open to the public.</p>
         <ul>
-          <li style="--clr-tag:#d3b19a;" class="branding">branding</li>
-          <li style="--clr-tag:#70b3b1;" class="packaging">packaging</li>
-          <li style="--clr-tag:#d05fa2;" class="marketing">marketing</li>
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://www.vliz.be/en/catalogue" target="_blank">The collection can be browsed online</a>
+</li>
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="mailto:library@vliz.be" target="_blank">Requesting literature and submitting your own publications can be done through library@vliz.be</a>
+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+    <div class="card">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="\assets\media\img\datacenter\tech_3.jpg" alt="Trust & Co."  width="400">
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>DOI</h3>
+        <p>VLIZ offers a DOI (Digital Object Identifier) data publication service to enable researchers to publish their data as citable and traceable datasets.</p>
+        <ul>
+        
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://www.vliz.be/sites/vliz.be/files/public/docs/DOI_Guidelines.pdf" target="_blank">Why assign a DOI to my dataset?</a>
+</li>
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://marineinfo.org/metasubmit/
+  " target="_blank">Submit</a>
+</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="\assets\media\img\datacenter\tech_2.jpg" alt="Tonic"  width="400">
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Open AIS</h3>
+        <p>Open AIS is a set of tools that are aimed at reducing the time, technical skills, and domain expertise required to derive meaningful insight from raw vessel tracking data. The Automatic Identification System (AIS) is a real-time, anti-collision system. </P>
+        <ul>
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://open-ais.org/" target="_blank">What is Open AIS</a>
+</li>
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href=" https://open-ais.org/Quick-Start/0/" target="_blank">Quick start</a>
+</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="\assets\media\img\datacenter\tech_1.jpg" alt="Shower Gel"  width="400">
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Open Science</h3>
+        <p>Maximize your research impact with the annual FAIR data course for marine biologists. Learn the principles of Findable, Accessible, Interoperable, and Reusable data. Join us in Oostende or online for an enriching experience.</p>
+        <ul>
+<li style="--clr-tag:#d3b19a;" class="branding">
+  <a href="https://www.vliz.be/en/embrc-fair-training-course" target="_blank">FAIR Course for Marine Biologist 2025</a>
+</li>
+
+        </ul>
+    </div>
+    
+  </div>
+    </div>
+    <div class="container">
+    <div class="card">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="\assets\media\img\datacenter\tech.jpg" alt="Trust & Co."  width="400">
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>MOC</h3>
+        <p>The Marine Observation Centre (MOC) is dedicated to performing essential, long-term, and multidisciplinary observations of the marine environment, enhancing our understanding of the dynamics and functioning of marine and coastal ecosystems.</p>
+        <ul>
+          <li style="--clr-tag:#d3b19a;" class="branding"><a href="https://github.com/lifewatch">Data Processing Tools</a></li>
+          <li style="--clr-tag:#d3b19a;" class="branding"><a href="https://marinesoundlib.org">Marine Sound Library</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner" style="--clr:#fff;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="\assets\media\img\datacenter\robots.jpg" alt="Tonic"  width="400">
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Infra</h3>
+<p>VLIZ is responsible for the scientific programme and manages the RV Simon Stevin's scientific equipment. All features of the vessel can be found in this <a href="https://www.vliz.be/sites/vliz.be/files/tech%20fiche%20SS%20(002).pdf">technical sheet</a>.</p>
+        <ul>
+<li style="--clr-tag:#d3b19a;" class="branding"><a href="https://www.vliz.be/vmdcdata/midas request-ship-time">Request Ship Time</a></li> <li style="--clr-tag:#d3b19a;" class="branding"><a href="https://www.vliz.be/vmdcdata/midas/scheduler">Sailing schedule Simon Stevin</a></li>
         </ul>
       </div>
     </div>
   </div>
 </section>
+
 
 <style>
 .container {
