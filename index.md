@@ -20,8 +20,8 @@ subblocks:
 special_collections:
   - title: Scheldemonitor
     description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
+    clickthrough_url: "https://www.scheldemonitor.be/nl/imis/datasets"
+    clickthrough_text: "Select a dataset"
   - title: Belgian datasets
     description: "Belgian datasets are datasets available in Belgium. These datasets have a substantive geographical scope that covers Belgium but also beyond."
     clickthrough_url: "/ask_IT_when_module_made"
@@ -66,16 +66,39 @@ robotics_collections:
 
 {% include item/list/block/colored/main.html items=page.subblocks %}
 
-  <div class="counter-container" style="display: flex; align-items: center;margin-bottom: 10px;">
-    <h1 id="counter" style="font-size:48px;margin-right: 10px;font-size: 24px;">0</h1>
-    <span style="color: #354d9b;"><strong>Datasets Available</strong></span>
-  </div>
-
    <p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. 
    <br>At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights. 
-         <br>
-         <br>
          </p>
+
+<div class="counter-container" style="display: flex; align-items: center; margin-bottom: 10px;">
+  <h1 id="counter" style="font-size:48px; margin-right: 10px; font-size: 24px;">0</h1>
+  <span style="color: #354d9b;"><strong>and counting datasets available</strong></span>
+</div>
+
+<script>
+  // Set the target value for the counter
+  const target = 5836;
+  
+  // Select the counter element
+  const counterElement = document.getElementById('counter');
+  
+  // Function to update the counter
+  let count = 0;
+  const updateCounter = () => {
+    if (count < target) {
+      count++;
+      counterElement.textContent = count;
+      setTimeout(updateCounter, 1); // Delay to animate the counter
+    } else {
+      counterElement.textContent = target; // Ensure it stops at 5836
+    }
+  };
+  
+  // Start the counter animation
+  updateCounter();
+</script>
+
+
 <div class="row">
     <div class="col-md-6">
         <h4>Access to over 250,000 unique publications</h4>
