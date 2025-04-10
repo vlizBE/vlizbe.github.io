@@ -23,6 +23,63 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
 {% include item/list/gallery/main.html items=page.subblocks first=false %}
 
 
+<style>
+  .support-contacts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .contact-item {
+    background: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+    font-family: 'Sofia Pro', 'Poppins', sans-serif;
+  }
+
+  .contact-item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .contact-item h5 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  .contact-item h5 a {
+    color: #31b7bc;
+    text-decoration: none;
+  }
+
+  .contact-item p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .contact-item a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .contact-item a:hover {
+    color: #31b7bc;
+  }
+
+  .contact-header {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #222;
+  }
+</style>
+
+<!-- Optional title -->
 <div class="contact-item">
   <h5>VLIZ Marine Data Centre</h5>
   <p><a href="mailto:vmdc@vliz.be">vmdc@vliz.be</a></p>
@@ -64,3 +121,6 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
     <p><a href="mailto:mda@vliz.be">mda@vliz.be</a></p>
   </div>
 </div>
+<br>
+<br>
+<br>

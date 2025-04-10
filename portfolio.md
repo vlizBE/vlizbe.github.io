@@ -5,120 +5,132 @@ title: Portfolio
 description: "Check out our connected projects and services. We offer a range of services to support the FAIR principles of data management. Learn more about our services and how they can help you in your research."
 cover: /assets/media/img/datacenter/tech_2.jpg
 curly: false
+
+# Highlighted Networks
 networks:
   - title: Open Geospatial Consortium
     description: "At OGC, we unite a global network of leaders across government, business, research institutions, startups, and the geospatial community."
-    image: 
     image_alt: "OGC logo"
     clickthrough_url: "https://www.ogc.org/"
     clickthrough_text: "Visit OGC"
-  - title: EUROBIS
-    description: "The European Node
-      of the international Ocean Biodiversity Information System (OBIS) - publishes distribution data on marine species, collected within European marine waters or collected by European researchers"
-    clickthrough_url: "https://www.eurobis.org/"
-    clickthrough_text: "IMIS (not correct)"
-  - title: The Flemish Research Data Network (FRDN)
-    description: "Develops the preconditions necessary to motivate and enable researchers from Flemish research performing organizations to exchange and reuse (FAIR) research (meta)data. This contributes to the integrity, quality, and efficiency of research and thus to accelerating innovation in society."
-    clickthrough_url: "https://www.frdn.be/"
-    clickthrough_text: "https://www.ogc.org/"
-  - title: The Blue Cluster
-    description: "In 2019, a cooperation agreement was concluded between the VLIZ and The Blue Cluster to promote cooperation in the areas of project operation, internationalization of research, scientific support, joint events and communication, as well as around the representation of the VLIZ in the management bodies of The Blue Cluster."
-    clickthrough_url: "https://www.blauwecluster.be/"
-    clickthrough_text: 
-  - title: EOSC Association
-    description: "The EOSC Association works to advance Open Science in the service of creating new knowledge, inspiring education, spurring innovation and promoting accessibility and transparency"
-    clickthrough_url: "https://eosc.eu/members/flanders-marine-institute-vliz/"
-    clickthrough_text: 
 
+  - title: EUROBIS
+    description: "The European Node of the international Ocean Biodiversity Information System (OBIS) - publishes distribution data on marine species, collected within European marine waters or collected by European researchers."
+    clickthrough_url: "https://www.eurobis.org/"
+    clickthrough_text: "EUROBIS"
+
+  - title: The Flemish Research Data Network (FRDN)
+    description: "Develops the preconditions necessary to motivate and enable researchers from Flemish research performing organizations to exchange and reuse (FAIR) research (meta)data."
+    clickthrough_url: "https://www.frdn.be/"
+    clickthrough_text: "Visit FRDN"
+
+  - title: The Blue Cluster
+    description: "Promotes cooperation in project operations, research internationalization, events, and representation of VLIZ."
+    clickthrough_url: "https://www.blauwecluster.be/"
+    clickthrough_text: "Explore Blue Cluster"
+
+  - title: EOSC Association
+    description: "Works to advance Open Science for knowledge creation, education, and innovation."
+    clickthrough_url: "https://eosc.eu/members/flanders-marine-institute-vliz/"
+    clickthrough_text: "View EOSC Profile"
+
+# Featured Data Systems
 data_systems:
-  - title: World Register of Marine Species (WoRMs)
-    description: "Taxonomic database (taxon names, distributions, specimens, ...)<br>
-    <br>
-     +50 installations based on species or geographical context"
-    image_url: 
-    image_alt: 
+  - title: World Register of Marine Species (WoRMS)
+    description: "Taxonomic database for marine species. +50 installations based on species or geography."
     clickthrough_url: "https://www.marinespecies.org/aphia.php?p=search"
-    clickthrough_text: "Visit OGC"
-  - title: IMIS - The Integrated Marine Information System
-    description: "Metadata on people, institutes, references, and datasets, describing the marine landscape. <br> <br>+60 installations based on projects, topics or institutes"
+    clickthrough_text: "Visit WoRMS"
+
+  - title: IMIS - Integrated Marine Information System
+    description: "Metadata on people, institutes, references, and datasets. +60 installations."
     clickthrough_url: "https://vliz.be/en/imis"
-    clickthrough_text: "IMIS"
-  - title: Photo gallery
-    description: "A collection of images & movies related to different projects & websites, accessible via their own URL's. <br> <br> +100 installations based on projects, topics or institutes. "
+    clickthrough_text: "Access IMIS"
+
+  - title: Photo Gallery
+    description: "Image & video collection tied to projects & topics. +100 installations."
     clickthrough_url: "https://images.vliz.be/"
-    clickthrough_text: 
+    clickthrough_text: "Browse Gallery"
+
   - title: IMERS
-    description: "Stores measurement data based on water, sediment, suspended matter and biota samples <br><br> +10 installations based on projects Output framework: PHP"
+    description: "Stores measurement data from various marine samples. +10 installations."
     clickthrough_url: "https://vliz.be/vmdcdata/imers/"
-    clickthrough_text: 
+    clickthrough_text: "Open IMERS"
+
   - title: MarinePass
-    description: "Central authentication system"
+    description: "Central authentication system."
     clickthrough_url: "https://www.marinepass.org/app/login"
-    clickthrough_text: 
+    clickthrough_text: "Login"
+
   - title: Wiki
-    description: "Wikipedia installation <br> <br> +10 installations based on topic or project"
-    clickthrough_url: "www.coastalwiki.org"
-    clickthrough_text: 
-  - title:  EMODnet biology
-    description: "Data portal and view occurrence and other data types"
+    description: "Coastal and marine knowledge base. +10 topic-based installs."
+    clickthrough_url: "https://www.coastalwiki.org"
+    clickthrough_text: "Visit Wiki"
+
+  - title: EMODnet Biology
+    description: "Marine biological data portal."
     clickthrough_url: "https://www.emodnet-biology.eu/toolbox/en/download/occurrence/explore"
-    clickthrough_text: "Data portal"
+    clickthrough_text: "Open Data Portal"
+
   - title: ETN
-    description: "European Tracking Network-Data platform, featuring<br><br> +800,000,000 detections"
+    description: "European Tracking Network with 800M+ detections."
     clickthrough_url: "https://www.lifewatch.be/etn/"
-    clickthrough_text: 
+    clickthrough_text: "Explore ETN"
+
   - title: LifeWatch Belgium
-    description: "Develops and operates a number of essential and complementary infrastructure components (species information backbone, observatory, and habitat mapping)"
+    description: "Operates research infrastructure: species info, observatory, habitat mapping."
     clickthrough_url: "http://www.lifewatch.be/data-services"
-    clickthrough_text: 
+    clickthrough_text: "View Services"
+
   - title: ScheldeMonitor
-    description: "Geoviewer for a Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
+    description: "Geoviewer for the Scheldt estuary portal."
     clickthrough_url: "http://www.scheldemonitor.org/geoviewer"
-    clickthrough_text: "Data platform, featuring 882961381 detections"
+    clickthrough_text: "Launch Geoviewer"
+
   - title: Marine Regions Gazetteer
-    description: "Standard, relational list of geographic names, coupled with information and maps of the geographic location of these features. "
+    description: "Standard list of geographic names with maps."
     clickthrough_url: "http://www.marineregions.org/gazetteer.php?p=search"
-    clickthrough_text: "hierarchical list of place names"
+    clickthrough_text: "Explore Gazetteer"
+
   - title: Sea Level Station Monitoring Facility
-    description: "Monitor the status of real time sea level stations. <br><br> Active stations tracked : <br> 2024: 1249 <br> 2023: 1234 "
+    description: "Tracks real-time sea level stations. 1249 active in 2024."
     clickthrough_url: "http://www.ioc-sealevelmonitoring.org/"
-    clickthrough_text: "Monitor the status of real time sea level stations"
-  - title: LifeWatch<br> RShiny Data Explorer
-    description: "Expose all lifewatch data types"
+    clickthrough_text: "Monitor Sea Level"
+
+  - title: LifeWatch RShiny Data Explorer
+    description: "Interactive explorer for LifeWatch data."
     clickthrough_url: "http://rshiny.lifewatch.be/"
-    clickthrough_text: 
-  - title: LifeWatch <br> Buoys
-    description: "Capture real-time data from logger on buoys <br><br>(Thornton, Spuikom, Meetnet Vlaamse Banken (MVB), ...)"
+    clickthrough_text: "Launch Explorer"
+
+  - title: LifeWatch Buoys
+    description: "Real-time logger data from marine buoys."
     clickthrough_url: "http://www.lifewatch.be/buoys"
-    clickthrough_text: "hierarchical list of place names"
+    clickthrough_text: "Buoy Data"
+
   - title: OBIS Annotated List
-    description: "Scientific names originating from OBIS not matched to WoRMS"
+    description: "Scientific names from OBIS not matched to WoRMS."
     clickthrough_url: "https://annotated-list.eurobis.org/"
-    clickthrough_text: "Scientific names originating from OBIS not matched to WoRMS"
+    clickthrough_text: "View Annotated List"
+
   - title: OpenAIS
-    description: "Set of tools that are aimed at reducing the time, technical skills, and domain expertise required to derive meaningful insight from raw vessel tracking data."
+    description: "Tools for vessel tracking data insight."
     clickthrough_url: "https://open-ais.org/"
-    clickthrough_text: 
+    clickthrough_text: "Explore OpenAIS"
+
   - title: Cores Repository Index (CRI)
-    description: "Manages data about cores drilled out of the sea. Users can view core data and add metadata (CRUD operations). <br><br> All get routes are accessible to everyone, but modifications require using authentication via JWT."
-    clickthrough_url: ""
-    clickthrough_text: ""
+    description: "Manage & view sea core data. Authenticated CRUD support."
+
   - title: Vocab Server
-    description: "A service where users or applications can query for details about a specific vocabulary"
+    description: "Service to query vocabulary details."
     clickthrough_url: "http://docker-dev.vliz.be:3033/"
-    clickthrough_text: "Vocabulary server kept up to date, for pick lists"
+    clickthrough_text: "Access Vocab Server"
 ---
 
 {% include item/list/carrousel/waved/main.html
-    title="Data Systems"
-    items=page.data_systems
-%}
+title="Data Systems"
+items=page.data_systems %}
 
 <h2>Networks</h2>
-
 {% include item/list/row/text_image/main.html
-    title="Networks"
-    items=page.networks
-%}
-
+title="Networks"
+items=page.networks %}
 
