@@ -235,7 +235,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
       </div>
       <div class="content">
         <h3>Infra</h3>
-<p>VLIZ is responsible for the scientific programme and manages the RV Simon Stevin's scientific equipment. All features of the vessel can be found in this <a href="https://www.vliz.be/sites/vliz.be/files/tech%20fiche%20SS%20(002).pdf">technical sheet</a>.</p>
+<p>VLIZ's Infra, or infrastructure, is responsible for the scientific programme and manages the RV Simon Stevin's scientific equipment. All features of the vessel can be found in this <a href="https://www.vliz.be/sites/vliz.be/files/tech%20fiche%20SS%20(002).pdf">technical sheet</a>.</p>
         <ul>
 <li style="--clr-tag:#d3b19a;" class="branding"><a href="https://www.vliz.be/vmdcdata/midas request-ship-time">Request Ship Time</a></li> <li style="--clr-tag:#d3b19a;" class="branding"><a href="https://www.vliz.be/vmdcdata/midas/scheduler">Sailing schedule Simon Stevin</a></li>
         </ul>

@@ -22,35 +22,36 @@ special_collections:
     description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
     clickthrough_url: "https://www.scheldemonitor.be/nl/imis/datasets"
     clickthrough_text: "Select a dataset"
-  - title: Belgian datasets
+  - title: Belgian Datasets
     description: "Belgian datasets are datasets available in Belgium. These datasets have a substantive geographical scope that covers Belgium but also beyond."
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
-  - title: GEANS
-    description: "Genetic tools for Ecosystem health Assessment in the North Sea region"
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
-  - title: Recreational beach fishing
-    description: "A group all data sets from the porters, as well as other data sets related to recreational beach fishing"
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
-  - title: VLIZ robotics datasets 
-    description: "Data sets containing all campaigns of the VLIZ marine robotics team"
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
+    clickthrough_url: "https://marineinfo.org/imis?module=dataset&spcolid=131&show=search"
+    clickthrough_text: "Datasets"
+  - title: GEANS 
+    description: " 
+GEANS Data: Genetic tools for Ecosystem health Assessment in the North Sea region"
+    clickthrough_url: "https://marineinfo.org/imis?module=dataset&spcolid=1021&show=search"
+    clickthrough_text: "Dataset"
+
+
 robotics_collections:
-  - title: EXAMPLE ROBOTICS
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
-  - title: EXAMPLE ROBOTICS
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
-  - title: EXAMPLE ROBOTICS
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    clickthrough_url: "/ask_IT_when_module_made"
-    clickthrough_text: "IMIS (not correct)"
+  - title: PORCUPINE with AUV Barabas
+    description: "The campaign was part of the Porcupine fieldwork campaign in collaboration with the University of Gent, utilizing AUV Barabas, provided by the Marine Robotics Centre at VLIZ, equipped with side-scan sonar, sub-bottom profiler, and camera, and complemented by an oceanographic survey onboard RV Belgica. You can get the data here: <a href='https://erddap.vliz.be/erddap/tabledap/2022_PORCUPINE_Aanderaa_53e2_7187_893b.html' target='_blank'>https://erddap.vliz.be/erddap/tabledap/2022_PORCUPINE_Aanderaa_53e2_7187_893b.html</a>"
+    clickthrough_url: "https://erddap.vliz.be/erddap/info/index.html?page=1&itemsPerPage=1000"
+    clickthrough_text: "HERE IS THE DATA SET"
+
+  - title: Cold-water cascade with Glider Yoko and AUV Barabas 
+    description: "Deployment off Cap de Creus in 2023, to investigate the cold-water cascade from the continental shelf to the slope, with a focus on the morphology of subsea canyons. This work was in collaboration with the University of Barcelona and UTM-CSIC alongside an oceanographic survey onboard RV Garcia Del Cid, to collect high-resolution data and advance understanding of cold-water transport processes. You can access the data here: 
+    <a href='https://erddap.vliz.be/erddap/tabledap/2023_ABRIC_FARDWO_Aanderaa_6465_6179_9713.html' target='_blank'>https://erddap.vliz.be/erddap/tabledap/2022_PORCUPINE_Aanderaa_53e2_7187_893b.html</a>"
+
+    clickthrough_url: "https://erddap.vliz.be/erddap/info/index.html?page=1&itemsPerPage=1000"
+    clickthrough_text: "LINK NEEDED"
+
+
+  - title: Belgica Mound Province, Gollum Channels, and Kings Channel with AUV Barabas
+    description: "Deployment in the Porcupine Basin, Ireland, from August 1, 2022, to August 18, 2022, to investigate ocean currents and collect high-resolution seabed data, focusing on three key sites: Belgica Mound Province (BMP), Gollum Channels, and Kings Channel. Check the data out here:
+    <a href='https://erddap.vliz.be/erddap/tabledap/2022_PORCUPINE_Aanderaa_53e2_7187_893b.html' target='_blank'>https://erddap.vliz.be/erddap/info/2022_PORCUPINE_Aanderaa_53e2_7187_893b/index.html</a>"
+    clickthrough_url: "https://erddap.vliz.be/erddap/info/2022_PORCUPINE_Aanderaa_53e2_7187_893b/index.html"
+    clickthrough_text: "LINK NEEDED"
 ---
 
 {% include light_bg.html content=
@@ -145,7 +146,7 @@ The VLIZ serves as a trusted national and international hub for high-quality, re
     items=page.robotics_collections
 %}
 {% include item/list/carrousel/block/main.html
-    title="Special collections"
+    title="Special Collections"
     items=page.special_collections
 %}
 

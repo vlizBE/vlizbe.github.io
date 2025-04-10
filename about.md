@@ -22,10 +22,11 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
 <br>
 {% include item/list/gallery/main.html items=page.subblocks first=false %}
 
-  <div class="contact-item">
-    <h5>VLIZ Marine Data Centre</h5>
-    <p><a href="mailto:vmdc@vliz.be">vmdc@vliz.be</a></p>
-  </div>
+
+<div class="contact-item">
+  <h5>VLIZ Marine Data Centre</h5>
+  <p><a href="mailto:vmdc@vliz.be">vmdc@vliz.be</a></p>
+</div>
 
 <div class="support-contacts">
   <div class="contact-item">
@@ -33,12 +34,12 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
     <p><a href="mailto:data@vliz.be">data@vliz.be</a></p>
   </div>
 
-   <div class="contact-item">
+  <div class="contact-item">
     <h5><a href="https://www.marineregions.org/">MarineRegions</a></h5>
     <p><a href="mailto:info@marineregions.org">info@marineregions.org</a></p>
   </div>
 
-   <div class="contact-item">
+  <div class="contact-item">
     <h5><a href="https://www.marinespecies.org/">WoRMs</a></h5>
     <p><a href="mailto:info@marinespecies.org">info@marinespecies.org</a></p>
   </div>
@@ -48,7 +49,7 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
     <p><a href="mailto:library@vliz.be">library@vliz.be</a></p>
   </div>
 
-   <div class="contact-item">
+  <div class="contact-item">
     <h5><a href="https://www.scheldemonitor.be/nl">Schelde monitor</a></h5>
     <p><a href="mailto:info@scheldemonitor.org">info@scheldemonitor.org</a></p>
   </div>
@@ -63,7 +64,3 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
     <p><a href="mailto:mda@vliz.be">mda@vliz.be</a></p>
   </div>
 </div>
-
-
-
-
