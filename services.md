@@ -21,7 +21,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/datarequest_v3.png" alt="Data-request" width="400">
+          <img src="/assets/media/img/datacenter/Thomas_datarequest_v3.png" alt="Data-request" width="400">
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/maprequest_v3.png" alt="Map-service" width="400">
+          <img src="/assets/media/img/datacenter/Thomas_maprequest_v3.png" alt="Map-service" width="400">
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/ITservices_v2.png" alt="IT-service" width="400">
+          <img src="/assets/media/img/datacenter/Thomas_ITservices_v2.png" alt="IT-service" width="400">
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/libraryservices.png" alt="Library" width="400">
+          <img src="/assets/media/img/datacenter/Thomas_libraryservices.png" alt="Library" width="400">
        </div>
       </div>
     </div>
@@ -111,7 +111,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/doiservice.png" alt="DOI" width="400">
+          <img src="/assets/media/img/datacenter/Thomas_doiservice.png" alt="DOI" width="400">
         </div>
       </div>
     </div>
@@ -133,7 +133,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/openaisservice.png" alt="OpenAIS" width="400">
+          <img src="\assets\media\img\datacenter\open-ais-logo.svg" alt="OpenAIS" width="400">
         </div>
       </div>
     </div>
@@ -161,7 +161,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/openscienceservice.png" alt="Open Science" width="400">
+          <img src="/assets/media/img/datacenter/Thomas_openscienceservice.png" alt="Open Science" width="400">
         </div>
       </div>
     </div>
@@ -180,7 +180,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="/assets/media/img/datacenter/mocservice_v4.png" alt="MOC" width="400">
+          <img src="/assets/media/img/datacenter/Thomas_mocservice.png" alt="MOC" width="400">
         </div>
       </div>
     </div>
@@ -198,7 +198,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="\assets\media\img\datacenter\infraservice_v2.png" alt="Infrastructure" width="400">
+          <img src="\assets\media\img\datacenter\Thomas_infraservices.png" alt="Infrastructure" width="400">
         </div>
       </div>
     </div>
