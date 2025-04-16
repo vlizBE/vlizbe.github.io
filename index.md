@@ -18,7 +18,7 @@ special_collections:
   - title: Scheldemonitor
     description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
     clickthrough_url: "https://www.scheldemonitor.be/nl/imis/datasets"
-    clickthrough_text: "Select a dataset"
+    clickthrough_text: "Dataset"
   - title: Belgian Datasets
     description: "Belgian datasets are datasets available in Belgium. These datasets have a substantive geographical scope that covers Belgium but also beyond."
     clickthrough_url: "https://marineinfo.org/imis?module=dataset&spcolid=131&show=search"

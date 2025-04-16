@@ -46,14 +46,12 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     </div>
     <div class="content">
       <h3>Map service</h3>
-      <p>GeoServer publishes data from any major spatial data source using open standards.</p>
+      <p>GeoServer publishes data from any major spatial data source using open standards.
+        Marine Regions is a standard list of marine georeferenced place names and areas.</p>
       <ul>
         <li style="--clr-tag:#d3b19a;" class="branding">
           <a href="https://geo.vliz.be/geoserver/web/?0" target="_blank">GeoServer</a>
         </li>
-      </ul>
-      <p>Marine Regions is a standard list of marine georeferenced place names and areas.</p>
-      <ul>
         <li style="--clr-tag:#d3b19a;" class="branding">
           <a href="https://www.marineregions.org/" target="_blank">Marine Regions</a>
         </li>
