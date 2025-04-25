@@ -58,6 +58,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
       </ul>
     </div>
   </div>
+
   <!-- IT Services Card -->
   <div class="card" id="it-services">
     <div class="card-inner" style="--clr:#fff;">
@@ -131,7 +132,7 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     <div class="card-inner" style="--clr:#fff;">
       <div class="box">
         <div class="imgBox">
-          <img src="\assets\media\img\datacenter\open-ais-logo.svg" alt="OpenAIS" width="400">
+          <img src="\assets\media\img\datacenter\Thomas_openaisservice.png" alt="OpenAIS" width="400">
         </div>
       </div>
     </div>
@@ -253,8 +254,6 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
       </ul>
     </div>
   </div>
-</div>
-
 
 <style>
   .store-button {
