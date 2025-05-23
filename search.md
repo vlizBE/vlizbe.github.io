@@ -174,7 +174,7 @@ curly: false
 
   <h4>Cruise Database</h4>
   <div class="image-right">
-    <img src="assets/media/img/datacenter/USVGobelijn.jpg" alt="MIDAS Logo">
+    <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
       <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
       All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.

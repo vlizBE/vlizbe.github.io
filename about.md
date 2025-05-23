@@ -32,7 +32,7 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
   }
 
   .contact-item {
-    background: #fdfdfd;
+    background: #fdfdfd; /* Light background for contrast #fdfdfd;*/ 
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -45,7 +45,7 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
   }
 
   .contact-item h5 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: #333;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -58,7 +58,7 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
 
   .contact-item p {
     margin: 0;
-    font-size: 0.95rem;
+    font-size: 1.15rem;
   }
 
   .contact-item a {
@@ -80,9 +80,11 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
 </style>
 
 <!-- Optional title -->
+<div class="support-contacts">
 <div class="contact-item">
   <h5>VLIZ Marine Data Centre</h5>
   <p><a href="mailto:vmdc@vliz.be">vmdc@vliz.be</a></p>
+</div>
 </div>
 
 <div class="support-contacts">

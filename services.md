@@ -289,6 +289,9 @@ Explore below what VLIZ can offer you, from access to research infrastructure to
     height: 100%;
     object-fit: cover; /* cover = fill & crop; contain = fit without crop */
   }
+  .card > .content {
+    padding: 20px;
+  }
 </style>
 
 

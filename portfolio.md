@@ -136,9 +136,9 @@ items=page.networks %}
 <br>
 <br>
 
-<h2>Behind the Data: Spotlight on Ocean Monitoring
+<h2>Behind the Data: Spotlight on Ocean Monitoring System</h2>
 <section style="padding: 3rem 1rem;">
-  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; max-width: 1200px; margin: 0 auto;">
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin: 0 auto;">
     <div style="flex: 1 1 500px;">
       <h2 style="font-size: 2rem; color: #003366;">
         <br> The Sea Level Station Monitoring Facility
