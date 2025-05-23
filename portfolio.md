@@ -126,11 +126,42 @@ data_systems:
 ---
 
 {% include item/list/carrousel/waved/main.html
-title="Data Systems"
+title="Systems"
 items=page.data_systems %}
 
 <h2>Networks</h2>
 {% include item/list/row/text_image/main.html
 title="Networks"
 items=page.networks %}
+<br>
+<br>
+
+<h2>Behind the Data: Spotlight on Ocean Monitoring
+<section style="padding: 3rem 1rem;">
+  <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; max-width: 1200px; margin: 0 auto;">
+    <div style="flex: 1 1 500px;">
+      <h2 style="font-size: 2rem; color: #003366;">
+        <br> The Sea Level Station Monitoring Facility
+      </h2>
+      <p style="font-size: 1.125rem; line-height: 1.6; color: #222;">
+        Hosted at <strong>VLIZ in Belgium</strong>, this open-access service allows tsunami warning centers, researchers, policymakers, and the public to track sea levels in real time.
+        The <strong>Sea Level Station Monitoring Facility (SLSMF)</strong> is vital in disaster preparedness and global ocean monitoring.
+      </p>
+      <p style="margin-top: 1rem;">
+        🌐 <a href="https://www.ioc-sealevelmonitoring.org/" target="_blank" style="color: #0066cc;">
+          Learn more
+        </a>
+      </p>
+    </div>
+    <div style="flex: 1 1 400px;">
+      <img src="/assets/media/img/datacenter/impacttraject_slsmf.jpg" alt="Sea Level Station Monitoring Facility overview" style="width: 100%; border-radius: 6px;">
+    </div>
+  </div>
+</section>
+
+
+
+
+<br>
+
 
