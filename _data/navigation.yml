@@ -6,8 +6,10 @@
   items:
     - title: Services
       url: /services
-    - title: Portfolio
-      url: /portfolio
+    - title: Systems
+      url: /systems
+    - title: Networks
+      url: /networks
 
 - title: About
   url: /about

@@ -3,17 +3,16 @@ layout: default
 graph_logo_bg: true
 description: "Discover Open Science at VLIZ, where we're making science more efficient, reliable, and transparent. Learn about our mission, values, and core principles. Join us in our journey!"
 cover: /assets/media/img/datacenter/Fisheries_4.jpg
-title: "VLIZ DATA"
 subblocks:
   - title: "Data submission"
     description: "Submit your data to  VLIZ"
     clickthrough_url: "/data/submit/"
   - title: "Data inventory"
     description: "Discover available data "
-    clickthrough_url: "/data/inventory/"
+    clickthrough_url: "/services"
   - title: "Data resources"
     description: "Explore available resources"
-    clickthrough_url: "/data/resources/"
+    clickthrough_url: "/search"
 special_collections:
   - title: Scheldemonitor
     description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."

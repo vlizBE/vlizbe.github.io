@@ -57,9 +57,7 @@ curly: false
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 10px;
     }
-</style>
 
-<style>
   .section-bg {
     background-color: #f9f9f9;
     padding: 3rem 2rem;
@@ -132,6 +130,12 @@ curly: false
     line-height: 1.6;
   }
 
+  .button-grid > button > a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
   @media (max-width: 768px) {
     .image-right {
       flex-direction: column;
@@ -147,29 +151,69 @@ curly: false
   <h4>Most relevant</h4>
   <p>VLIZ hosts various data systems that support marine and coastal research. These systems store, manage, and provide access to large datasets related to marine biodiversity, ecology, oceanography, and environmental monitoring.</p>
   <div class="button-grid">
-    <button onclick="location.href='https://www.marinespecies.org/aphia.php?p=search'">
-      Search marine names on <br>WoRMS
+    <button>
+        <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank">
+            Search marine names on <br>WoRMS
+        </a>
     </button>
-    <button onclick="location.href='https://emodnet.ec.europa.eu/geoviewer/'">
-      Search in-situ marine data on <br>EMODnet Biology
+    <button>
+        <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank">
+            Search in-situ marine data on <br>EMODnet Biology
+        </a>
     </button>
-    <button onclick="location.href='https://marineregions.org/gazetteer.php?p=search'">
-      Search marine places on <br>Marine Regions
+    <button>
+        <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank">
+            Search marine places on <br>Marine Regions
+        </a>
     </button>
-    <button onclick="location.href='https://www.eurobis.org/data_access_services'">
-      Search biogeographic data on <br>EurOBIS
+    <button>
+        <a href="https://www.eurobis.org/data_access_services" target="_blank">
+            Search biogeographic data on <br>EurOBIS
+        </a>
+    </button>
+  </div>
+
+  <h4>ETN</h4>
+  <p>The ETN data portal gives access to different types of aquatic animal tracking data. Currently acoustic
+telemetry, archival data, and acoustic-archival data are supported. In the future DST data will be extended to
+incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH). </p>
+ <div class="button-grid">
+    <button>
+        <a href="https://www.lifewatch.be/etn/" target="_blank">ETN Homepage</a>
     </button>
   </div>
 
   <h4>Catalogue</h4>
   <p>Dive into an ocean of knowledge with our new linked open (meta) data catalogue – discover, connect and explore the vast network of marine data using MarineInfo.org.</p>
   <div class="button-grid">
-    <button onclick="location.href='https://marineinfo.org/imis?module=person'">People</button>
-    <button onclick="location.href='https://marineinfo.org/imis?module=institute'">Institutes</button>
-    <button onclick="location.href='https://marineinfo.org/imis?module=project'">Projects</button>
-    <button onclick="location.href='https://marineinfo.org/imis?module=dataset'">Datasets</button>
-    <button onclick="location.href='https://marineinfo.org/imis-search'">Publications</button>
-    <button onclick="location.href='https://marineinfo.org/imis?module=conference'">Events</button>
+    <button>
+        <a href="https://marineinfo.org/imis?module=person" target="_blank">People</a>
+    </button>
+    <button>
+        <a href="https://marineinfo.org/imis?module=institute" target="_blank">Institutes</a>
+    </button>
+    <button>
+        <a href="https://marineinfo.org/imis?module=project" target="_blank">Projects</a>
+    </button>
+    <button>
+        <a href="https://marineinfo.org/imis?module=dataset" target="_blank">Datasets</a>
+    </button>
+    <button>
+        <a href="https://marineinfo.org/imis-search" target="_blank">Publications</a>
+    </button>
+    <button>
+        <a href="https://marineinfo.org/imis?module=conference" target="_blank">Events</a>
+    </button>
+  </div>
+
+  <h4>Scheld monitor</h4>
+  <p>
+  ScheldeMonitor is a Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary. Commissioned by the Flemish-Dutch Scheldt Committee (VNSC), the portal serves as a central point for capturing and distributing many kinds of data and information concerning the various aspects that play a role across the entire area of  the Western Scheldt and the Sea Scheldt.
+  </p>
+  <div class="button-grid">
+    <button>
+        <a href="https://www.scheldemonitor.be/en" target="_blank">Scheldemonitor Homepage</a>
+    </button>
   </div>
 
   <h4>Cruise Database</h4>
@@ -182,10 +226,18 @@ curly: false
   </div>
 
   <div class="button-grid">
-    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/casts'">CTD Casts</button>
-    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/stations/map'">Stations</button>
-    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/cruises'">Cruises</button>
-    <button onclick="location.href='https://www.vliz.be/vmdcdata/midas/campaigns'">Campaigns</button>
+    <button>
+        <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank">CTD Casts</a>
+    </button>
+    <button>
+        <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank">Stations</a>
+    </button>
+    <button>
+        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
+    </button>
+    <button>
+        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
+    </button>
   </div>
 </div>
 
