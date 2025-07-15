@@ -48,13 +48,6 @@ robotics_collections:
 
 {% include item/list/block/colored/main.html items=page.subblocks %}
 
-<p>Join a thriving community of <strong>26,783 individuals</strong> and <strong>9,547 institutes</strong>, driving innovation across <strong>3,940 projects</strong>. <br>At Flanders Marine Institute, we harness the power of data to foster collaboration and unlock new insights.</p>
-
-<div class="counter-container" style="display: flex; align-items: center; margin-bottom: 10px;">
-  <h1 id="counter" style="font-size:48px; margin-right: 10px; font-size: 24px;">0</h1>
-  <span style="color: #354d9b;"><strong>and counting datasets available</strong></span>
-</div>
-
 <script>
   const target = 5836;
   const counterElement = document.getElementById('counter');
