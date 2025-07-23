@@ -44,7 +44,14 @@ robotics_collections:
     clickthrough_text: "LINK NEEDED"
 ---
 
-{% include light_bg.html content="<h2 style='text-align: center !important;'>Gateway to Marine Knowledge: Data Sharing and Preservation at the Flanders Marine Institute</h2><p></p>" %}
+<div style="position: relative; width: 100%; min-height: 280px; background: url('/assets/media/img/content/marinedatalogo_v1.jpg') center center / cover no-repeat; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+  <div style="background: rgba(255,255,255,0.85); padding: 2rem 1rem; border-radius: 12px; max-width: 900px; width: 100%;">
+    <h2 style="text-align: center !important; margin-bottom: 0.5rem;">
+      Gateway to Marine Knowledge: Data Sharing and Preservation at the Flanders Marine Institute
+    </h2>
+    <p style="text-align: center;"></p>
+  </div>
+</div>
 
 {% include item/list/block/colored/main.html items=page.subblocks %}
 
@@ -81,7 +88,7 @@ robotics_collections:
   }
   .pretty-button:hover {
     background-color: #005f87;
-    transform: translateY(-2px);
+    transform: translateY(-15px);
   }
   .button-container {
     display: flex;
@@ -94,15 +101,24 @@ robotics_collections:
 <div class="row">
   <div class="col-md-6">
     <h4>Access to over 250,000 unique publications</h4>
-    <p>The VLIZ serves as a trusted national and international hub for high-quality, reliable marine and estuarine data. We offer a wide range of services, technologies, tools, training, and support to scientists, policymakers, the blue economy, and citizens alike. Committed to making data accessible and open, we ensure it’s available in an efficient and user-friendly manner. As an accredited IODE National Oceanographic Data Center, the VLIZ is dedicated to advancing marine research and fostering collaboration across all sectors.</p>
+ 
+  <p>VLIZ is your trusted national and international hub for high-quality marine and estuarine data.
+For over 25 years, we’ve supported scientists, policymakers, the blue economy, and citizens with reliable data and services.
+<br>
+<br>
+As an accredited IODE National Oceanographic Data Center, we offer a wide range of tools, technologies, training, and support — all designed to make marine data accessible, open, and easy to use.
+<img src="/assets/media/img/content/iode_logo.png" alt="IODE Logo" style="max-width: 150px; margin: 1rem 0;">
+We are committed to advancing marine research and fostering collaboration across all sectors.</p>
+
     <div class="button-container">
       <a href="/search" class="pretty-button">Find data & information</a>
       <a href="/submit" class="pretty-button">Submit data</a>
     </div>
   </div>
-  <div class="col-md-6">
-    <img src="assets/media/img/datacenter/robots.jpg" alt="Marine Robotics">
-    <p style="font-size: smaller;">
+
+  <div class="col-md-6" style="display: flex; flex-direction: column; align-items: center;">
+    <img src="assets/media/img/datacenter/robots.jpg" alt="Marine Robotics" style="max-width: 550px; width: 100%; height: auto; display: block; margin: 0 auto 1rem auto;">
+    <p style="font-size: smaller; text-align: center; max-width: 550px;">
       The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> (MRC) pioneers in Marine Autonomous Systems (MAS) in order to enable comprehensive observations in remote, harsh, and vast environments within our world’s oceans and seas. Check out the data they collected below.
     </p>
   </div>

@@ -148,6 +148,8 @@ curly: false
 </style>
 
 <div class="section-bg">
+<h3>VLIZ-Hosted Data Collections</h3>
+<br>
   <h4>Most relevant</h4>
   <p>VLIZ hosts various data systems that support marine and coastal research. These systems store, manage, and provide access to large datasets related to marine biodiversity, ecology, oceanography, and environmental monitoring.</p>
   <div class="button-grid">
@@ -187,22 +189,22 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
   <p>Dive into an ocean of knowledge with our new linked open (meta) data catalogue – discover, connect and explore the vast network of marine data using MarineInfo.org.</p>
   <div class="button-grid">
     <button>
-        <a href="https://marineinfo.org/imis?module=person" target="_blank">People</a>
+        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=person&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">People</a>
     </button>
     <button>
-        <a href="https://marineinfo.org/imis?module=institute" target="_blank">Institutes</a>
+        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=institute&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false">Institutes</a>
     </button>
     <button>
-        <a href="https://marineinfo.org/imis?module=project" target="_blank">Projects</a>
+        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=project&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Projects</a>
     </button>
     <button>
-        <a href="https://marineinfo.org/imis?module=dataset" target="_blank">Datasets</a>
+        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=dataset&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Datasets</a>
     </button>
     <button>
-        <a href="https://marineinfo.org/imis-search" target="_blank">Publications</a>
+        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=publication&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Publications</a>
     </button>
     <button>
-        <a href="https://marineinfo.org/imis?module=conference" target="_blank">Events</a>
+        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=event&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Events</a>
     </button>
   </div>
 
@@ -215,7 +217,8 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
         <a href="https://www.scheldemonitor.be/en" target="_blank">Scheldemonitor Homepage</a>
     </button>
   </div>
-
+<h3>Data Products from VLIZ</h3>
+<br>
   <h4>Cruise Database</h4>
   <div class="image-right">
     <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
@@ -240,8 +243,39 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
     </button>
   </div>
 </div>
-
-
+<h3>Data Products from VLIZ</h3>
+  <h4>Biodiversity</h4>
+  <div class="image-right">
+    <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
+    <p>
+      <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
+      All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
+    </p>
+    <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
+      </button>
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
+      </button>
+    </div>
+  </div>
+  <h4>Robotics</h4>
+  <div class="image-right">
+    <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
+    <p>
+      <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
+      All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
+    </p>
+    <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
+      </button>
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
+      </button>
+    </div>
+  </div>
 
 
 <style>
