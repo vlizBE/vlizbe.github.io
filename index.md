@@ -107,7 +107,7 @@ For over 25 years, we’ve supported scientists, policymakers, the blue economy,
 <br>
 <br>
 As an accredited IODE National Oceanographic Data Center, we offer a wide range of tools, technologies, training, and support — all designed to make marine data accessible, open, and easy to use.
-<img src="/assets/media/img/content/iode_logo.png" alt="IODE Logo" style="max-width: 150px; margin: 1rem 0;">
+<img src="/assets/media/img/content/iode_logo.png" alt="IODE Logo" style="max-width: 100px; margin: 1rem 0;">
 We are committed to advancing marine research and fostering collaboration across all sectors.</p>
 
     <div class="button-container">

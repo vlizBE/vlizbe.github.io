@@ -173,6 +173,11 @@ curly: false
             Search biogeographic data on <br>EurOBIS
         </a>
     </button>
+        <button>
+        <a href="https://www.eurobis.org/data_access_services" target="_blank">
+            Search data & services <br>LifeWatch Belgium
+        </a>
+    </button>
   </div>
 
   <h4>ETN</h4>
@@ -185,7 +190,7 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
     </button>
   </div>
 
-  <h4>Catalogue</h4>
+  <h4>Metadata Catalogue</h4>
   <p>Dive into an ocean of knowledge with our new linked open (meta) data catalogue – discover, connect and explore the vast network of marine data using MarineInfo.org.</p>
   <div class="button-grid">
     <button>
@@ -217,7 +222,19 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
         <a href="https://www.scheldemonitor.be/en" target="_blank">Scheldemonitor Homepage</a>
     </button>
   </div>
-<h3>Data Products from VLIZ</h3>
+
+  <h4>SoundLib</h4>
+  <p>
+  An AI underwater sound library for the North Sea: SoundLib is an open-access library hosted by VLIZ, dedicated to underwater sound recordings and acoustic data from marine environments. The project aims to support research on marine soundscapes, biodiversity, and the impact of noise pollution by providing curated audio datasets, metadata, and analysis tools for scientists, educators, and policymakers.
+  </p>
+  <div class="button-grid">
+    <button>
+        <a href="https://www.marinesoundlib.org/en" target="_blank">SoundLib Homepage</a>
+    </button>
+  </div>
+
+</div>
+<h2>VLIZ Data Products </h2>
 <br>
   <h4>Cruise Database</h4>
   <div class="image-right">
@@ -226,24 +243,26 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
       <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
       All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
     </p>
+    <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
+      </button>
+            <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
+      </button>
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank">Stations</a>
+      </button>
+            <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank">CTD Casts</a>
+      </button>
+    </div>
+
+
+
   </div>
 
-  <div class="button-grid">
-    <button>
-        <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank">CTD Casts</a>
-    </button>
-    <button>
-        <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank">Stations</a>
-    </button>
-    <button>
-        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
-    </button>
-    <button>
-        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
-    </button>
-  </div>
-</div>
-<h3>Data Products from VLIZ</h3>
+
   <h4>Biodiversity</h4>
   <div class="image-right">
     <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
@@ -253,13 +272,19 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
     </p>
     <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
       <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
+        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Plankton Images</a>
+      </button>
+            <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Plankton Images</a>
       </button>
       <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
         <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
       </button>
     </div>
   </div>
+
+
+  
   <h4>Robotics</h4>
   <div class="image-right">
     <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
