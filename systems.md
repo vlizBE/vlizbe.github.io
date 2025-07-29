@@ -18,54 +18,70 @@ data_systems:
     description: "Metadata on people, institutes, references, and datasets. +60 installations."
     clickthrough_url: "https://vliz.be/en/imis"
     clickthrough_text: "Access IMIS"
+    image: assets\media\img\datacenter\imis_logo.png
 
   - title: Photo Gallery
     description: "Image & video collection tied to projects & topics. +100 installations."
     clickthrough_url: "https://images.vliz.be/"
     clickthrough_text: "Browse Gallery"
+    image: assets\media\img\datacenter\photogallery_logo.png
 
   - title: EMODnet Biology
     description: "Marine biological data portal."
     clickthrough_url: "https://www.emodnet-biology.eu/toolbox/en/download/occurrence/explore"
     clickthrough_text: "Open Data Portal"
+    image: /assets/media/img/datacenter/emodnet.png
 
   - title: ETN
     description: "European Tracking Network with 800M+ detections."
     clickthrough_url: "https://www.lifewatch.be/etn/"
     clickthrough_text: "Explore ETN"
+    image: assets/media/img/datacenter/ETN_logo.png
 
   - title: ScheldeMonitor
     description: "Geoviewer for the Scheldt estuary portal."
     clickthrough_url: "http://www.scheldemonitor.org/geoviewer"
     clickthrough_text: "Launch Geoviewer"
+    image: assets\media\img\datacenter\scheldemonitor_logo.svg
 
   - title: Marine Regions Gazetteer
     description: "Standard list of geographic names with maps."
     clickthrough_url: "http://www.marineregions.org/gazetteer.php?p=search"
     clickthrough_text: "Explore Gazetteer"
+    image: assets\media\img\datacenter\MR_logo.jpg
 
   - title: Sea Level Station Monitoring Facility
     description: "Tracks real-time sea level stations. 1249 active in 2024."
     clickthrough_url: "http://www.ioc-sealevelmonitoring.org/"
     clickthrough_text: "Monitor Sea Level"
+    image: assets\media\img\datacenter\SLM_logo.png
 
   - title: LifeWatch RShiny Data Explorer
     description: "Interactive explorer for LifeWatch data."
     clickthrough_url: "http://rshiny.lifewatch.be/"
     clickthrough_text: "Launch Explorer"
+    image: assets\media\img\datacenter\lw-eric.png
 
   - title: OpenAIS
     description: "Tools for vessel tracking data insight."
     clickthrough_url: "https://open-ais.org/"
     clickthrough_text: "Explore OpenAIS"
-
-  - title: Cores Repository Index (CRI)
-    description: "Manage & view sea core data. Authenticated CRUD support."
+    image: assets\media\img\datacenter\open-ais-logo.svg
 
   - title: Vocab Server
     description: "Service to query vocabulary details."
     clickthrough_url: "http://docker-dev.vliz.be:3033/"
     clickthrough_text: "Access Vocab Server"
+    image: assets\media\img\datacenter\vocabserver_logo.png
+
+
+  - #title: Cores Repository Index (CRI)
+    #description: "Manage & view sea core data. Authenticated CRUD support."
+    #clickthrough_url: "https://open-ais.org/"
+    #clickthrough_text: "Explore OpenAIS"
+    #image: /assets/media/img/data_systems/WORMS.jpg
+
+
 ---
 
 {% include item/list/row/image_text_link/main.html

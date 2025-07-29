@@ -18,7 +18,9 @@ subblocks:
     clickthrough_url: "/history"
 ---
 
-VLIZ serves as a key national and international hub for high-quality, reliable marine and estuarine data. We offer a wide range of services, technologies, tools, training, and support to scientists, policymakers, the blue economy, and the general public. Our goal is to make data accessible in a user-friendly and open way. Additionally, VLIZ is proudly accredited as an <b>IODE National Oceanographic Data Center</b>.
+
+
+
 <br>
 {% include item/list/gallery/main.html items=page.subblocks first=false %}
 
@@ -80,12 +82,6 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
 </style>
 
 <!-- Optional title -->
-<div class="support-contacts">
-<div class="contact-item">
-  <h5>VLIZ Marine Data Centre</h5>
-  <p><a href="mailto:vmdc@vliz.be">vmdc@vliz.be</a></p>
-</div>
-</div>
 
 <div class="support-contacts">
   <div class="contact-item">
@@ -99,29 +95,10 @@ VLIZ serves as a key national and international hub for high-quality, reliable m
   </div>
 
   <div class="contact-item">
-    <h5><a href="https://www.marinespecies.org/">WoRMs</a></h5>
-    <p><a href="mailto:info@marinespecies.org">info@marinespecies.org</a></p>
-  </div>
-
-  <div class="contact-item">
     <h5>Library</h5>
     <p><a href="mailto:library@vliz.be">library@vliz.be</a></p>
   </div>
 
-  <div class="contact-item">
-    <h5><a href="https://www.scheldemonitor.be/nl">Schelde monitor</a></h5>
-    <p><a href="mailto:info@scheldemonitor.org">info@scheldemonitor.org</a></p>
-  </div>
-
-  <div class="contact-item">
-    <h5><a href="https://www.vliz.be/en/imis">IMIS + MarineInfo</a></h5>
-    <p><a href="mailto:imis-support@vliz.be">imis-support@vliz.be</a></p>
-  </div>
-
-  <div class="contact-item">
-    <h5><a href="https://marinedataarchive.org/">Marine Data Archive (MDA)</a></h5>
-    <p><a href="mailto:mda@vliz.be">mda@vliz.be</a></p>
-  </div>
 </div>
 <br>
 <br>

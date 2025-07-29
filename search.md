@@ -147,11 +147,12 @@ curly: false
   }
 </style>
 
+
+
 <div class="section-bg">
-<h3>VLIZ-Hosted Data Collections</h3>
-<br>
+<h2>Hosted data systems</h2>
+<br> 
   <h4>Most relevant</h4>
-  <p>VLIZ hosts various data systems that support marine and coastal research. These systems store, manage, and provide access to large datasets related to marine biodiversity, ecology, oceanography, and environmental monitoring.</p>
   <div class="button-grid">
     <button>
         <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank">
@@ -165,7 +166,7 @@ curly: false
     </button>
     <button>
         <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank">
-            Search marine places on <br>Marine Regions
+            Search marine features on <br>Marine Regions
         </a>
     </button>
     <button>
@@ -175,23 +176,15 @@ curly: false
     </button>
         <button>
         <a href="https://www.eurobis.org/data_access_services" target="_blank">
-            Search data & services <br>LifeWatch Belgium
+            Search data processing tools  <br>LifeWatch Belgium
         </a>
     </button>
   </div>
+<br>
 
-  <h4>ETN</h4>
-  <p>The ETN data portal gives access to different types of aquatic animal tracking data. Currently acoustic
-telemetry, archival data, and acoustic-archival data are supported. In the future DST data will be extended to
-incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH). </p>
- <div class="button-grid">
-    <button>
-        <a href="https://www.lifewatch.be/etn/" target="_blank">ETN Homepage</a>
-    </button>
-  </div>
 
   <h4>Metadata Catalogue</h4>
-  <p>Dive into an ocean of knowledge with our new linked open (meta) data catalogue – discover, connect and explore the vast network of marine data using MarineInfo.org.</p>
+  <p>Access to our new linked open (meta) data catalogue – discover, re-use, or search the vast network of marine data using MarineInfo.org via Integrated Marine Information System (IMIS). Here at the VLIZ we are applying linked-open-data principles and technologies as a basis for ensuring the FAIR values. </p>
   <div class="button-grid">
     <button>
         <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=person&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">People</a>
@@ -212,92 +205,116 @@ incorporate tags that send data to the ARGOS satellite (e.g. PSAT, SPOT, SPLASH)
         <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=event&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Events</a>
     </button>
   </div>
-
+  <h3>European and Belgian</h3>
+  <br>
+ <h4>ETN</h4>
+  <p>The ETN - European tracking network data portal gives access to different types of aquatic animal tracking data. Currently acoustic telemetry, archival data, and acoustic-archival data are supported.
+</p>
+ <div class="button-grid">
+    <div style="display: flex; justify-content: flex-start;">
+      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
+        <a href="https://www.lifewatch.be/etn/" target="_blank" style="color: white;">ETN Homepage</a>
+      </button>
+    </div>
+  </div>
+ 
+<br>
   <h4>Scheld monitor</h4>
   <p>
   ScheldeMonitor is a Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary. Commissioned by the Flemish-Dutch Scheldt Committee (VNSC), the portal serves as a central point for capturing and distributing many kinds of data and information concerning the various aspects that play a role across the entire area of  the Western Scheldt and the Sea Scheldt.
   </p>
   <div class="button-grid">
-    <button>
-        <a href="https://www.scheldemonitor.be/en" target="_blank">Scheldemonitor Homepage</a>
-    </button>
+    <div style="display: flex; justify-content: flex-start;">
+      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
+        <a href="https://www.scheldemonitor.be/en" target="_blank" style="color: white;">Scheldemonitor</a>
+      </button>
+    </div>
   </div>
 
   <h4>SoundLib</h4>
   <p>
-  An AI underwater sound library for the North Sea: SoundLib is an open-access library hosted by VLIZ, dedicated to underwater sound recordings and acoustic data from marine environments. The project aims to support research on marine soundscapes, biodiversity, and the impact of noise pollution by providing curated audio datasets, metadata, and analysis tools for scientists, educators, and policymakers.
+  An AI underwater sound library for the North Sea: SoundLib is an open-access library, dedicated to underwater sound recordings and acoustic data from marine environments. The project aims to support research on marine soundscapes, biodiversity, and the impact of noise pollution by providing curated audio datasets, metadata, and analysis tools for scientists, educators, and policymakers.
   </p>
   <div class="button-grid">
-    <button>
-        <a href="https://www.marinesoundlib.org/en" target="_blank">SoundLib Homepage</a>
-    </button>
+    <div style="display: flex; gap: 0.75rem;">
+      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
+        <a href="https://marinesoundlib.org/en" target="_blank" style="color: white;">SoundLib</a>
+      </button>
+      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/en/ai-underwater-sound-library-north-sea" target="_blank" style="color: white;">More info</a>
+      </button>
+    </div>
   </div>
 
 </div>
-<h2>VLIZ Data Products </h2>
+<h2>Published data products </h2>
 <br>
-  <h4>Cruise Database</h4>
+  <h4>Cruise database</h4>
   <div class="image-right">
     <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
-      <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
+      <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>.
       All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
     </p>
     <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
       <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
-      </button>
-            <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
+        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank" style="color: white;">Campaigns</a>
       </button>
       <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank">Stations</a>
+        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank" style="color: white;">Cruises</a>
       </button>
-            <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank">CTD Casts</a>
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank" style="color: white;">Stations</a>
+      </button>
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+        <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank" style="color: white;">CTD Casts</a>
       </button>
     </div>
-
-
-
   </div>
-
 
   <h4>Biodiversity</h4>
   <div class="image-right">
-    <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
+    <img src="\assets\media\img\content\Thema_Biodiversiteit_tekst_optie1_small.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
-      <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
-      All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
+      VLIZ investigates <strong>marine biodiversity</strong> through a variety of research projects, focusing on organisms ranging from plankton to larger marine species. Our collections include ecological datasets that support research on ecosystem health.
     </p>
-    <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Plankton Images</a>
-      </button>
-            <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Plankton Images</a>
-      </button>
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
-      </button>
+    <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
+      <div style="display: flex; gap: 0.75rem;">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://obis.org/dataset/781886f1-2d10-4752-9b04-24a22d6205ff" target="_blank" style="color: white;">Phytoplankton</a>
+        </button>
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://obis.org/dataset/7a58ffd1-09d6-48a6-ba0b-07b8c4d474ca" target="_blank" style="color: white;">Macrobenthos</a>
+        </button>
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://obis.org/dataset/877a23ca-4950-4237-a405-be49217cfc94" target="_blank" style="color: white;">Bentic Fauna</a>
+        </button>
+      </div>
+      <div style="display: flex; gap: 0.75rem;">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://www.vliz.be/en/imis?dasid=5659&doiid=303" target="_blank" style="color: white;">Zooplankton</a>
+        </button>
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://erddap.eurobis.org/erddap/info/north_sea_hypbent_com/index.html" target="_blank" style="color: white;">Hyperbenthic communities</a>
+        </button>
+     <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://www.vliz.be/en/imis?dasid=4598&amp;doiid=125" target="_blank" style="color: white;">Mesozooplankton </a>
+        </button>
+      </div>
     </div>
   </div>
 
-
-  
   <h4>Robotics</h4>
   <div class="image-right">
-    <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
+    <img src="\assets\media\img\content\usv_gobelijn.png" alt="RV Simon Stevin" width="250" height="auto">
     <p>
-      <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>. This suite of programs is developed at Flanders Marine Institute to plan the cruises of the RV Simon Stevin, to register the research activities during these cruises and to capture navigational, meteorological, and oceanographic parameters while underway.
-      All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
+      VLIZ operates a fleet of advanced marine robots, including autonomous underwater vehicles (AUVs), remotely operated vehicles (ROVs), and unmanned surface vessels (USVs). These robots are used for environmental monitoring, seabed mapping, water quality measurements, and collecting biological and physical data in challenging marine environments.
+      <br>
+      Check the data out on <a href="https://www.ncei.noaa.gov/erddap/index.html" target="_blank">ERDDAP</a> — it connects to remote servers for you, fetches and reformats the data, so you get what you need without hopping between sources.
     </p>
     <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
       <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">Cruises</a>
-      </button>
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">Campaigns</a>
+        <a href="https://erddap.vliz.be/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=VLIZ" target="_blank" style="color: white;">AUV Barabas</a>
       </button>
     </div>
   </div>

@@ -14,28 +14,35 @@ items:
       envelope: "mailto:data@vliz.be" 
     tags: []
   - title: Map service
-    description: "GeoServer publishes data from any major spatial data source using open standards. Marine Regions is a standard list of marine georeferenced place names and areas."
-    image: /assets/media/img/datacenter/Thomas_maprequest_v3.png
+    description: "Use these links to launch map or vector‑data requests from VLIZ’s Marine Regions – choose your area and export common layers like EEZ, territorial sea, or named features in GeoJSON, Shapefile or KML. For advanced custom maps, email the VLIZ team for professional assistance. "
+    image: /assets/media/img/datacenter/maps.png
+    url: "mailto:maps@vliz.be"
     icon_url:
         map: "https://geo.vliz.be/geoserver/web/?0"
         map-o: "https://www.marineregions.org/"
     tags: []
   - title: Library
-    description: "The library is a public information center housing a wealth of information about the Flemish coast, the North Sea and the world's oceans. The collection can be browsed online, or on-site on the InnovOcean Campus. The library is open to the public."
-    image: /assets/media/img/datacenter/Thomas_libraryservices.png
+    description: "The library is a public information center housing a wealth of information about the Flemish coast, the North Sea, and the world's oceans. The collection can be browsed online or on-site at the InnovOcean Campus. The library is open to the public."
+    image: /assets/media/img/datacenter/Lib.png
     icon_url:
       book: "https://www.vliz.be/en/catalogue"
       link: "mailto:library@vliz.be"
     tags: []
   - title: DOI
-    description: "VLIZ offers a DOI (Digital Object Identifier) data publication service to enable researchers to publish their data as citable and traceable datasets."
-    image: /assets/media/img/datacenter/Thomas_doiservice.png
+    description: "VLIZ offers a DOI (Digital Object Identifier) data publication service to enable researchers to publish their data as citable and traceable datasets. Why is a DOI important? It provides a permanent link to your data, ensuring it remains accessible and citable in the future. This service is essential for researchers who want to enhance the visibility and impact of their datasets."
+    image: /assets/media/img/datacenter/doi.png
     icon_url:
       file-pdf-o: "https://www.vliz.be/sites/vliz.be/files/public/docs/DOI_Guidelines.pdf"
       link: "https://marineinfo.org/metasubmit/"
     tags: []
+  - title: Open AIS - Data requests
+    description: "Looking for AIS data to support your research? Visit to request access to high-quality ship position datasets. Whether you need temporal coverage within a specific point range or information on ship crossings near areas of interest, the Open-AIS team can help you get the data you need."
+    image: assets\media\img\datacenter\open-ais-logo.svg
+    icon_url:
+      file-pdf-o: "https://open-ais.org/"
+      link: "https://open-ais.org/page/support/"
+    tags: []
 ---
-
 {% include item/list/row/image_text_link/main.html items=page.items %}
 
  <div class="container">

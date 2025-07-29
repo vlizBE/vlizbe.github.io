@@ -109,9 +109,15 @@ curly: false
             <div class="content">
                 <h3><a href="https://marineinfo.org/" mia-extra-properties="nochange">Publish</a></h3>
                 <br>
-                <p>You can publish your (meta) data using IMIS on MarineInfo.org</p><p>
-                Dive into an ocean of knowledge with our new linked open data catalogue - discover, connect and explore the vast network of marine data like never before </p>
+                <p>You can publish your discovery (meta)data using IMIS on MarineInfo.org</p><p>
+                At its core, MarineInfo.org serves as a centralized hub for researchers, organizations, and individuals to submit, access, and explore a vast array of marine data.
+                <br>
+                <br>MarineInfo actively promotes and applies the principles of Open Science, ensuring that all data and data systems adhere to FAIR standards—Findable, Accessible, Interoperable, and Reusable. To further advance these principles, MarineInfo integrates technologies that support Open Science, including Linked Open Data and the Semantic Web.
+                <br>
+                <br>
+                Additionally, every digital object submitted will be assigned a Digital Object Identifier, enhancing traceability and citation.</p>
                 <p>
+                <img src="/assets/media/img/content/FAIR_data_principles.jpg" alt="FAIR Data Principles" width="220" style="margin-bottom:10px;" />
                 <br>
                     <a href="https://marineinfo.org/metasubmit/" class="button marineinfo-button" mia-extra-properties="nochange"><strong>Submit</strong></a>
                 </p>
