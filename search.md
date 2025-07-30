@@ -207,9 +207,12 @@ curly: false
   </div>
   <h3>European and Belgian</h3>
   <br>
- <h4>ETN</h4>
-  <p>The ETN - European tracking network data portal gives access to different types of aquatic animal tracking data. Currently acoustic telemetry, archival data, and acoustic-archival data are supported.
-</p>
+<div class="image-right">
+  <img src="/assets/media/img/datacenter/ETN_logo.png" alt="ETN Logo" style="width:90px; height:auto; border-radius:8px;">
+  <p>
+    The ETN - European tracking network data portal gives access to different types of aquatic animal tracking data. Currently acoustic telemetry, archival data, and acoustic-archival data are supported.
+  </p>
+</div>
  <div class="button-grid">
     <div style="display: flex; justify-content: flex-start;">
       <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
@@ -219,10 +222,13 @@ curly: false
   </div>
  
 <br>
-  <h4>Scheld monitor</h4>
-  <p>
-  ScheldeMonitor is a Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary. Commissioned by the Flemish-Dutch Scheldt Committee (VNSC), the portal serves as a central point for capturing and distributing many kinds of data and information concerning the various aspects that play a role across the entire area of  the Western Scheldt and the Sea Scheldt.
-  </p>
+  <h4>ScheldMonitor</h4>
+  <div class="image-right">
+    <img src="/assets/media/img/datacenter/scheldemonitor_logo.svg" alt="ScheldMonitor Logo" style="width:140px; height:auto; border-radius:8px;">
+    <p>
+      ScheldeMonitor is a Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary. Commissioned by the Flemish-Dutch Scheldt Committee (VNSC), the portal serves as a central point for capturing and distributing many kinds of data and information concerning the various aspects that play a role across the entire area of the Western Scheldt and the Sea Scheldt.
+    </p>
+  </div>
   <div class="button-grid">
     <div style="display: flex; justify-content: flex-start;">
       <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
@@ -232,9 +238,12 @@ curly: false
   </div>
 
   <h4>SoundLib</h4>
-  <p>
-  An AI underwater sound library for the North Sea: SoundLib is an open-access library, dedicated to underwater sound recordings and acoustic data from marine environments. The project aims to support research on marine soundscapes, biodiversity, and the impact of noise pollution by providing curated audio datasets, metadata, and analysis tools for scientists, educators, and policymakers.
-  </p>
+  <div class="image-right">
+    <img src="/assets/media/img/datacenter/soundlib_logo.JPG" alt="SoundLib Logo" style="width:140px; height:auto; border-radius:8px;">
+    <p>
+      An AI underwater sound library for the North Sea: SoundLib is an open-access library, dedicated to underwater sound recordings and acoustic data from marine environments. The project aims to support research on marine soundscapes, biodiversity, and the impact of noise pollution by providing curated audio datasets, metadata, and analysis tools for scientists, educators, and policymakers.
+    </p>
+  </div>
   <div class="button-grid">
     <div style="display: flex; gap: 0.75rem;">
       <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
@@ -276,7 +285,7 @@ curly: false
   <div class="image-right">
     <img src="\assets\media\img\content\Thema_Biodiversiteit_tekst_optie1_small.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
-      VLIZ investigates <strong>marine biodiversity</strong> through a variety of research projects, focusing on organisms ranging from plankton to larger marine species. Our collections include ecological datasets that support research on ecosystem health.
+    VLIZ explores <strong>marine biodiversity</strong> through a range of research projects, focusing on organisms of all sizes and habitats. Our collections include comprehensive biodiversity datasets that support research on the health of marine ecosystems across Europe.
     </p>
     <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
       <div style="display: flex; gap: 0.75rem;">
@@ -306,9 +315,10 @@ curly: false
 
   <h4>Robotics</h4>
   <div class="image-right">
-    <img src="\assets\media\img\content\usv_gobelijn.png" alt="RV Simon Stevin" width="250" height="auto">
+    <img src="assets\media\img\datacenter\ClayTectonics_AUV_Barabas.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
-      VLIZ operates a fleet of advanced marine robots, including autonomous underwater vehicles (AUVs), remotely operated vehicles (ROVs), and unmanned surface vessels (USVs). These robots are used for environmental monitoring, seabed mapping, water quality measurements, and collecting biological and physical data in challenging marine environments.
+    VLIZ operates a fleet of advanced marine robots, including one autonomous underwater vehicle (AUV), two uncrewed surface vehicles (USVs), and two ocean gliders. These systems are well-suited for both fundamental and applied research, environmental monitoring, seabed mapping, water quality assessment, and the collection of biological and physical data in challenging marine environments
+      <br>
       <br>
       Check the data out on <a href="https://www.ncei.noaa.gov/erddap/index.html" target="_blank">ERDDAP</a> — it connects to remote servers for you, fetches and reformats the data, so you get what you need without hopping between sources.
     </p>

@@ -27,7 +27,7 @@ special_collections:
     description: "Shipping density data (2005-2023) for the Scheldt estuary based on AIS messages."
     clickthrough_url: "https://marineinfo.org/id/dataset/8652"
     clickthrough_text: "Dataset"
-  - title: Scheldemonitor
+  - title: ScheldeMonitor
     description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
     clickthrough_url: "https://www.scheldemonitor.be/nl/imis/datasets"
     clickthrough_text: "Dataset"
@@ -115,9 +115,9 @@ As an accredited IODE National Oceanographic Data Center, we offer a wide range 
 
 
   <div class="col-md-6" style="display: flex; flex-direction: column; align-items: center;">
-    <img src="assets/media/img/datacenter/robots.jpg" alt="Marine Robotics" style="max-width: 550px; width: 100%; height: auto; display: block; margin: 0 auto 1rem auto;">
+    <img src="assets/media/img/datacenter/robots.jpg" alt="Marine Robotics" style="max-width: 550px; width: 65%; height: auto; display: block; margin: 0 auto 1rem auto;">
     <p style="font-size: smaller; text-align: center; max-width: 550px;">
-      The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> develops Marine Autonomous Systems to gather crucial data from remote ocean areas, advancing marine and climate research. By addressing technological challenges, they also support innovation with societal benefits, contributing to the sustainable growth of the Blue Economy through improved ocean observation and exploration.
+      The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> develops Marine Autonomous Systems to gather crucial data from remote ocean areas, advancing marine and climate research.
     </p>
   </div>
 </div>

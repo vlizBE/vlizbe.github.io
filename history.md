@@ -57,14 +57,22 @@ curly: false
     }
 </style>
 
-
-# VLIZ: Pioneering Marine Data as Blue Gold
-
-Since its founding, the Flanders Marine Institute (VLIZ) has treated marine data as a vital resource—what it calls the “new blue gold.” From the very beginning, VLIZ has committed to open access and high-quality data management, embracing FAIR principles (Findable, Accessible, Interoperable, Reusable) well before they became standard practice. This foresight helped VLIZ become a leading player in the global marine data landscape.
-
-#### Foundations and Key Developments
-
-One of the earliest milestones in VLIZ’s data journey was the launch of the Integrated Marine Information System (IMIS) in 2000. This platform linked researchers, institutes, publications, projects, and datasets into a unified system. In 2005, the Open Marine Archive (OMA) was introduced to digitize and make accessible a vast library of marine literature. These systems quickly became indispensable tools for the marine science community.
+<div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start; margin-top: 24px; margin-bottom: 24px;">
+    <div style="flex: 1 1 320px; max-width: 350px; text-align: center;">
+        <img src="/assets/media/img/datacenter/history.png" alt="History Image" style="max-width: 75%; border-radius: 8px; box-shadow: 0 2px 8px rgba(53,77,155,0.08); margin-bottom: 8px;">
+        <span style="font-size: 15px; color: #354d9b;">The cover of the first VLIZ magazine, published in 1999.</span>
+    </div>
+    <div style="flex: 2 1 400px; min-width: 260px;">
+        <h1>VLIZ: Pioneering Marine Data as Blue Gold</h1>
+        <p>
+            Since its founding, the Flanders Marine Institute (VLIZ) has treated marine data as a vital resource—what it calls the “new blue gold.” From the very beginning, VLIZ has committed to open access and high-quality data management, embracing FAIR principles (Findable, Accessible, Interoperable, Reusable) well before they became standard practice. This foresight helped VLIZ become a leading player in the global marine data landscape.
+        </p>
+        <h4>Foundations and Key Developments</h4>
+        <p>
+            One of the earliest milestones in VLIZ’s data journey was the launch of the Integrated Marine Information System (IMIS) in 2000. This platform linked researchers, institutes, publications, projects, and datasets into a unified system. In 2005, the Open Marine Archive (OMA) was introduced to digitize and make accessible a vast library of marine literature. These systems quickly became indispensable tools for the marine science community.
+        </p>
+    </div>
+</div>
 
 Participation in European research initiatives, such as the MarBEF project, further boosted VLIZ’s profile. This led to the creation of key databases like the World Register of Marine Species (WoRMS) and Marine Regions (formerly VLIMAR Gazetteer). Support from the Flemish government and engagement with ESFRI infrastructures enabled VLIZ to expand its data services significantly.
 
@@ -96,14 +104,8 @@ VLIZ’s work has been recognized by the OECD as a model for open marine data pr
 
 The future of marine data at VLIZ is centered on diversification and innovation. Applications in offshore safety and defense, the use of artificial intelligence and machine learning, and development of interconnected systems such as the European Digital Twin Ocean are key priorities. On a regional scale, VLIZ contributes to the Flemish Smart Data Space through the MAREGRAPH project.
 
-Belgium’s well-instrumented and densely monitored marine environment makes it a perfect testing ground for interdisciplinary data integration. VLIZ continues to turn its “blue gold” into a global resource for knowledge, innovation, and sustainable development.
-
-<div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start; margin-top: 24px; margin-bottom: 24px;">
-    <div style="flex: 1 1 320px; max-width: 350px; text-align: center;">
-        <img src="/assets/media/img/datacenter/history.png" alt="History Image" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(53,77,155,0.08); margin-bottom: 8px;">
-        <span style="font-size: 15px; color: #354d9b;">The cover of the first VLIZ magazine, published in 1999.</span>
-    </div>
-    <div style="flex: 1 1 320px; max-width: 500px; text-align: center;">
+Belgium’s well-instrumented and densely monitored marine environment makes it a perfect testing ground for interdisciplinary data integration. VLIZ continues to turn its “blue gold” into a global resource for knowledge, innovation, and sustainable development.<br>
+<br>
+ <div style="flex: 1 1 320px; max-width: 500px; text-align: center;">
         <img src="/assets/media/img/datacenter/UNdecade.png" alt="UN Decade Logo" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(53,77,155,0.08);">
     </div>
-</div>
