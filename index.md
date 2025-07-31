@@ -115,7 +115,7 @@ As an accredited IODE National Oceanographic Data Center, we offer a wide range 
 
 
   <div class="col-md-6" style="display: flex; flex-direction: column; align-items: center;">
-    <img src="assets/media/img/datacenter/robots.jpg" alt="Marine Robotics" style="max-width: 550px; width: 65%; height: auto; display: block; margin: 0 auto 1rem auto;">
+    <img src="assets/media/img/datacenter/robots.jpg" alt="Marine Robotics" style="max-width: 550px; width: 80%; height: auto; display: block; margin: 0 auto 1rem auto;">
     <p style="font-size: smaller; text-align: center; max-width: 550px;">
       The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre</a> develops Marine Autonomous Systems to gather crucial data from remote ocean areas, advancing marine and climate research.
     </p>
@@ -125,7 +125,7 @@ As an accredited IODE National Oceanographic Data Center, we offer a wide range 
     Real-Time Sea Level Data. Global Reach. Life-Saving Insights.</h3>
 <div class="row" style="align-items: center; margin-bottom: 2rem;">
   <div class="col-md-5" style="display: flex; justify-content: center;">
-    <img src="/assets/media/img/datacenter/impacttraject_slsmf.jpg" alt="Sea Level Station Monitoring Facility Impact" style="max-width: 100%; height: auto; display: block;">
+    <img src="assets\media\img\datacenter\SLSM_v2.JPG" alt="Sea Level Station Monitoring Facility Impact" style="max-width: 100%; height: auto; display: block;">
   </div>
   <div class="col-md-7">
     <p>
