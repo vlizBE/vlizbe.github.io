@@ -3,7 +3,7 @@ layout: default
 permalink: /networks
 title: Networks
 description: "Explore the VLIZ Marine Data Centre and discover the networks we are part of. We collaborate with various organizations to enhance marine data management and promote open science."
-cover: /assets/media/img/datacenter/tech_2.jpg
+cover: assets\media\img\datacenter\networks.webp
 curly: false
 
 # Highlighted Networks

@@ -3,7 +3,7 @@ layout: default
 permalink: /search
 title: Find data and information
 description: "Explore the VLIZ Marine Data Centre and discover the data available in the VLIZ Marine Data Centre"
-cover: /assets/media/img/datacenter/boat_1.jpg
+cover: assets\media\img\datacenter\finddata_2.webp
 curly: false
 ---
 
@@ -147,11 +147,8 @@ curly: false
   }
 </style>
 
-
-
+<h2>Hosted Data Systems</h2>
 <div class="section-bg">
-<h2>Hosted data systems</h2>
-<br> 
   <h4>Most relevant</h4>
   <div class="button-grid">
     <button>
@@ -174,15 +171,13 @@ curly: false
             Search biogeographic data on <br>EurOBIS
         </a>
     </button>
-        <button>
-        <a href="https://www.eurobis.org/data_access_services" target="_blank">
+    <button>
+        <a href="https://www.lifewatch.be/data-services" target="_blank">
             Search data processing tools  <br>LifeWatch Belgium
         </a>
     </button>
   </div>
 <br>
-
-
   <h4>Metadata Catalogue</h4>
   <p>Access to our new linked open (meta) data catalogue – discover, re-use, or search the vast network of marine data using MarineInfo.org via Integrated Marine Information System (IMIS). Here at the VLIZ we are applying linked-open-data principles and technologies as a basis for ensuring the FAIR values. </p>
   <div class="button-grid">
@@ -204,58 +199,127 @@ curly: false
     <button>
         <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=event&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Events</a>
     </button>
-  </div>
-  <h3>European and Belgian</h3>
-  <br>
-<div class="image-right">
-  <img src="/assets/media/img/datacenter/ETN_logo.png" alt="ETN Logo" style="width:90px; height:auto; border-radius:8px;">
-  <p>
-    The ETN - European tracking network data portal gives access to different types of aquatic animal tracking data. Currently acoustic telemetry, archival data, and acoustic-archival data are supported.
-  </p>
-</div>
- <div class="button-grid">
-    <div style="display: flex; justify-content: flex-start;">
-      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
-        <a href="https://www.lifewatch.be/etn/" target="_blank" style="color: white;">ETN Homepage</a>
-      </button>
-    </div>
-  </div>
- 
-<br>
-  <h4>ScheldMonitor</h4>
-  <div class="image-right">
-    <img src="/assets/media/img/datacenter/scheldemonitor_logo.svg" alt="ScheldMonitor Logo" style="width:140px; height:auto; border-radius:8px;">
-    <p>
-      ScheldeMonitor is a Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary. Commissioned by the Flemish-Dutch Scheldt Committee (VNSC), the portal serves as a central point for capturing and distributing many kinds of data and information concerning the various aspects that play a role across the entire area of the Western Scheldt and the Sea Scheldt.
-    </p>
-  </div>
-  <div class="button-grid">
-    <div style="display: flex; justify-content: flex-start;">
-      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
-        <a href="https://www.scheldemonitor.be/en" target="_blank" style="color: white;">Scheldemonitor</a>
-      </button>
-    </div>
-  </div>
 
-  <h4>SoundLib</h4>
-  <div class="image-right">
-    <img src="/assets/media/img/datacenter/soundlib_logo.JPG" alt="SoundLib Logo" style="width:140px; height:auto; border-radius:8px;">
-    <p>
-      An AI underwater sound library for the North Sea: SoundLib is an open-access library, dedicated to underwater sound recordings and acoustic data from marine environments. The project aims to support research on marine soundscapes, biodiversity, and the impact of noise pollution by providing curated audio datasets, metadata, and analysis tools for scientists, educators, and policymakers.
-    </p>
   </div>
-  <div class="button-grid">
-    <div style="display: flex; gap: 0.75rem;">
-      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
-        <a href="https://marinesoundlib.org/en" target="_blank" style="color: white;">SoundLib</a>
-      </button>
-      <button style="width: auto; min-width: 120px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/en/ai-underwater-sound-library-north-sea" target="_blank" style="color: white;">More info</a>
-      </button>
-    </div>
   </div>
+  
 
-</div>
+
+
+
+
+
+
+  <!-- Data Portals Section: Organized and visually enhanced -->
+
+  <h2>VLIZ Data Portals</h2>
+
+  <div class="section-bg">
+<!-- Biodiversity -->
+    <h3>Biodiversity</h3>
+    <br>
+    <div class="button-grid">
+      <!-- ETN -->
+      <div class="image-right">
+        <img src="/assets/media/img/datacenter/ETN_logo.png" alt="ETN Logo" style="width:90px; height:auto; border-radius:8px;">
+        <div>
+          <h5>ETN</h5>
+          <p>
+            The <strong>European Tracking Network (ETN)</strong> data portal provides access to aquatic animal tracking data, including acoustic telemetry and archival data. Explore movement patterns and research on aquatic species across Europe.
+          </p>
+          <a href="https://www.lifewatch.be/etn/" target="_blank" class="cta-button">ETN Homepage</a>
+        </div>
+      </div>
+      <!-- LifeWatch Belgium -->
+      <div class="image-right">
+        <img src="assets/media/img/datacenter/lw-eric.png" alt="LifeWatch Belgium Logo" style="width:90px; height:auto; border-radius:8px;">
+        <div>
+          <h5>LifeWatch Belgium</h5>
+          <p>
+            <strong>LifeWatch Belgium</strong> offers data services and tools for biodiversity research, including species observations, ecological datasets, and data processing platforms supporting marine and terrestrial studies.
+          </p>
+          <a href="https://www.lifewatch.be/data-services" target="_blank" class="cta-button">LifeWatch Belgium</a>
+        </div>
+      </div>
+      <!-- EurOBIS -->
+      <div class="image-right">
+        <img src="assets/media/img/datacenter/EurOBIS_logo_.png" alt="EurOBIS Logo" style="width:90px; height:auto; border-radius:8px;">
+        <div>
+          <h5>EurOBIS</h5>
+          <p>
+            The <strong>European Ocean Biodiversity Information System (EurOBIS)</strong> is a data portal for biogeographic distribution of marine species, supporting research and policy with harmonized occurrence records.
+          </p>
+          <a href="https://www.eurobis.org/data_access_services" target="_blank" class="cta-button">EurOBIS Portal</a>
+        </div>
+      </div>
+      <!-- EMODnet Biology -->
+      <div class="image-right">
+        <img src="/assets/media/img/datacenter/emodnet.png" alt="EMODnet Logo" style="width:90px; height:auto; border-radius:8px;">
+        <div>
+          <h5>EMODnet Biology</h5>
+          <p>
+            <strong>EMODnet Biology</strong> provides access to in-situ marine biological data, including species distribution, abundance, and habitat information for European waters.
+          </p>
+          <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank" class="cta-button">EMODnet Biology</a>
+        </div>
+      </div>
+      <!-- ScheldeMonitor -->
+      <div class="image-right">
+        <img src="/assets/media/img/datacenter/scheldemonitor_logo.svg" alt="ScheldeMonitor Logo" style="width:90px; height:auto; border-radius:8px;">
+        <div>
+          <h5>ScheldeMonitor</h5>
+          <p>
+            <strong>ScheldeMonitor</strong> is a Flemish-Dutch portal for research and monitoring in the Scheldt estuary, providing access to environmental data, reports, and knowledge resources.
+          </p>
+          <a href="https://www.scheldemonitor.be/en" target="_blank" class="cta-button">ScheldeMonitor</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Acoustic -->
+  <h3>Acoustic</h3>
+    <div class="image-right">
+      <img src="/assets/media/img/datacenter/soundlib_logo.JPG" alt="SoundLib Logo" style="width:90px; height:auto; border-radius:8px;">
+      <div>
+        <h5>SoundLib</h5>
+        <p>
+          <strong>SoundLib</strong> is an open-access AI-powered underwater sound library for the North Sea, supporting research on marine soundscapes, biodiversity, and noise pollution with curated audio datasets and analysis tools.
+        </p>
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="https://marinesoundlib.org/en" target="_blank" class="cta-button">SoundLib</a>
+          <a href="https://www.vliz.be/en/ai-underwater-sound-library-north-sea" target="_blank" class="cta-button">More info</a>
+        </div>
+      </div>
+    </div>
+
+   <!-- Geographic -->
+   <h3>Geographic</h3>
+    <div class="image-right">
+      <img src="assets/media/img/datacenter/MR_logo.jpg" alt="Marine Regions Logo" style="width:90px; height:auto; border-radius:8px;">
+      <div>
+        <h5>Marine Regions</h5>
+        <p>
+          <strong>Marine Regions</strong> provides standardized geographic information on marine features, boundaries, and place names, supporting mapping and spatial analysis for marine science and policy.
+        </p>
+        <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank" class="cta-button">Marine Regions</a>
+      </div>
+    </div>
+
+  <!-- Taxonomic -->
+  <h3>Taxonomic</h3>
+    <div class="image-right">
+      <img src="/assets/media/img/data_systems/WORMS.jpg" alt="WoRMS Logo" style="width:90px; height:auto; border-radius:8px;">
+      <div>
+        <h5>WoRMS</h5>
+        <p>
+          The <strong>World Register of Marine Species (WoRMS)</strong> is the authoritative database for marine species taxonomy, providing validated names, classification, and distribution information.
+        </p>
+        <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank" class="cta-button">WoRMS Search</a>
+      </div>
+    </div>
+
+
+</div >
 <h2>Published data products </h2>
 <br>
   <h4>Cruise database</h4>
@@ -281,11 +345,11 @@ curly: false
     </div>
   </div>
 
-  <h4>Biodiversity</h4>
+  <h4>Biodiversity datasets</h4>
   <div class="image-right">
     <img src="\assets\media\img\content\Thema_Biodiversiteit_tekst_optie1_small.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
-    VLIZ explores <strong>marine biodiversity</strong> through a range of research projects, focusing on organisms of all sizes and habitats. Our collections include comprehensive biodiversity datasets that support research on the health of marine ecosystems across Europe.
+      VLIZ explores <strong>marine biodiversity</strong> through a range of research projects, focusing on organisms of all sizes and habitats. Our collections include comprehensive biodiversity datasets that support research on the health of marine ecosystems across Europe.
     </p>
     <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
       <div style="display: flex; gap: 0.75rem;">
@@ -306,8 +370,16 @@ curly: false
         <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
           <a href="https://erddap.eurobis.org/erddap/info/north_sea_hypbent_com/index.html" target="_blank" style="color: white;">Hyperbenthic communities</a>
         </button>
-     <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-          <a href="https://www.vliz.be/en/imis?dasid=4598&amp;doiid=125" target="_blank" style="color: white;">Mesozooplankton </a>
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://www.vliz.be/en/imis?dasid=4598&amp;doiid=125" target="_blank" style="color: white;">Mesozooplankton</a>
+        </button>
+      </div>
+      <div style="display: flex; gap: 0.75rem;">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://www.vliz.be/en/imis?dasid=4598&amp;doiid=125" target="_blank" style="color: white;">Belgian</a>
+        </button>
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://marineinfo.org/imis?module=dataset&spcolid=1021&show=search" target="_blank" style="color: white;">Genetic</a>
         </button>
       </div>
     </div>
@@ -374,5 +446,3 @@ curly: false
   <p>Send us your data request today, and we’ll provide the high-quality information you need for your research or projects.</p>
   <a href="mailto:data@vliz.be" class="cta-button">Send a data request</a>
 </div>
-
-

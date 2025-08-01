@@ -2,7 +2,7 @@
 layout: default
 graph_logo_bg: true
 description: "Discover Open Science at VLIZ, where we're making science more efficient, reliable, and transparent. Learn about our mission, values, and core principles. Join us in our journey!"
-cover: /assets/media/img/content/marinedatalogo_v1.jpg
+cover: assets\media\img\datacenter\oceanofdata-crop.jpg
 title: "Gateway to Marine Knowledge: Data Sharing and Preservation at the Flanders Marine Institute"
 subblocks:
   - title: "Data submission"
@@ -23,18 +23,11 @@ special_collections:
     description: "GEANS Data: Genetic tools for Ecosystem health Assessment in the North Sea region"
     clickthrough_url: "https://marineinfo.org/imis?module=dataset&spcolid=1021&show=search"
     clickthrough_text: "Dataset"
-  - title: Vessel Density 
-    description: "Shipping density data (2005-2023) for the Scheldt estuary based on AIS messages."
-    clickthrough_url: "https://marineinfo.org/id/dataset/8652"
-    clickthrough_text: "Dataset"
   - title: ScheldeMonitor
     description: "A Flemish-Dutch knowledge and information portal on research and monitoring in the Scheldt estuary."
     clickthrough_url: "https://www.scheldemonitor.be/nl/imis/datasets"
     clickthrough_text: "Dataset"
-  - title:  Recreational Fisheries Monitoring
-    description: "The dataset includes recreational catch data collected in the framework of the Belgian recreational fisheries monitoring programme. Belgian recreational fishermen voluntary provide catch data."
-    clickthrough_url: "https://obis.org/dataset/50713b48-1ebc-4ae3-97b8-543777e1e815"
-    clickthrough_text: "Dataset"
+
 
 robotics_collections:
   - title: PORCUPINE with AUV Barabas
@@ -122,19 +115,20 @@ As an accredited IODE National Oceanographic Data Center, we offer a wide range 
   </div>
 </div>
 <h3>Project Spotlight: Sea Level Station Monitoring Facility<br>
-    Real-Time Sea Level Data. Global Reach. Life-Saving Insights.</h3>
+  Real-Time Sea Level Data. Global Reach. Life-Saving Insights.</h3>
 <div class="row" style="align-items: center; margin-bottom: 2rem;">
   <div class="col-md-5" style="display: flex; justify-content: center;">
-    <img src="assets\media\img\datacenter\SLSM_v2.JPG" alt="Sea Level Station Monitoring Facility Impact" style="max-width: 100%; height: auto; display: block;">
+  <img src="assets/media/img/datacenter/SLSMF_image-crop.jpg" alt="Sea Level Station Monitoring Facility Impact" style="max-width: 4
+  00px; width: 100%; height: auto; display: block;">
   </div>
   <div class="col-md-7">
-    <p>
-      Access live, quality-controlled sea level data from 1,250+ monitoring stations worldwide. The Sea Level Station Monitoring Facility (SLSMF), powered by VLIZ for UNESCO’s GLOSS program, delivers critical information for tsunami warning centers, researchers, and policymakers. With an open API and real-time data streams, SLSMF helps monitor our oceans—and protect our coasts. Learn more here: <a href="https://www.ioc-sealevelmonitoring.org/index.php" target="_blank">Sea Level Station Monitoring Facility</a>.
-    </p>
+  <p>
+    Access live, quality-controlled sea level data from 1,250+ monitoring stations worldwide. The Sea Level Station Monitoring Facility (SLSMF), powered by VLIZ for UNESCO’s GLOSS program, delivers critical information for tsunami warning centers, researchers, and policymakers. With an open API and real-time data streams, SLSMF helps monitor our oceans—and protect our coasts. Learn more here: <a href="https://www.ioc-sealevelmonitoring.org/index.php" target="_blank">Sea Level Station Monitoring Facility</a>.
+  </p>
   </div>
 </div>
 
 
 <h3>Showcase of Marine Robotics Missions</h3>
 {% include item/list/block/colored/main.html title="Robotics collections" items=page.robotics_collections %}
-{% include item/list/carrousel/block/main.html title="Special Collections" items=page.special_collections %}
+{% include item/list/carrousel/block/main.html title="Highlighted Collections" items=page.special_collections %}

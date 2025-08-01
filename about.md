@@ -3,7 +3,7 @@ layout: default
 permalink: /about
 title: About us
 description: "Learn more about the VLIZ Marine Data Centre, where we're making science more efficient, reliable, and transparent. Discover our mission, values, and core principles. Join us in our journey!"
-cover: /assets/media/img/datacenter/boat.jpg
+cover: \assets\media\img\datacenter\waves.webp
 cover_url: /about
 curly: false
 subblocks:
