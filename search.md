@@ -218,109 +218,171 @@ curly: false
 <!-- Biodiversity -->
     <h3>Biodiversity</h3>
     <br>
-    <div class="button-grid">
-      <!-- ETN -->
-      <div class="image-right">
-        <img src="/assets/media/img/datacenter/ETN_logo.png" alt="ETN Logo" style="width:90px; height:auto; border-radius:8px;">
-        <div>
-          <h5>ETN</h5>
-          <p>
-            The <strong>European Tracking Network (ETN)</strong> data portal provides access to aquatic animal tracking data, including acoustic telemetry and archival data. Explore movement patterns and research on aquatic species across Europe.
-          </p>
-          <a href="https://www.lifewatch.be/etn/" target="_blank" class="cta-button">ETN Homepage</a>
+    <div class="section-bg">
+      <!-- Biodiversity Portals List -->
+      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <!-- ETN -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <img src="/assets/media/img/datacenter/ETN_logo.png" alt="ETN Logo" style="width:90px; height:auto; border-radius:8px;">
+          <div>
+            <h5>ETN</h5>
+            <p>
+              The <strong>European Tracking Network (ETN)</strong> data portal provides access to aquatic animal tracking data, including acoustic telemetry and archival data. Explore movement patterns and research on aquatic species across Europe.
+            </p>
+          </div>
+          <a href="https://www.lifewatch.be/etn/" target="_blank" title="ETN Homepage" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M14 3v2h3.59L7 15.59V12H5v7h7v-2H8.41L19 6.41V10h2V3z"/>
+            </svg>
+          </a>
         </div>
-      </div>
-      <!-- LifeWatch Belgium -->
-      <div class="image-right">
-        <img src="assets/media/img/datacenter/lw-eric.png" alt="LifeWatch Belgium Logo" style="width:90px; height:auto; border-radius:8px;">
-        <div>
-          <h5>LifeWatch Belgium</h5>
-          <p>
-            <strong>LifeWatch Belgium</strong> offers data services and tools for biodiversity research, including species observations, ecological datasets, and data processing platforms supporting marine and terrestrial studies.
-          </p>
-          <a href="https://www.lifewatch.be/data-services" target="_blank" class="cta-button">LifeWatch Belgium</a>
+        <!-- LifeWatch Belgium -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <img src="assets/media/img/datacenter/lw-eric.png" alt="LifeWatch Belgium Logo" style="width:90px; height:auto; border-radius:8px;">
+          <div>
+            <h5>LifeWatch Belgium</h5>
+            <p>
+              <strong>LifeWatch Belgium</strong> offers data services and tools for biodiversity research, including species observations, ecological datasets, and data processing platforms supporting marine and terrestrial studies.
+            </p>
+          </div>
+          <a href="https://www.lifewatch.be/data-services" target="_blank" title="LifeWatch Belgium" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+            </svg>
+          </a>
         </div>
-      </div>
-      <!-- EurOBIS -->
-      <div class="image-right">
-        <img src="assets/media/img/datacenter/EurOBIS_logo_.png" alt="EurOBIS Logo" style="width:90px; height:auto; border-radius:8px;">
-        <div>
-          <h5>EurOBIS</h5>
-          <p>
-            The <strong>European Ocean Biodiversity Information System (EurOBIS)</strong> is a data portal for biogeographic distribution of marine species, supporting research and policy with harmonized occurrence records.
-          </p>
-          <a href="https://www.eurobis.org/data_access_services" target="_blank" class="cta-button">EurOBIS Portal</a>
+        <!-- EurOBIS -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <img src="assets/media/img/datacenter/EurOBIS_logo_.png" alt="EurOBIS Logo" style="width:90px; height:auto; border-radius:8px;">
+          <div>
+            <h5>EurOBIS</h5>
+            <p>
+              The <strong>European Ocean Biodiversity Information System (EurOBIS)</strong> is a data portal for biogeographic distribution of marine species, supporting research and policy with harmonized occurrence records.
+            </p>
+          </div>
+          <a href="https://www.eurobis.org/data_access_services" target="_blank" title="EurOBIS Portal" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2zm0-10h2v8h-2z"/>
+            </svg>
+          </a>
         </div>
-      </div>
-      <!-- EMODnet Biology -->
-      <div class="image-right">
-        <img src="/assets/media/img/datacenter/emodnet.png" alt="EMODnet Logo" style="width:90px; height:auto; border-radius:8px;">
-        <div>
-          <h5>EMODnet Biology</h5>
-          <p>
-            <strong>EMODnet Biology</strong> provides access to in-situ marine biological data, including species distribution, abundance, and habitat information for European waters.
-          </p>
-          <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank" class="cta-button">EMODnet Biology</a>
+        <!-- EMODnet Biology -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <img src="/assets/media/img/datacenter/emodnet.png" alt="EMODnet Logo" style="width:90px; height:auto; border-radius:8px;">
+          <div>
+            <h5>EMODnet Biology</h5>
+            <p>
+              <strong>EMODnet Biology</strong> provides access to in-situ marine biological data, including species distribution, abundance, and habitat information for European waters.
+            </p>
+          </div>
+          <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank" title="EMODnet Biology" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+            </svg>
+          </a>
         </div>
-      </div>
-      <!-- ScheldeMonitor -->
-      <div class="image-right">
-        <img src="/assets/media/img/datacenter/scheldemonitor_logo.svg" alt="ScheldeMonitor Logo" style="width:90px; height:auto; border-radius:8px;">
-        <div>
-          <h5>ScheldeMonitor</h5>
-          <p>
-            <strong>ScheldeMonitor</strong> is a Flemish-Dutch portal for research and monitoring in the Scheldt estuary, providing access to environmental data, reports, and knowledge resources.
-          </p>
-          <a href="https://www.scheldemonitor.be/en" target="_blank" class="cta-button">ScheldeMonitor</a>
+        <!-- ScheldeMonitor -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <img src="/assets/media/img/datacenter/scheldemonitor_logo.svg" alt="ScheldeMonitor Logo" style="width:90px; height:auto; border-radius:8px;">
+          <div>
+            <h5>ScheldeMonitor</h5>
+            <p>
+              <strong>ScheldeMonitor</strong> is a Flemish-Dutch portal for research and monitoring in the Scheldt estuary, providing access to environmental data, reports, and knowledge resources.
+            </p>
+          </div>
+          <a href="https://www.scheldemonitor.be/en" target="_blank" title="ScheldeMonitor" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
-
-  <!-- Acoustic -->
-  <h3>Acoustic</h3>
-    <div class="image-right">
+    <!-- Acoustic -->
+    <h3>Acoustic</h3>
+    <br>
+    <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
       <img src="/assets/media/img/datacenter/soundlib_logo.JPG" alt="SoundLib Logo" style="width:90px; height:auto; border-radius:8px;">
-      <div>
+      <div style="flex: 1;">
         <h5>SoundLib</h5>
         <p>
-          <strong>SoundLib</strong> is an open-access AI-powered underwater sound library for the North Sea, supporting research on marine soundscapes, biodiversity, and noise pollution with curated audio datasets and analysis tools.
+          <strong>SoundLib</strong> is an open-access, AI-powered underwater sound library for the North Sea. It supports research on marine soundscapes, biodiversity, and noise pollution by providing curated audio datasets and analysis tools.
         </p>
-        <div style="display: flex; gap: 0.75rem;">
-          <a href="https://marinesoundlib.org/en" target="_blank" class="cta-button">SoundLib</a>
-          <a href="https://www.vliz.be/en/ai-underwater-sound-library-north-sea" target="_blank" class="cta-button">More info</a>
-        </div>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
+        <a href="https://www.marinesoundlib.org/data/en/stations" target="_blank" title="Visit SoundLib" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+         <path d="M14 3v2h3.59L7 15.59V12H5v7h7v-2H8.41L19 6.41V10h2V3z"/>
+          </svg>
+        </a>
       </div>
     </div>
 
    <!-- Geographic -->
-   <h3>Geographic</h3>
-    <div class="image-right">
-      <img src="assets/media/img/datacenter/MR_logo.jpg" alt="Marine Regions Logo" style="width:90px; height:auto; border-radius:8px;">
-      <div>
+  <h3>Geographic</h3>
+  <div class="section-bg">
+    <!-- Marine Regions -->
+    <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+      <img src="assets\media\img\datacenter\MR_icon.jpg" alt="Marine Regions Logo" style="width:90px; height:auto; border-radius:8px;">
+      <div style="flex: 1;">
         <h5>Marine Regions</h5>
         <p>
           <strong>Marine Regions</strong> provides standardized geographic information on marine features, boundaries, and place names, supporting mapping and spatial analysis for marine science and policy.
         </p>
-        <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank" class="cta-button">Marine Regions</a>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
+        <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank" title="Marine Regions" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+          </svg>
+        </a>
       </div>
     </div>
-
+    <!-- Bathymetry -->
+    <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+      <img src="assets\media\img\datacenter\deepsea.JPG" alt="Bathymetry Icon" style="width:90px; height:auto; border-radius:8px;">
+      <div style="flex: 1;">
+        <h5>Bathymetry</h5>
+        <p>
+          We have made available some high resolution VLIZ bathymetry datasets from the Belgian part to the North Sea (BPNS) to EMODnet Bathymetry. Additionally, an overview of some more measurements that were carried out in the Belgian part of the North Sea can be seen on Kustportaal and downloaded via MDA.
+        </p>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem; min-width: 60px;">
+        <a href="https://www.kustportaal.be/geoviewer/index.php?lang=nl&layer_collections=KP_Bathymetrie+en+Bodemsamenstelling&active_layer_themes=Bathymetrie#!/" target="_blank" title="Kustportaal- BPNS" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+          </svg>
+        </a>
+        <a href="https://cdi.seadatanet.org/search/welcome.php?query=3219&query_code={927CE7BC-D84E-4814-B408-132599C94896}" target="_blank" title="SeaDataNet" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2zm0-10h2v8h-2z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
   <!-- Taxonomic -->
   <h3>Taxonomic</h3>
-    <div class="image-right">
-      <img src="/assets/media/img/data_systems/WORMS.jpg" alt="WoRMS Logo" style="width:90px; height:auto; border-radius:8px;">
-      <div>
-        <h5>WoRMS</h5>
-        <p>
-          The <strong>World Register of Marine Species (WoRMS)</strong> is the authoritative database for marine species taxonomy, providing validated names, classification, and distribution information.
-        </p>
-        <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank" class="cta-button">WoRMS Search</a>
-      </div>
+  <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+    <img src="/assets/media/img/data_systems/WORMS.jpg" alt="WoRMS Logo" style="width:90px; height:auto; border-radius:8px;">
+    <div style="flex: 1;">
+      <h5>WoRMS</h5>
+      <p>
+        The <strong>World Register of Marine Species (WoRMS)</strong> is the authoritative database for marine species taxonomy, providing validated names, classification, and distribution information.
+      </p>
     </div>
+    <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
+      <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank" title="WoRMS Search" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+          <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
 
 
 </div >
-<h2>Published data products </h2>
+<h2>Published data products and datasets </h2>
 <br>
   <h4>Cruise database</h4>
   <div class="image-right">
@@ -387,9 +449,12 @@ curly: false
 
   <h4>Robotics</h4>
   <div class="image-right">
-    <img src="assets\media\img\datacenter\ClayTectonics_AUV_Barabas.jpg" alt="RV Simon Stevin" width="250" height="auto">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="assets\media\img\datacenter\17_VLIZ_AUV_Barabas_Credit_VLIZ_WieterBoone.png" alt="RV Simon Stevin" width="250" height="auto">
+      <span style="font-size: 0.9rem; color: #888; margin-top: 0.25rem;">Photo credit: Wieter Boone (VLIZ)</span>
+    </div>
     <p>
-    VLIZ operates a fleet of advanced marine robots, including one autonomous underwater vehicle (AUV), two uncrewed surface vehicles (USVs), and two ocean gliders. These systems are well-suited for both fundamental and applied research, environmental monitoring, seabed mapping, water quality assessment, and the collection of biological and physical data in challenging marine environments
+      VLIZ operates a fleet of advanced marine robots, including one autonomous underwater vehicle (AUV), two uncrewed surface vehicles (USVs), and two ocean gliders. These systems are well-suited for both fundamental and applied research, environmental monitoring, seabed mapping, water quality assessment, and the collection of biological and physical data in challenging marine environments.
       <br>
       <br>
       Check the data out on <a href="https://www.ncei.noaa.gov/erddap/index.html" target="_blank">ERDDAP</a> — it connects to remote servers for you, fetches and reformats the data, so you get what you need without hopping between sources.

@@ -7,7 +7,7 @@ cover: \assets\media\img\datacenter\waves.webp
 cover_url: /about
 curly: false
 subblocks:
-  - title: "Vacatures"
+  - title: "Vacancies "
     image: /assets/media/img/datacenter/218 web @Nick Decombel Fotografie.jpg
     clickthrough_url: "https://vliz.be/en/jobs"
   - title: "Other questions?"
