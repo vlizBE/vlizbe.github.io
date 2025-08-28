@@ -147,7 +147,7 @@ curly: false
   }
 </style>
 
-<h2>Hosted Data Systems</h2>
+<h2 style="text-align: center;">Hosted Data Systems</h2>
 <div class="section-bg">
   <h4>Most relevant</h4>
   <div class="button-grid">
@@ -202,23 +202,13 @@ curly: false
 
   </div>
   </div>
-  
-
-
-
-
-
-
-
   <!-- Data Portals Section: Organized and visually enhanced -->
-
-  <h2>VLIZ Data Portals</h2>
-
+  <h2 style="text-align: center;">VLIZ Data Portals</h2>
   <div class="section-bg">
 <!-- Biodiversity -->
+    <div class="section-bg">
     <h3>Biodiversity</h3>
     <br>
-    <div class="section-bg">
       <!-- Biodiversity Portals List -->
       <div style="display: flex; flex-direction: column; gap: 1.5rem;">
         <!-- ETN -->
@@ -230,13 +220,12 @@ curly: false
               The <strong>European Tracking Network (ETN)</strong> data portal provides access to aquatic animal tracking data, including acoustic telemetry and archival data. Explore movement patterns and research on aquatic species across Europe.
             </p>
           </div>
-          <a href="https://www.lifewatch.be/etn/" target="_blank" title="ETN Homepage" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+          <a href="https://www.lifewatch.be/etn/" target="_blank" title="ETN Homepage" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-              <path d="M14 3v2h3.59L7 15.59V12H5v7h7v-2H8.41L19 6.41V10h2V3z"/>
-            </svg>
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>     
           </a>
         </div>
-        <!-- LifeWatch Belgium -->
         <div style="display: flex; align-items: center; gap: 1.5rem;">
           <img src="assets/media/img/datacenter/lw-eric.png" alt="LifeWatch Belgium Logo" style="width:90px; height:auto; border-radius:8px;">
           <div>
@@ -245,13 +234,12 @@ curly: false
               <strong>LifeWatch Belgium</strong> offers data services and tools for biodiversity research, including species observations, ecological datasets, and data processing platforms supporting marine and terrestrial studies.
             </p>
           </div>
-          <a href="https://www.lifewatch.be/data-services" target="_blank" title="LifeWatch Belgium" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+          <a href="https://www.lifewatch.be/data-services" target="_blank" title="LifeWatch Belgium" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
-            </svg>
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
           </a>
         </div>
-        <!-- EurOBIS -->
         <div style="display: flex; align-items: center; gap: 1.5rem;">
           <img src="assets/media/img/datacenter/EurOBIS_logo_.png" alt="EurOBIS Logo" style="width:90px; height:auto; border-radius:8px;">
           <div>
@@ -260,10 +248,10 @@ curly: false
               The <strong>European Ocean Biodiversity Information System (EurOBIS)</strong> is a data portal for biogeographic distribution of marine species, supporting research and policy with harmonized occurrence records.
             </p>
           </div>
-          <a href="https://www.eurobis.org/data_access_services" target="_blank" title="EurOBIS Portal" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-              <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2zm0-10h2v8h-2z"/>
-            </svg>
+          <a href="https://www.eurobis.org/data_access_services" target="_blank" title="EurOBIS Portal" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
           </a>
         </div>
         <!-- EMODnet Biology -->
@@ -275,13 +263,11 @@ curly: false
               <strong>EMODnet Biology</strong> provides access to in-situ marine biological data, including species distribution, abundance, and habitat information for European waters.
             </p>
           </div>
-          <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank" title="EMODnet Biology" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
-            </svg>
+          <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank" title="EMODnet Biology" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
           </a>
         </div>
-        <!-- ScheldeMonitor -->
         <div style="display: flex; align-items: center; gap: 1.5rem;">
           <img src="/assets/media/img/datacenter/scheldemonitor_logo.svg" alt="ScheldeMonitor Logo" style="width:90px; height:auto; border-radius:8px;">
           <div>
@@ -290,37 +276,38 @@ curly: false
               <strong>ScheldeMonitor</strong> is a Flemish-Dutch portal for research and monitoring in the Scheldt estuary, providing access to environmental data, reports, and knowledge resources.
             </p>
           </div>
-          <a href="https://www.scheldemonitor.be/en" target="_blank" title="ScheldeMonitor" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-              <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-            </svg>
+          <a href="https://www.scheldemonitor.be/en" target="_blank" title="ScheldeMonitor" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px; margin-left: 0.5rem;"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
           </a>
         </div>
       </div>
     </div>
-    <!-- Acoustic -->
-    <h3>Acoustic</h3>
-    <br>
-    <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
-      <img src="/assets/media/img/datacenter/soundlib_logo.JPG" alt="SoundLib Logo" style="width:90px; height:auto; border-radius:8px;">
-      <div style="flex: 1;">
-        <h5>SoundLib</h5>
-        <p>
-          <strong>SoundLib</strong> is an open-access, AI-powered underwater sound library for the North Sea. It supports research on marine soundscapes, biodiversity, and noise pollution by providing curated audio datasets and analysis tools.
-        </p>
-      </div>
-      <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
-        <a href="https://www.marinesoundlib.org/data/en/stations" target="_blank" title="Visit SoundLib" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-         <path d="M14 3v2h3.59L7 15.59V12H5v7h7v-2H8.41L19 6.41V10h2V3z"/>
-          </svg>
-        </a>
+    <div class="section-bg">
+      <h3>Acoustic</h3>
+      <br>
+      <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+        <img src="/assets/media/img/datacenter/soundlib_logo.JPG" alt="SoundLib Logo" style="width:90px; height:auto; border-radius:8px;">
+        <div style="flex: 1;">
+          <h5>SoundLib</h5>
+          <p>
+            <strong>SoundLib</strong> is an open-access, AI-powered underwater sound library for the North Sea. It supports research on marine soundscapes, biodiversity, and noise pollution by providing curated audio datasets and analysis tools.
+          </p>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
+          <a href="https://www.marinesoundlib.org/data/en/stations" target="_blank" title="Visit SoundLib" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
+          </a>
+        </div>
       </div>
     </div>
 
    <!-- Geographic -->
-  <h3>Geographic</h3>
-  <div class="section-bg">
+   <div class="section-bg">
+    <h3>Geographic</h3>
+    <br>
     <!-- Marine Regions -->
     <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
       <img src="assets\media\img\datacenter\MR_icon.jpg" alt="Marine Regions Logo" style="width:90px; height:auto; border-radius:8px;">
@@ -331,10 +318,10 @@ curly: false
         </p>
       </div>
       <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
-        <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank" title="Marine Regions" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
+        <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank" title="Marine Regions" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px;">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
-          </svg>
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
         </a>
       </div>
     </div>
@@ -348,41 +335,44 @@ curly: false
         </p>
       </div>
       <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem; min-width: 60px;">
-        <a href="https://www.kustportaal.be/geoviewer/index.php?lang=nl&layer_collections=KP_Bathymetrie+en+Bodemsamenstelling&active_layer_themes=Bathymetrie#!/" target="_blank" title="Kustportaal- BPNS" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
+        <a href="https://www.kustportaal.be/geoviewer/index.php?lang=nl&layer_collections=KP_Bathymetrie+en+Bodemsamenstelling&active_layer_themes=Bathymetrie#!/" target="_blank" title="Kustportaal- BPNS" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px;">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
-          </svg>
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
         </a>
         <a href="https://cdi.seadatanet.org/search/welcome.php?query=3219&query_code={927CE7BC-D84E-4814-B408-132599C94896}" target="_blank" title="SeaDataNet" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-7-3h2v2h-2zm0-10h2v8h-2z"/>
-          </svg>
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
         </a>
       </div>
     </div>
   </div>
   <!-- Taxonomic -->
-  <h3>Taxonomic</h3>
-  <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
-    <img src="/assets/media/img/data_systems/WORMS.jpg" alt="WoRMS Logo" style="width:90px; height:auto; border-radius:8px;">
-    <div style="flex: 1;">
-      <h5>WoRMS</h5>
-      <p>
-        The <strong>World Register of Marine Species (WoRMS)</strong> is the authoritative database for marine species taxonomy, providing validated names, classification, and distribution information.
-      </p>
-    </div>
-    <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
-      <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank" title="WoRMS Search" style="display: inline-block; background: #31b7bc; border-radius: 50%; width: 48px; height: 48px; text-align: center; line-height: 48px;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
-          <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99c.39.39 1.02.39 1.41 0s.39-1.02 0-1.41l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-        </svg>
-      </a>
+  <div class="section-bg">
+    <h3>Taxonomic</h3>
+    <br>
+    <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+      <img src="/assets/media/img/data_systems/WORMS.jpg" alt="WoRMS Logo" style="width:90px; height:auto; border-radius:8px;">
+      <div style="flex: 1;">
+        <h5>WoRMS</h5>
+        <p>
+          The <strong>World Register of Marine Species (WoRMS)</strong> is the authoritative database for marine species taxonomy, providing validated names, classification, and distribution information.
+        </p>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: flex-end; min-width: 60px;">
+        <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank" title="WoRMS Search" style="display: inline-block; background: #31b7bc; border-radius: 50%; min-width: 48px; height: 48px; text-align: center; line-height: 48px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" viewBox="0 0 24 24" style="vertical-align: middle;">
+              <path d="M3.9 12a5.1 5.1 0 0 1 5.1-5.1h3V5H9A7 7 0 0 0 9 19h3v-1.9h-3A5.1 5.1 0 0 1 3.9 12zm4.6 1h7v-2h-7v2zm6-8.1V5h1.9A5.1 5.1 0 0 1 21.1 12a5.1 5.1 0 0 1-5.1 5.1H15v1.9h1.9A7 7 0 0 0 15 5z"/>
+            </svg>  
+        </a>
+      </div>
     </div>
   </div>
 
 
 </div >
-<h2>Published data products and datasets </h2>
+<h2 style="text-align: center;">Published data products and datasets </h2>
 <br>
   <h4>Cruise database</h4>
   <div class="image-right">
