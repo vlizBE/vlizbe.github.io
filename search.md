@@ -397,7 +397,18 @@ curly: false
     </div>
   </div>
 
-  <h4>Biodiversity datasets</h4>
+  <h4>Biodiversity dataset(s)</h4>
+  <div style="display: flex; gap: 0.75rem; margin-bottom: 0.75rem;">
+    <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+      <a href="https://www.vliz.be/nl/imis?module=dataset&dasid=4687" target="_blank" style="color: white;">Zooplankton by ZooScan</a>
+    </button>
+    <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+      <a href="https://www.vliz.be/nl/imis?module=dataset&dasid=4688" target="_blank" style="color: white;">Phytoplankton by FlowCam</a>
+    </button>
+    <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+      <a href="https://www.vliz.be/nl/imis?module=dataset&dasid=6720" target="_blank" style="color: white;">Zooplankton by VPR</a>
+    </button>
+  </div>
   <div class="image-right">
     <img src="\assets\media\img\content\Thema_Biodiversiteit_tekst_optie1_small.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
