@@ -1,4 +1,4 @@
-<div class="col-lg-2 field__item">
+<div class="d-none d-sm-block col-sm-3 col-md-2 col-lg-2 field__item">
     <div class="paragraph paragraph--type--media paragraph--view-mode--default">
         <div class="field field--name-field-media field--type-entity-reference field--label-hidden field__items">
             <!-- todo -- it feels like article should not be here  
@@ -19,7 +19,7 @@
         </div>
     </div>
 </div>
-<div class="col-lg-9 field__item">
+<div class="col-12 col-sm-8 col-md-9 col-lg-9 field__item">
     <div class="paragraph paragraph--type--basic-text paragraph--view-mode--default">
         <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__items">
             <h5>
@@ -39,10 +39,28 @@
             <!-- todo should be done through class + css -->
             <p>&nbsp;</p>
             <p>&nbsp;</p>
+            
+            <!-- Buttons for xs screens - horizontal row under text -->
+            <div class="d-block d-sm-none">
+                <div class="d-flex flex-wrap">
+                    {% if item.clickthrough_url %}
+                    <a class="basic-button mr-2 mb-2" href="{{ item.clickthrough_url }}" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-link"></i>
+                    </a>
+                    {% endif %}
+                    {% if item.icon_url %}
+                    {% for lnk in item.icon_url %}
+                    <a class="basic-button mr-2 mb-2" href="{{ lnk[1] }}" target="_blank" rel="noopener noreferrer">
+                        <span class="fa fa-{{lnk[0]}}"></span>
+                    </a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div class="col-lg-1 field__item">
+<div class="d-none d-sm-block col-sm-1 col-md-1 col-lg-1 field__item">
     <div class="row">
         {% if item.icon_url %}
         {% if item.clickthrough_url %}

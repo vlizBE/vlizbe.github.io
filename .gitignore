@@ -11,6 +11,7 @@ _site/*
 # local settings for bundle isolation:  <-- mkdir .gems && bundle config set --local path .gems
 .bundle
 .gems
+vendor/
 
 # venv python 
 venv/
