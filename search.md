@@ -399,9 +399,9 @@ curly: false
 
   <h4>Biodiversity dataset(s)</h4>
   <div style="display: flex; gap: 0.75rem; margin-bottom: 0.75rem;">
-      <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank">
-        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">CTD Casts</button>
-      </a>
+    <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank">
+      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">CTD Casts</button>
+    </a>
     <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
       <a href="https://www.vliz.be/nl/imis?module=dataset&dasid=4688" target="_blank" style="color: white;">Phytoplankton by FlowCam</a>
     </button>
@@ -449,23 +449,40 @@ curly: false
   </div>
 
   <h4>Robotics</h4>
-  <div class="image-right">
+  <div class="robotics-section" style="display: flex; flex-wrap: wrap; gap: 2rem;">
     <div style="display: flex; flex-direction: column; align-items: center;">
       <img src="assets/media/img/datacenter/17_VLIZ_AUV_Barabas_Credit_VLIZ_WieterBoone.png" alt="RV Simon Stevin" width="250" height="auto">
       <span style="font-size: 0.9rem; color: #888; margin-top: 0.25rem;">Photo credit: Wieter Boone (VLIZ)</span>
     </div>
-    <p>
-      VLIZ operates a fleet of advanced marine robots, including one autonomous underwater vehicle (AUV), two uncrewed surface vehicles (USVs), and two ocean gliders. These systems are well-suited for both fundamental and applied research, environmental monitoring, seabed mapping, water quality assessment, and the collection of biological and physical data in challenging marine environments.
-      <br>
-      <br>
-      Check the data out on <a href="https://www.ncei.noaa.gov/erddap/index.html" target="_blank">ERDDAP</a> — it connects to remote servers for you, fetches and reformats the data, so you get what you need without hopping between sources.
-    </p>
-    <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://erddap.vliz.be/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=VLIZ" target="_blank" style="color: white;">AUV Barabas</a>
-      </button>
+    <div class="robotics-text-btn" style="flex: 1;">
+      <p>
+        VLIZ operates a fleet of advanced marine robots, including one autonomous underwater vehicle (AUV), two uncrewed surface vehicles (USVs), and two ocean gliders. These systems are well-suited for both fundamental and applied research, environmental monitoring, seabed mapping, water quality assessment, and the collection of biological and physical data in challenging marine environments.
+        <br>
+        <br>
+        Check the data out on <a href="https://www.ncei.noaa.gov/erddap/index.html" target="_blank">ERDDAP</a> — it connects to remote servers for you, fetches and reformats the data, so you get what you need without hopping between sources.
+      </p>
+      <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
+          <a href="https://erddap.vliz.be/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=VLIZ" target="_blank" style="color: white;">AUV Barabas</a>
+        </button>
+      </div>
     </div>
   </div>
+  <style>
+  @media (max-width: 1000px) {
+    .robotics-section {
+      flex-direction: column !important;
+      gap: 1.5rem !important;
+    }
+    .robotics-section > div {
+      width: 100% !important;
+      max-width: none !important;
+    }
+    .robotics-text-btn {
+      margin-top: 0 !important;
+    }
+  }
+  </style>
 
 
 <style>
