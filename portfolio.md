@@ -120,7 +120,7 @@ data_systems:
     description: "Manage & view sea core data. Authenticated CRUD support."
 
   - title: Vocab Server
-    description: "Service to query vocabulary details."
+    description: "Service to query vocabulary details. Only accessible internally."
     clickthrough_url: "http://docker-dev.vliz.be:3033/"
     clickthrough_text: "Access Vocab Server"
 ---

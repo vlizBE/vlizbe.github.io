@@ -2,12 +2,12 @@
 layout: default
 graph_logo_bg: true
 description: "Discover Open Science at VLIZ, where we're making science more efficient, reliable, and transparent. Learn about our mission, values, and core principles. Join us in our journey!"
-cover: assets\media\img\datacenter\oceanofdata-crop.jpg
+cover: assets/media/img/datacenter/oceanofdata-crop.jpg
 title: "Gateway to Marine Knowledge: Data Sharing and Preservation at the Flanders Marine Institute"
 subblocks:
   - title: "Data submission"
     description: "Submit your data to  VLIZ"
-    clickthrough_url: "/submit/"
+    clickthrough_url: "/submit"
   - title: "Data inventory"
     description: "Discover available datasets "
     clickthrough_url: "/services"
@@ -108,7 +108,7 @@ As an accredited IODE National Oceanographic Data Center, we offer a wide range 
 
 
   <div class="col-md-6" style="display: flex; flex-direction: column; align-items: center;">
-    <img src="assets\media\img\datacenter\ClayTectonics_AUV_Barabas.jpg" alt="Marine Robotics" style="max-width: 550px; width: 80%; height: auto; display: block; margin: 0 auto 1rem auto;">
+    <img src="assets/media/img/datacenter/ClayTectonics_AUV_Barabas.jpg" alt="Marine Robotics" style="max-width: 550px; width: 80%; height: auto; display: block; margin: 0 auto 1rem auto;">
     <p style="font-size: smaller; text-align: center; max-width: 550px;">
       The <a href="https://www.vliz.be/nl/wat-we-doen/aanbod-infrastructuur/robotica">VLIZ Marine Robotics Centre </a> develops Marine Autonomous Systems to gather crucial data from remote ocean areas, advancing marine and climate research. Photo credit: Rita Novo (VLIZ)
     </p>

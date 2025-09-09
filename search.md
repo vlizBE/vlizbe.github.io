@@ -3,7 +3,7 @@ layout: default
 permalink: /search
 title: Find data and information
 description: "Explore the VLIZ Marine Data Centre and discover the data available in the VLIZ Marine Data Centre"
-cover: assets\media\img\datacenter\finddata_2.webp
+cover: assets/media/img/datacenter/finddata_2.webp
 curly: false
 ---
 
@@ -310,7 +310,7 @@ curly: false
     <br>
     <!-- Marine Regions -->
     <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
-      <img src="assets\media\img\datacenter\MR_icon.jpg" alt="Marine Regions Logo" style="width:90px; height:auto; border-radius:8px;">
+      <img src="assets/media/img/datacenter/MR_icon.jpg" alt="Marine Regions Logo" style="width:90px; height:auto; border-radius:8px;">
       <div style="flex: 1;">
         <h5>Marine Regions</h5>
         <p>
@@ -327,7 +327,7 @@ curly: false
     </div>
     <!-- Bathymetry -->
     <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
-      <img src="assets\media\img\datacenter\deepsea.JPG" alt="Bathymetry Icon" style="width:90px; height:auto; border-radius:8px;">
+      <img src="assets/media/img/datacenter/deepsea.JPG" alt="Bathymetry Icon" style="width:90px; height:auto; border-radius:8px;">
       <div style="flex: 1;">
         <h5>Bathymetry</h5>
         <p>
@@ -353,7 +353,7 @@ curly: false
     <h3>Taxonomic</h3>
     <br>
     <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
-      <img src="/assets/media/img/data_systems/WORMS.jpg" alt="WoRMS Logo" style="width:90px; height:auto; border-radius:8px;">
+      <img src="/assets/media/img/data_systems/WoRMS.jpg" alt="WoRMS Logo" style="width:90px; height:auto; border-radius:8px;">
       <div style="flex: 1;">
         <h5>WoRMS</h5>
         <p>
@@ -376,7 +376,7 @@ curly: false
 <br>
   <h4>Cruise database</h4>
   <div class="image-right">
-    <img src="\assets\media\img\datacenter\simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
+    <img src="assets/media/img/datacenter/simonsteven.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
       <strong>MIDAS</strong> stands for <strong>Marine Information and Data Acquisition System</strong>.
       All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
@@ -410,7 +410,7 @@ curly: false
     </button>
   </div>
   <div class="image-right">
-    <img src="\assets\media\img\content\Thema_Biodiversiteit_tekst_optie1_small.jpg" alt="RV Simon Stevin" width="250" height="auto">
+    <img src="/assets/media/img/content/Thema_Biodiversiteit_tekst_optie1_small.jpg" alt="RV Simon Stevin" width="250" height="auto">
     <p>
       VLIZ explores <strong>marine biodiversity</strong> through a range of research projects, focusing on organisms of all sizes and habitats. Our collections include comprehensive biodiversity datasets that support research on the health of marine ecosystems across Europe.
     </p>
@@ -451,7 +451,7 @@ curly: false
   <h4>Robotics</h4>
   <div class="image-right">
     <div style="display: flex; flex-direction: column; align-items: center;">
-      <img src="assets\media\img\datacenter\17_VLIZ_AUV_Barabas_Credit_VLIZ_WieterBoone.png" alt="RV Simon Stevin" width="250" height="auto">
+      <img src="assets/media/img/datacenter/17_VLIZ_AUV_Barabas_Credit_VLIZ_WieterBoone.png" alt="RV Simon Stevin" width="250" height="auto">
       <span style="font-size: 0.9rem; color: #888; margin-top: 0.25rem;">Photo credit: Wieter Boone (VLIZ)</span>
     </div>
     <p>

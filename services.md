@@ -37,7 +37,7 @@ items:
     tags: []
   - title: Open AIS - Data requests
     description: "Looking for AIS data to support your research? Visit to request access to high-quality ship position datasets. Whether you need temporal coverage within a specific point range or information on ship crossings near areas of interest, the Open-AIS team can help you get the data you need."
-    image: assets\media\img\datacenter\open-ais-logo.svg
+    image: assets/media/img/datacenter/open-ais-logo.svg
     icon_url:
       file-pdf-o: "https://open-ais.org/"
       link: "https://open-ais.org/page/support/"
