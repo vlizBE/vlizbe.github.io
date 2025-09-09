@@ -81,7 +81,7 @@ robotics_collections:
   }
   .pretty-button:hover {
     background-color: #005f87;
-    transform: translateY(-15px);
+    transform: translateY(-5px);
   }
   .button-container {
     display: flex;

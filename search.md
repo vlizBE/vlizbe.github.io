@@ -151,54 +151,54 @@ curly: false
 <div class="section-bg">
   <h4>Most relevant</h4>
   <div class="button-grid">
-    <button>
-        <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank">
+    <a href="https://www.marinespecies.org/aphia.php?p=search" target="_blank">
+        <button>
             Search marine names on <br>WoRMS
-        </a>
-    </button>
-    <button>
-        <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank">
+        </button>
+    </a>
+    <a href="https://emodnet.ec.europa.eu/geoviewer/" target="_blank">
+        <button>
             Search in-situ marine data on <br>EMODnet Biology
-        </a>
-    </button>
-    <button>
-        <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank">
+        </button>
+    </a>
+    <a href="https://marineregions.org/gazetteer.php?p=search" target="_blank">
+        <button>
             Search marine features on <br>Marine Regions
-        </a>
-    </button>
-    <button>
-        <a href="https://www.eurobis.org/data_access_services" target="_blank">
+        </button>
+    </a>
+    <a href="https://www.eurobis.org/data_access_services" target="_blank">
+        <button>
             Search biogeographic data on <br>EurOBIS
-        </a>
-    </button>
-    <button>
-        <a href="https://www.lifewatch.be/data-services" target="_blank">
+        </button>
+    </a>
+    <a href="https://www.lifewatch.be/data-services" target="_blank">
+        <button>
             Search data processing tools  <br>LifeWatch Belgium
-        </a>
-    </button>
+        </button>
+    </a>
   </div>
 <br>
   <h4>Metadata Catalogue</h4>
   <p>Access to our new linked open (meta) data catalogue – discover, re-use, or search the vast network of marine data using MarineInfo.org via Integrated Marine Information System (IMIS). Here at the VLIZ we are applying linked-open-data principles and technologies as a basis for ensuring the FAIR values. </p>
   <div class="button-grid">
-    <button>
-        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=person&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">People</a>
-    </button>
-    <button>
-        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=institute&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false">Institutes</a>
-    </button>
-    <button>
-        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=project&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Projects</a>
-    </button>
-    <button>
-        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=dataset&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Datasets</a>
-    </button>
-    <button>
-        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=publication&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Publications</a>
-    </button>
-    <button>
-        <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=event&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">Events</a>
-    </button>
+    <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=person&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">
+        <button>People</button>
+    </a>
+    <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=institute&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false">
+        <button>Institutes</button>
+    </a>
+    <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=project&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">
+        <button>Projects</button>
+    </a>
+    <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=dataset&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">
+        <button>Datasets</button>
+    </a>
+    <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=publication&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">
+        <button>Publications</button>
+    </a>
+    <a href="https://marineinfo.org/search?size=n_20_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=event&filters%5B0%5D%5Btype%5D=aggregation&filters%5B0%5D%5Bpersistent%5D=false" target="_blank">
+        <button>Events</button>
+    </a>
 
   </div>
   </div>
@@ -382,26 +382,26 @@ curly: false
       All data is organized in cruises and trips. Use the schedule, the chronological list of cruises, or cruises ordered by campaigns to select a specific cruise or trip. For each performed trip, a link to the underway data, the stations, research activities, and a map of the track is available.
     </p>
     <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank" style="color: white;">Campaigns</a>
-      </button>
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank" style="color: white;">Cruises</a>
-      </button>
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank" style="color: white;">Stations</a>
-      </button>
-      <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-        <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank" style="color: white;">CTD Casts</a>
-      </button>
+      <a href="https://www.vliz.be/vmdcdata/midas/campaigns" target="_blank">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">Campaigns</button>
+      </a>
+      <a href="https://www.vliz.be/vmdcdata/midas/cruises" target="_blank">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">Cruises</button>
+      </a>
+      <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">Stations</button>
+      </a>
+      <a href="https://www.vliz.be/vmdcdata/midas/stations/map" target="_blank">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">Stations</button>
+      </a>
     </div>
   </div>
 
   <h4>Biodiversity dataset(s)</h4>
   <div style="display: flex; gap: 0.75rem; margin-bottom: 0.75rem;">
-    <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
-      <a href="https://www.vliz.be/nl/imis?module=dataset&dasid=4687" target="_blank" style="color: white;">Zooplankton by ZooScan</a>
-    </button>
+      <a href="https://www.vliz.be/vmdcdata/midas/casts" target="_blank">
+        <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">CTD Casts</button>
+      </a>
     <button style="flex: 0 0 auto; width: auto; min-width: 100px; padding: 0.5rem 1rem;">
       <a href="https://www.vliz.be/nl/imis?module=dataset&dasid=4688" target="_blank" style="color: white;">Phytoplankton by FlowCam</a>
     </button>
